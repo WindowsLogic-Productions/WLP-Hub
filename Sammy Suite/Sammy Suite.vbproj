@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C086BD83-82EB-41E1-89DC-93AEADA3CE28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ss.My.MyApplication</StartupObject>
+    <RootNamespace>ss</RootNamespace>
+    <AssemblyName>WLP Hub</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Tim\Dropbox\Users\Tim%27s Desktop\Tim%27s Stuff\Development Stuff\apps\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>5.4.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WLP Hub.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WLP Hub.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\WLP Logo %28NEWEST%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>94D3D8F4061A3A1FADE4461043CEDDA98A3AC85F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WLP.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ssbreakout.designer.vb">
+      <DependentUpon>ssbreakout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssbreakout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sscontrolpanel.Designer.vb">
+      <DependentUpon>sscontrolpanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sscontrolpanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssmemory.Designer.vb">
+      <DependentUpon>ssmemory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssmemory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssregister.Designer.vb">
+      <DependentUpon>ssregister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssregister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssregister1.Designer.vb">
+      <DependentUpon>ssregister1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssregister1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sssignin.Designer.vb">
+      <DependentUpon>sssignin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sssignin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sssketchpad.designer.vb">
+      <DependentUpon>sssketchpad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sssketchpad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="ssabout.Designer.vb">
+      <DependentUpon>ssabout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssabout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sscalc.Designer.vb">
+      <DependentUpon>sscalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sscalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sscalcconsts.Designer.vb">
+      <DependentUpon>sscalcconsts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sscalcconsts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sscdplayer.Designer.vb">
+      <DependentUpon>sscdplayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sscdplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sschangelog.Designer.vb">
+      <DependentUpon>sschangelog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sschangelog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sschat.Designer.vb">
+      <DependentUpon>sschat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sschat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sserror.Designer.vb">
+      <DependentUpon>sserror.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sserror.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sserror1.Designer.vb">
+      <DependentUpon>sserror1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sserror1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssexit.Designer.vb">
+      <DependentUpon>ssexit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssexit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssexityesno.Designer.vb">
+      <DependentUpon>ssexityesno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssexityesno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssffw.Designer.vb">
+      <DependentUpon>ssffw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssffw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sshelpbasicactions.Designer.vb">
+      <DependentUpon>sshelpbasicactions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelpbasicactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshelpgettingaround.Designer.vb">
+      <DependentUpon>sshelpgettingaround.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelpgettingaround.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshelphubapps.Designer.vb">
+      <DependentUpon>sshelphubapps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelphubapps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshelpoffline.Designer.vb">
+      <DependentUpon>sshelpoffline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelpoffline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshelponline.Designer.vb">
+      <DependentUpon>sshelponline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelponline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshelpsettings.Designer.vb">
+      <DependentUpon>sshelpsettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshelpsettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sshub.Designer.vb">
+      <DependentUpon>sshub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sshub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssimgview.Designer.vb">
+      <DependentUpon>ssimgview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssimgview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssload.Designer.vb">
+      <DependentUpon>ssload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sslogicbox.Designer.vb">
+      <DependentUpon>sslogicbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sslogicbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssmain.Designer.vb">
+      <DependentUpon>ssmain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssmusic.Designer.vb">
+      <DependentUpon>ssmusic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssmusic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssrun.Designer.vb">
+      <DependentUpon>ssrun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssrun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sssc.Designer.vb">
+      <DependentUpon>sssc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sssc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssscload.Designer.vb">
+      <DependentUpon>ssscload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssscload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sssearch.Designer.vb">
+      <DependentUpon>sssearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sssearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssskype.Designer.vb">
+      <DependentUpon>ssskype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssskype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sschangeloghelp.Designer.vb">
+      <DependentUpon>sschangeloghelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sschangeloghelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssupdater.Designer.vb">
+      <DependentUpon>ssupdater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssupdater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssupdaterok.Designer.vb">
+      <DependentUpon>ssupdaterok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssupdaterok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssupdateryesno.Designer.vb">
+      <DependentUpon>ssupdateryesno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssupdateryesno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssweather.Designer.vb">
+      <DependentUpon>ssweather.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssweather.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sswritersaveyesno.Designer.vb">
+      <DependentUpon>sswritersaveyesno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sswritersaveyesno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ssloaded.Designer.vb">
+      <DependentUpon>ssloaded.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ssloaded.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ssbreakout.resx">
+      <DependentUpon>ssbreakout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sscontrolpanel.resx">
+      <DependentUpon>sscontrolpanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssmemory.resx">
+      <DependentUpon>ssmemory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssregister1.resx">
+      <DependentUpon>ssregister1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sssearch.resx">
+      <DependentUpon>sssearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sssignin.resx">
+      <DependentUpon>sssignin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sssketchpad.resx">
+      <DependentUpon>sssketchpad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssabout.resx">
+      <DependentUpon>ssabout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sscalc.resx">
+      <DependentUpon>sscalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sscalcconsts.resx">
+      <DependentUpon>sscalcconsts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sscdplayer.resx">
+      <DependentUpon>sscdplayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sschangelog.resx">
+      <DependentUpon>sschangelog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sschat.resx">
+      <DependentUpon>sschat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sserror.resx">
+      <DependentUpon>sserror.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sserror1.resx">
+      <DependentUpon>sserror1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssexit.resx">
+      <DependentUpon>ssexit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssexityesno.resx">
+      <DependentUpon>ssexityesno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssffw.resx">
+      <DependentUpon>ssffw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelpbasicactions.resx">
+      <DependentUpon>sshelpbasicactions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelpgettingaround.resx">
+      <DependentUpon>sshelpgettingaround.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelphubapps.resx">
+      <DependentUpon>sshelphubapps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelpoffline.resx">
+      <DependentUpon>sshelpoffline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelponline.resx">
+      <DependentUpon>sshelponline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshelpsettings.resx">
+      <DependentUpon>sshelpsettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sshub.resx">
+      <DependentUpon>sshub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssimgview.resx">
+      <DependentUpon>ssimgview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssload.resx">
+      <DependentUpon>ssload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sslogicbox.resx">
+      <DependentUpon>sslogicbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssmain.resx">
+      <DependentUpon>ssmain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssmusic.resx">
+      <DependentUpon>ssmusic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssloaded.resx">
+      <DependentUpon>ssloaded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssrun.resx">
+      <DependentUpon>ssrun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sssc.resx">
+      <DependentUpon>sssc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssscload.resx">
+      <DependentUpon>ssscload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssskype.resx">
+      <DependentUpon>ssskype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sschangeloghelp.resx">
+      <DependentUpon>sschangeloghelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssupdater.resx">
+      <DependentUpon>ssupdater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssupdaterok.resx">
+      <DependentUpon>ssupdaterok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssupdateryesno.resx">
+      <DependentUpon>ssupdateryesno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ssweather.resx">
+      <DependentUpon>ssweather.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sswritersaveyesno.resx">
+      <DependentUpon>sswritersaveyesno.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imageres_5102.ico" />
+    <Content Include="pifmgr_28.ico" />
+    <None Include="Resources\42.jpg" />
+    <None Include="Resources\Create Account.wav" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Games-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Rainmeter-Metro1.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Paint-Metro.ico" />
+    <None Include="Resources\ierotate.gif" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Drives-CD-Metro.ico" />
+    <None Include="Resources\System3.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\System2.png" />
+    <None Include="Resources\System1.png" />
+    <None Include="Resources\appswitcher2.png" />
+    <None Include="Resources\appswitcher1.png" />
+    <None Include="Resources\Showingtaskbar2.png" />
+    <None Include="Resources\Showingtaskbar1.png" />
+    <None Include="Resources\Hub3.png" />
+    <None Include="Resources\Hub2.png" />
+    <None Include="Resources\Hub.png" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Other-Search-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Desktop-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Explorer-Metro.ico" />
+    <None Include="Resources\Play.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\Pause.png" />
+    <None Include="Resources\NextTrack.png" />
+    <None Include="Resources\PreviousTrack.png" />
+    <None Include="Resources\Mute.png" />
+    <None Include="Resources\Unmute.png" />
+    <None Include="Resources\Eject.png" />
+    <None Include="Resources\Uppercase.ico" />
+    <None Include="Resources\TextColour.ico" />
+    <None Include="Resources\Underline.ico" />
+    <None Include="Resources\Italic.ico" />
+    <None Include="Resources\Delete.ico" />
+    <None Include="Resources\TextRight.ico" />
+    <None Include="Resources\TextCentre.ico" />
+    <None Include="Resources\Lowercase.ico" />
+    <None Include="Resources\Strikethrough.ico" />
+    <None Include="Resources\TextLeft.ico" />
+    <None Include="Resources\Bold.ico" />
+    <None Include="Resources\Paste.ico" />
+    <None Include="Resources\Copy.ico" />
+    <None Include="Resources\Cut.ico" />
+    <None Include="Resources\Redo.ico" />
+    <None Include="Resources\Undo.ico" />
+    <None Include="Resources\SmallExit.png" />
+    <None Include="Resources\Save.ico" />
+    <None Include="Resources\Open.ico" />
+    <None Include="Resources\New.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Windows-8-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-RegEdit-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Control-Panel-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Configure-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Pictures-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Music-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Notepad-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Calculator-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Groups-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Rainmeter-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Personalize-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Full-Screen-Metro.ico" />
+    <None Include="Resources\ee.wav" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Default-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Other-Power-Restart-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Other-Power-Log-Off-Metro.ico" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Other-Antivirus-Software-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Security-Metro.ico" />
+    <None Include="Resources\WLP Logo %28NEWEST%29.png" />
+    <None Include="Resources\WLP Logo %28NEWEST%29.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Web-DeviantART-alt-1-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Web-Google-plus-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Web-YouTube-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Web-Tumblr-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Web-Twitter-alt-2-Metro.ico" />
+    <None Include="Resources\Danleech-Simple-Facebook.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Skype-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Messaging-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Drives-Globe-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Libraries-alt-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Security-Denied-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Security-Approved-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Coding-app-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Apps-Task-Manager-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Other-Power-Shut-Down-Metro.ico" />
+    <None Include="Resources\301.GIF" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Info-Metro.ico" />
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Folders-OS-Help-Metro.ico" />
+    <None Include="Resources\imageres_198.ico" />
+    <None Include="Resources\Windows Notify Calendar.wav" />
+    <None Include="Resources\Windows Vista Beta IRBegin.wav" />
+    <None Include="Resources\Windows Background.wav" />
+    <None Include="Resources\Windows Foreground.wav" />
+    <None Include="Resources\Ring10.wav" />
+    <None Include="Resources\Windows Logon.wav" />
+    <None Include="Resources\Windows Unlock.wav" />
+    <None Include="Resources\Windows Vista Beta IRInter.wav" />
+    <None Include="Resources\Windows Vista Beta Critical Stop.wav" />
+    <None Include="Resources\Windows Vista Beta Shutdown.wav" />
+    <None Include="Resources\Windows Vista Beta Startup.wav" />
+    <None Include="Resources\Windows Vista Beta Exclamation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="imageres_5102.ico">
+      <Visible>False</Visible>
+      <Group>N/A</Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="pifmgr_28.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
