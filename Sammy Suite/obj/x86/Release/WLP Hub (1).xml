@@ -1,0 +1,892 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WLPHub
+</name>
+</assembly>
+<members>
+<member name="M:ss.HexideArrays.isArraySafe(System.Array@)">
+	<summary>
+ Returns true if an array both exists and has at least one member.
+ </summary>
+	<param name="Arr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideArrays.addToArray``1(``0[]@,``0@)">
+	<summary>
+ Adds an item to the end of an array.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="Arr"></param>
+	<param name="Item"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.isValidAddressListing(System.String)">
+	<summary>
+ Returns if a comma-seperates string of addresses and hostnames is a valid list of addresses.  NO DNS CHECK.
+ </summary>
+	<param name="Input"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.isIPAddress(System.String,System.Boolean)">
+	<summary>
+ Returns if a provided string is a valid IP address.
+ </summary>
+	<param name="Address"></param>
+	<param name="AllowWildcards"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.ConvertMiscToLongIPs(System.String[])">
+	<summary>
+ Converts any valid absolute hostname or absolute IP address in an array of strings into an array of long IPs.
+ </summary>
+	<param name="Hosts"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.GetWildcardAddresses(System.String[])">
+	<summary>
+ Returns just those addresses in an array of strings that are wildcard IP addresses.
+ </summary>
+	<param name="Addresses"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.doesIPMatchWildIP(System.String,System.String)">
+	<summary>
+ When provided an absolute IP and a wildcard IP, this returns if the absolute falls within the wildcard one.
+ </summary>
+	<param name="Address"></param>
+	<param name="WildAddress"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.Connect(System.String,System.Int32)">
+	<summary>
+ Connects to a remote IP or hostname on the port provided with a TCP socket over IPv4.
+ </summary>
+	<param name="Address"></param>
+	<param name="Port"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.Disconnect">
+	<summary>
+ Begins the disconnection process by telling the socket monitor to quit.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.FinishDisconnect">
+	<summary>
+ Finishes the disconnection process by closing the socket.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.Send(System.String@)">
+	<summary>
+ Sends a string.
+ </summary>
+	<param name="Data"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.Send(System.Byte[]@)">
+	<summary>
+ Sends a byte array.
+ </summary>
+	<param name="Data"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketClient.MonitorSocketForData">
+	<summary>
+ Monitors the socket for available data and also if it is blatantly disconnected.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:ss.HexideSockets.socketClient">
+	<summary>
+ Provides a TCP/IP socket connection to a server.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.Listen(System.Int32,System.Int32,System.String[])">
+	<summary>
+ Causes the server to start listening for connections on a specified port.
+ </summary>
+	<param name="SocketCount"></param>
+	<param name="Port"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.stopListen(System.Boolean)">
+	<summary>
+ Causes the server to stop listening for new connections.  Optionally, it will also disconnect all current ones.
+ </summary>
+	<param name="KillConnections"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.KillAllConnections">
+	<summary>
+ Disconnects all connected sockets.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.Disconnect(System.Int32)">
+	<summary>
+ Begins the disconnection process by telling the socket monitor to quit.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.FinishDisconnect(System.Int32)">
+	<summary>
+ Finishes the disconnection process by closing the socket.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.Send(System.Int32,System.String@)">
+	<summary>
+ Sends a string.
+ </summary>
+	<param name="Data"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.Send(System.Int32,System.Byte[]@)">
+	<summary>
+ Sends a byte array.
+ </summary>
+	<param name="Data"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.getFreeSocket">
+	<summary>
+ Finds a free socket.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.MonitorSocketForData(System.Object)">
+	<summary>
+ Monitors a socket for available data and receives it.
+ </summary>
+	<param name="Args"></param>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.isAllowableAddress(System.String)">
+	<summary>
+ Returns if an IP (may contain a port in colon form, too) is allowed by this server.
+ </summary>
+	<param name="RemoteIP"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ss.HexideSockets.socketServer.MonitorListenerForConnections">
+	<summary>
+ Monitors for pending connections and accepts them if there are any free spaces.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:ss.HexideSockets.socketServer">
+	<summary>
+ Provides a TCP/IP server.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ss.Helper.ResizeImage(System.String,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+	</summary>
+	<param name="file"></param>
+	<param name="width"></param>
+	<param name="height"></param>
+	<param name="onlyResizeIfWider"></param>
+	<returns></returns>
+</member><member name="P:ss.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Africa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm01">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm02">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm03">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm04">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm05">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm06">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm07">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm08">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm09">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Alarm10">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.AlignC">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.AlignL">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.AlignR">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Asia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Austrailia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.BadGradient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Beta">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Bold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Cabin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Christmas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Closing">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Closing2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Critical">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Critical2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.CriticalBattery">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Earth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Europe">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Exclamation">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Exclamation2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.GoodGradient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ImOkayWithThat">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Information">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Information2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Italic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Lake">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Latin_America">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Legacy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Logiverse">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Logiverse_Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.LowBattery">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Lowercase">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Middle_East">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Opening">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Opening2">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Snow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssAlarm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssAol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssAppointments">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssApps">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery20">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery30">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery40">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery60">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery70">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery80">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBattery90">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryCharging">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryCritical">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryEmpty">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryFull">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryHalf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssBatteryLow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCalc">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCDPlayer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCloseTab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssColours">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssConstants">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssConstruction">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssContextBar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssControlPanel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCopy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCritical">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssCut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssDesktop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssDeviantart">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssDevice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssDocuments">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssEject">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssExclamation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssExit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssFacebook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssFeedback">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssFlipH">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssFlipV">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssGIFStudio">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssGmail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssGooglePlus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssHelpHome">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssHome">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssImgView">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssInfo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssInternet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssLoading">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssMail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssMaps">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssMessages">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssMusic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssMute">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNavigateBack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNavigateFoward">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNetwork">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNetworkCentre">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNews">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNewTab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssNextTrack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssOpen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssOutlook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPaste">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPause">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPictures">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPlay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPreviousTrack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPrint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssPrintPreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssProcessList">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssQuestion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRedo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRegedit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRestore">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRotateLeft">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRotateRight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssRun">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSave">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssScan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSearch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSecBad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSecGood">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSecWarn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSelectAll">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSketchPad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSkype">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSmallExit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSound">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSounds">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssStop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssStretch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssSystemInfo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTasklist">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTaskMgr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTesco">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTextColour">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTumblr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssTwitter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssUIColours">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssUndo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssUnmute">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssUpdate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssWeather">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssWhatsNew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssWinver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssWriter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssYahoo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssYouTube">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssZoomIn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.ssZoomOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Strikethrough">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.SysLogoff">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.SysPower">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.System">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.SystemNew">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.UK">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Underline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.Uppercase">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.US">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.WarningGradient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ss.My.Resources.Resources.WLP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ss.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

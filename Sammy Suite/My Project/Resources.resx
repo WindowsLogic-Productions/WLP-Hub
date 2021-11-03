@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SysPower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SysPower.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssYouTube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssYouTube.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16761.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uppercase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uppercase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssUpdate.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssUnmute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssUnmute.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTaskMgr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTaskMgr.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Italic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Strikethrough" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strikethrough.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Weather.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPause.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_89.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssExclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssExclamation.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssWinver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssWinver.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Europe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Europe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssCDPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssCDPlayer.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryHalf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryHalf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Christmas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Merry Christmas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNavigateBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNavigateBack.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssInfo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssControlPanel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssControlPanel.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTwitter.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssHelpHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssHome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssWriter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_90.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Opening" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Startup.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssBatteryEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BadGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BadGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Africa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Africa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNew.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTesco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTesco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SystemNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\windows unlock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssRedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssRedo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssAol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssAol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTasklist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTasklist.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SystemMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SystemMenu.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CriticalBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Battery Critical.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssStretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssStretch.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssContextBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssContextBar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssMute.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_243.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssFeedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssFeedback.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Exclamation.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LowBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Battery Low.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta IRBegin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssPrintPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPrintPreview.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssMusic.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNetwork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNetwork.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTumblr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTumblr.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSearch.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Middle_East" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Middle East.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lowercase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lowercase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSystemInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSystemInfo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssProcessList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssProcessList.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPrint.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssApps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssApps.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssGooglePlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssGooglePlus.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssRestore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssRestore.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssGIFStudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssGIFStudio.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSecWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSecWarn.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssPaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16763.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssAppointments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssAppointments.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Information2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Background.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssCritical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssCritical.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssSecGood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSecGood.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSecBad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSecBad.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryCritical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssbatterycritical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Critical Stop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssRegedit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssRegedit.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssWin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssWin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssRun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssRun.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssInternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssInternet.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ring10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssUndo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssCalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssCalc.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssTextColour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssTextColour.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarningGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WarningGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssScan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssScan.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssDesktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssDesktop.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssbatterylow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssColours" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colours.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssDevice.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNavigateFoward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNavigateFoward.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssAlarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssAlarm.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssFlipV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WLP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WLP.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WLPBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WLPBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Shutdown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssDeviantart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssDeviantart.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssWeather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssWeather.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssCloseTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssCloseTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssFlipH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlipH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryCharging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryCharging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssImgView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssImgView.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssMessages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_242.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssStop.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssConstruction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Construction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Run.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssEject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssEject.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Latin_America" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Latin America.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alarm08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alarm08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DirectionArrowDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DirectionArrowDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssLoading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssLoader.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssFacebook.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSkype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSkype.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSettings.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBatteryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryIcon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WLPFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WLPFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssWhatsNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssWhatsNew.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssZoomOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspaint_6406.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exclamation2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Foreground.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssNextTrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNextTrack.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssDocuments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssDocuments.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPlay.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssMaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssMaps.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssOutlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssOutlook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssOpen.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoodGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoodGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSelectAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSelectAll.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssMail.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Austrailia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Austrailia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssUIColours" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssUIColours.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CDPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDPlayer.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16802.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSmallExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSmallExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Opening2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Logon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssRotateRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_5345.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\windows vista beta irinter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssNewTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNewTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Critical2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Notify Calendar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssGmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNetworkCentre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNetworkCentre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssZoomIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspaint_6401.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssPictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPictures.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssNews" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNews.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssRotateLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_5344.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSounds.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssPreviousTrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssPreviousTrack.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssYahoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssYahoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Processes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Processes.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssQuestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssQuestion.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysLogoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SysLogoff.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssConstants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssConstants.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssBattery60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shell32_16762.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssSketchPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssSketchPad.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

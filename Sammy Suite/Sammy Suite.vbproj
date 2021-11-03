@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C086BD83-82EB-41E1-89DC-93AEADA3CE28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ss.My.MyApplication</StartupObject>
+    <RootNamespace>ss</RootNamespace>
+    <AssemblyName>Hub ESR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Tim\Dropbox\Users\Tim%27s Desktop\Tim%27s Stuff\Development Stuff\apps\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <DisallowUrlActivation>true</DisallowUrlActivation>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>6.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hub ESR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hub ESR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\WLP.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>94D3D8F4061A3A1FADE4461043CEDDA98A3AC85F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WLP.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Hub ESR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Hub ESR.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreAudioApi">
+      <HintPath>I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\CoreAudioApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applications\sscalculations.Designer.vb">
+      <DependentUpon>sscalculations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sscalculations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sschatemotes.Designer.vb">
+      <DependentUpon>sschatemotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sschatemotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssgifstudiodark.Designer.vb">
+      <DependentUpon>ssgifstudiodark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssgifstudiodark.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssbatterylow.Designer.vb">
+      <DependentUpon>ssbatterylow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssbatterylow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssdedicate.designer.vb">
+      <DependentUpon>ssdedicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssdedicate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssprocesslistyesno.Designer.vb">
+      <DependentUpon>ssprocesslistyesno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssprocesslistyesno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobeupdates.Designer.vb">
+      <DependentUpon>ssoobeupdates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobeupdates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobesearch.Designer.vb">
+      <DependentUpon>ssoobesearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobesearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobecontextbar.Designer.vb">
+      <DependentUpon>ssoobecontextbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobecontextbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisesounds.Designer.vb">
+      <DependentUpon>ssoobepersonalisesounds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisesounds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisecolours.Designer.vb">
+      <DependentUpon>ssoobepersonalisecolours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisecolours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobeloaded.Designer.vb">
+      <DependentUpon>ssoobeloaded.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobeloaded.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisebackground.Designer.vb">
+      <DependentUpon>ssoobepersonalisebackground.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobepersonalisebackground.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobeload.Designer.vb">
+      <DependentUpon>ssoobeload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobeload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobehub.Designer.vb">
+      <DependentUpon>ssoobehub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobehub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OOBE\ssoobewls.Designer.vb">
+      <DependentUpon>ssoobewls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OOBE\ssoobewls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\ApplicationEvents.vb" />
+    <Compile Include="Other\KeyboardJammer.vb" />
+    <Compile Include="Other\NetworkBandwidth.vb" />
+    <Compile Include="Other\Variables.vb" />
+    <Compile Include="Dialogues\ssbackgroundconfirm.Designer.vb">
+      <DependentUpon>ssbackgroundconfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssbackgroundconfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\Watermark.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System\sschangedatetime.Designer.vb">
+      <DependentUpon>sschangedatetime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sschangedatetime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssnetmonitor.designer.vb">
+      <DependentUpon>ssnetmonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssnetmonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssbattery.Designer.vb">
+      <DependentUpon>ssbattery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssbattery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssbatterycritical.Designer.vb">
+      <DependentUpon>ssbatterycritical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssbatterycritical.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sschangepassword.Designer.vb">
+      <DependentUpon>sschangepassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sschangepassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssexplorer.Designer.vb">
+      <DependentUpon>ssexplorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssexplorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sslock.Designer.vb">
+      <DependentUpon>sslock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sslock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssmain.Designer.vb">
+      <DependentUpon>ssmain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssinformation.Designer.vb">
+      <DependentUpon>ssinformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssinformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\Helper.vb" />
+    <Compile Include="Other\HexideArrays.vb" />
+    <Compile Include="Other\HexideDelegates.vb" />
+    <Compile Include="Other\HexideSockets.vb" />
+    <Compile Include="Other\HexideStrings.vb" />
+    <Compile Include="Applications\Private1.Designer.vb">
+      <DependentUpon>Private1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\Private1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\Private2.Designer.vb">
+      <DependentUpon>Private2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\Private2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssalarm.Designer.vb">
+      <DependentUpon>ssalarm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssalarm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sscalendar.Designer.vb">
+      <DependentUpon>sscalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sscalendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sscontextbar.Designer.vb">
+      <DependentUpon>sscontextbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sscontextbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssdateandtime.Designer.vb">
+      <DependentUpon>ssdateandtime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssdateandtime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\ssdeviantart.Designer.vb">
+      <DependentUpon>ssdeviantart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\ssdeviantart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssquickexit.Designer.vb">
+      <DependentUpon>ssquickexit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssquickexit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssearch.Designer.vb">
+      <DependentUpon>sssearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssecuritybackground.Designer.vb">
+      <DependentUpon>sssecuritybackground.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssecuritybackground.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssettingspanelsearch.Designer.vb">
+      <DependentUpon>sssettingspanelsearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssettingspanelsearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssVolume.Designer.vb">
+      <DependentUpon>ssVolume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssVolume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sswelcomedialogue.Designer.vb">
+      <DependentUpon>sswelcomedialogue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sswelcomedialogue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\ssfacebook.Designer.vb">
+      <DependentUpon>ssfacebook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\ssfacebook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\ssgoogleplus.Designer.vb">
+      <DependentUpon>ssgoogleplus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\ssgoogleplus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssmaps.Designer.vb">
+      <DependentUpon>ssmaps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssmaps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssmusic.Designer.vb">
+      <DependentUpon>ssmusic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssmusic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssmusicplaylist.Designer.vb">
+      <DependentUpon>ssmusicplaylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssmusicplaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssnews.Designer.vb">
+      <DependentUpon>ssnews.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssnews.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sslogoff.Designer.vb">
+      <DependentUpon>sslogoff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sslogoff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sspower.Designer.vb">
+      <DependentUpon>sspower.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sspower.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssprocesslist.Designer.vb">
+      <DependentUpon>ssprocesslist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssprocesslist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssecurity.Designer.vb">
+      <DependentUpon>sssecurity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssecurity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssettingspanel.Designer.vb">
+      <DependentUpon>sssettingspanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssettingspanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssgifstudio.Designer.vb">
+      <DependentUpon>ssgifstudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssgifstudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssmail.Designer.vb">
+      <DependentUpon>ssmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssrun.Designer.vb">
+      <DependentUpon>ssrun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssrun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssettingspanelhub.Designer.vb">
+      <DependentUpon>sssettingspanelhub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssettingspanelhub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssettingspanelpersonalise.Designer.vb">
+      <DependentUpon>sssettingspanelpersonalise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssettingspanelpersonalise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssettingspanelupdates.Designer.vb">
+      <DependentUpon>sssettingspanelupdates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssettingspanelupdates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sssketchpad.designer.vb">
+      <DependentUpon>sssketchpad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sssketchpad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\Settings.vb" />
+    <Compile Include="Dialogues\ssabout.Designer.vb">
+      <DependentUpon>ssabout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssabout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sscalc.Designer.vb">
+      <DependentUpon>sscalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sscalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sscalcconsts.Designer.vb">
+      <DependentUpon>sscalcconsts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sscalcconsts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sscdplayer.Designer.vb">
+      <DependentUpon>sscdplayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sscdplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sssysinfo.Designer.vb">
+      <DependentUpon>sssysinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sssysinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sstasklist.Designer.vb">
+      <DependentUpon>sstasklist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sstasklist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\sstumblr.Designer.vb">
+      <DependentUpon>sstumblr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\sstumblr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\sstwitter.Designer.vb">
+      <DependentUpon>sstwitter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\sstwitter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssupdateprompt.Designer.vb">
+      <DependentUpon>ssupdateprompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssupdateprompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sswelcome.Designer.vb">
+      <DependentUpon>sswelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sswelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\sswhatsnew.Designer.vb">
+      <DependentUpon>sswhatsnew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sswhatsnew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sschat.Designer.vb">
+      <DependentUpon>sschat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sschat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\sserror.Designer.vb">
+      <DependentUpon>sserror.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\sserror.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssexclamation.Designer.vb">
+      <DependentUpon>ssexclamation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssexclamation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssexit.Designer.vb">
+      <DependentUpon>ssexit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssexit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\sswriter.Designer.vb">
+      <DependentUpon>sswriter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\sswriter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="System\sshelpoffline.Designer.vb">
+      <DependentUpon>sshelpoffline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\sshelpoffline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssimgview.Designer.vb">
+      <DependentUpon>ssimgview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssimgview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ssload.Designer.vb">
+      <DependentUpon>ssload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\ssload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\ssskype.Designer.vb">
+      <DependentUpon>ssskype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\ssskype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\ssupdater.Designer.vb">
+      <DependentUpon>ssupdater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssupdater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\ssweather.Designer.vb">
+      <DependentUpon>ssweather.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ssweather.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogues\sswritersaveyesno.Designer.vb">
+      <DependentUpon>sswritersaveyesno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\sswritersaveyesno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Social\ssyoutube.Designer.vb">
+      <DependentUpon>ssyoutube.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Social\ssyoutube.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Applications\Private1.resx">
+      <DependentUpon>Private1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\Private2.resx">
+      <DependentUpon>Private2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssalarm.resx">
+      <DependentUpon>ssalarm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sscalculations.resx">
+      <DependentUpon>sscalculations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sscalendar.resx">
+      <DependentUpon>sscalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sschatemotes.resx">
+      <DependentUpon>sschatemotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssgifstudiodark.resx">
+      <DependentUpon>ssgifstudiodark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssbackgroundconfirm.resx">
+      <DependentUpon>ssbackgroundconfirm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssbatterycritical.resx">
+      <DependentUpon>ssbatterycritical.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssbatterylow.resx">
+      <DependentUpon>ssbatterylow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssdedicate.resx">
+      <DependentUpon>ssdedicate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssprocesslistyesno.resx">
+      <DependentUpon>ssprocesslistyesno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobeupdates.resx">
+      <DependentUpon>ssoobeupdates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobesearch.resx">
+      <DependentUpon>ssoobesearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobecontextbar.resx">
+      <DependentUpon>ssoobecontextbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobepersonalisesounds.resx">
+      <DependentUpon>ssoobepersonalisesounds.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobepersonalisecolours.resx">
+      <DependentUpon>ssoobepersonalisecolours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobeloaded.resx">
+      <DependentUpon>ssoobeloaded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobepersonalisebackground.resx">
+      <DependentUpon>ssoobepersonalisebackground.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobeload.resx">
+      <DependentUpon>ssoobeload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobehub.resx">
+      <DependentUpon>ssoobehub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OOBE\ssoobewls.resx">
+      <DependentUpon>ssoobewls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sschangedatetime.resx">
+      <DependentUpon>sschangedatetime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssnetmonitor.resx">
+      <DependentUpon>ssnetmonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssbattery.resx">
+      <DependentUpon>ssbattery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sschangepassword.resx">
+      <DependentUpon>sschangepassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssexplorer.resx">
+      <DependentUpon>ssexplorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sslock.resx">
+      <DependentUpon>sslock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssmain.resx">
+      <DependentUpon>ssmain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssinformation.resx">
+      <DependentUpon>ssinformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sscontextbar.resx">
+      <DependentUpon>sscontextbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssdateandtime.resx">
+      <DependentUpon>ssdateandtime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\ssdeviantart.resx">
+      <DependentUpon>ssdeviantart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssquickexit.resx">
+      <DependentUpon>ssquickexit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssearch.resx">
+      <DependentUpon>sssearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssecuritybackground.resx">
+      <DependentUpon>sssecuritybackground.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssettingspanelsearch.resx">
+      <DependentUpon>sssettingspanelsearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssVolume.resx">
+      <DependentUpon>ssVolume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sswelcomedialogue.resx">
+      <DependentUpon>sswelcomedialogue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\ssfacebook.resx">
+      <DependentUpon>ssfacebook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\ssgoogleplus.resx">
+      <DependentUpon>ssgoogleplus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssmaps.resx">
+      <DependentUpon>ssmaps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssmusic.resx">
+      <DependentUpon>ssmusic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssmusicplaylist.resx">
+      <DependentUpon>ssmusicplaylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssnews.resx">
+      <DependentUpon>ssnews.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sslogoff.resx">
+      <DependentUpon>sslogoff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sspower.resx">
+      <DependentUpon>sspower.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssprocesslist.resx">
+      <DependentUpon>ssprocesslist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssecurity.resx">
+      <DependentUpon>sssecurity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssettingspanel.resx">
+      <DependentUpon>sssettingspanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssgifstudio.resx">
+      <DependentUpon>ssgifstudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssmail.resx">
+      <DependentUpon>ssmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssrun.resx">
+      <DependentUpon>ssrun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssettingspanelhub.resx">
+      <DependentUpon>sssettingspanelhub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssettingspanelpersonalise.resx">
+      <DependentUpon>sssettingspanelpersonalise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssettingspanelupdates.resx">
+      <DependentUpon>sssettingspanelupdates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sssketchpad.resx">
+      <DependentUpon>sssketchpad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssabout.resx">
+      <DependentUpon>ssabout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sscalc.resx">
+      <DependentUpon>sscalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sscalcconsts.resx">
+      <DependentUpon>sscalcconsts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sscdplayer.resx">
+      <DependentUpon>sscdplayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sssysinfo.resx">
+      <DependentUpon>sssysinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sstasklist.resx">
+      <DependentUpon>sstasklist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\sstumblr.resx">
+      <DependentUpon>sstumblr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\sstwitter.resx">
+      <DependentUpon>sstwitter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssupdateprompt.resx">
+      <DependentUpon>ssupdateprompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sswelcome.resx">
+      <DependentUpon>sswelcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sswhatsnew.resx">
+      <DependentUpon>sswhatsnew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sschat.resx">
+      <DependentUpon>sschat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\sserror.resx">
+      <DependentUpon>sserror.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssexclamation.resx">
+      <DependentUpon>ssexclamation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssexit.resx">
+      <DependentUpon>ssexit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\sswriter.resx">
+      <DependentUpon>sswriter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\sshelpoffline.resx">
+      <DependentUpon>sshelpoffline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssimgview.resx">
+      <DependentUpon>ssimgview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ssload.resx">
+      <DependentUpon>ssload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\ssskype.resx">
+      <DependentUpon>ssskype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssupdater.resx">
+      <DependentUpon>ssupdater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\ssweather.resx">
+      <DependentUpon>ssweather.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\sswritersaveyesno.resx">
+      <DependentUpon>sswritersaveyesno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Social\ssyoutube.resx">
+      <DependentUpon>ssyoutube.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Other\app.config" />
+    <None Include="Other\ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssBatteryIcon.ico" />
+    <None Include="Resources\ssBatteryCharging.png" />
+    <None Include="Resources\Windows Vista Beta Battery Critical.wav" />
+    <None Include="Resources\ssbatterycritical.png" />
+    <None Include="Resources\Windows Vista Beta Battery Low.wav" />
+    <None Include="Resources\ssbatterylow.png" />
+    <None Include="Resources\ssBatteryEmpty.png" />
+    <None Include="Resources\ssBattery90.png" />
+    <None Include="Resources\ssBattery80.png" />
+    <None Include="Resources\ssBattery70.png" />
+    <None Include="Resources\ssBattery60.png" />
+    <None Include="Resources\ssBattery40.png" />
+    <None Include="Resources\ssBattery30.png" />
+    <None Include="Resources\ssBattery20.png" />
+    <None Include="Resources\ssBattery10.png" />
+    <None Include="Resources\ssBattery.png" />
+    <None Include="Resources\ssBatteryHalf.png" />
+    <None Include="Resources\ssBatteryFull.png" />
+    <None Include="Resources\ssCloseTab.png" />
+    <None Include="Resources\ssNewTab.png" />
+    <None Include="Resources\ssNetworkCentre.png" />
+    <None Include="Resources\ssSound.png" />
+    <None Include="Resources\ssSmallExit.png" />
+    <None Include="Resources\ssGIFStudio.ico" />
+    <None Include="Resources\ssUndo.ico" />
+    <None Include="Resources\ssRedo.ico" />
+    <None Include="Resources\ssSelectAll.ico" />
+    <None Include="Resources\ssMaps.ico" />
+    <None Include="Resources\ssConstants.ico" />
+    <None Include="Resources\ssHome.png" />
+    <None Include="Resources\ssRegedit.ico" />
+    <None Include="Resources\ssInternet.ico" />
+    <None Include="Resources\ssImgView.ico" />
+    <None Include="Resources\ssMail.ico" />
+    <None Include="Resources\ssNew.ico" />
+    <None Include="Resources\ssFeedback.ico" />
+    <None Include="Resources\ssDocuments.ico" />
+    <None Include="Resources\ssWin.png" />
+    <None Include="Resources\ssNavigateFoward.ico" />
+    <None Include="Resources\ssNavigateBack.ico" />
+    <None Include="Resources\ssDevice.ico" />
+    <None Include="Resources\ssNetwork.ico" />
+    <None Include="Resources\ssNews.ico" />
+    <None Include="Resources\SysPower.ico" />
+    <None Include="Resources\SysLogoff.ico" />
+    <None Include="Resources\ssWinver.ico" />
+    <None Include="Resources\ssGooglePlus.ico" />
+    <None Include="Resources\ssYouTube.ico" />
+    <None Include="Resources\ssDeviantart.ico" />
+    <None Include="Resources\ssTumblr.ico" />
+    <None Include="Resources\ssTwitter.ico" />
+    <None Include="Resources\ssFacebook.ico" />
+    <None Include="Resources\ssSkype.ico" />
+    <None Include="Resources\ssStretch.ico" />
+    <None Include="Resources\ssWeather.ico" />
+    <None Include="Resources\ssCalc.ico" />
+    <None Include="Resources\ssMusic.ico" />
+    <None Include="Resources\Exit1.ico" />
+    <None Include="Resources\Lowercase.png" />
+    <None Include="Resources\Uppercase.png" />
+    <None Include="Resources\AlignR.png" />
+    <None Include="Resources\AlignC.png" />
+    <None Include="Resources\AlignL.png" />
+    <None Include="Resources\Strikethrough.png" />
+    <None Include="Resources\Underline.png" />
+    <None Include="Resources\Italic.png" />
+    <None Include="Resources\Bold.png" />
+    <None Include="Resources\Middle East.png" />
+    <None Include="Resources\Latin America.png" />
+    <None Include="Resources\Europe.png" />
+    <None Include="Resources\Austrailia.png" />
+    <None Include="Resources\Asia.png" />
+    <None Include="Resources\Africa.png" />
+    <None Include="Resources\US.png" />
+    <None Include="Resources\UK.png" />
+    <None Include="Resources\ssMute.ico" />
+    <None Include="Resources\ssUnmute.ico" />
+    <None Include="Resources\ssPlay.ico" />
+    <None Include="Resources\ssEject.ico" />
+    <None Include="Resources\ssNextTrack.ico" />
+    <None Include="Resources\ssPreviousTrack.ico" />
+    <None Include="Resources\ssStop.ico" />
+    <None Include="Resources\ssPause.ico" />
+    <None Include="Resources\ssLoader.GIF" />
+    <None Include="Resources\shell32_16762.ico" />
+    <None Include="Resources\shell32_16761.ico" />
+    <None Include="Resources\shell32_16763.ico" />
+    <None Include="Resources\shell32_243.ico" />
+    <None Include="Resources\mspaint_6401.ico" />
+    <None Include="Resources\mspaint_6406.ico" />
+    <None Include="Resources\BadGradient.png" />
+    <None Include="Resources\GoodGradient.png" />
+    <None Include="Resources\WarningGradient.png" />
+    <None Include="Resources\Construction.png" />
+    <None Include="Resources\Merry Christmas.jpg" />
+    <None Include="Resources\FlipV.png" />
+    <None Include="Resources\FlipH.png" />
+    <None Include="Resources\Colours.png" />
+    <None Include="Resources\imageres_5345.ico" />
+    <None Include="Resources\imageres_5344.ico" />
+    <None Include="Resources\shell32_242.ico" />
+    <None Include="Resources\imageres_90.ico" />
+    <None Include="Resources\Alarm10.wav" />
+    <None Include="Resources\Alarm09.wav" />
+    <None Include="Resources\Alarm08.wav" />
+    <None Include="Resources\Alarm07.wav" />
+    <None Include="Resources\Alarm06.wav" />
+    <None Include="Resources\Alarm05.wav" />
+    <None Include="Resources\Alarm04.wav" />
+    <None Include="Resources\Alarm03.wav" />
+    <None Include="Resources\Alarm02.wav" />
+    <None Include="Resources\Alarm01.wav" />
+    <None Include="Resources\shell32_16802.ico" />
+    <None Include="Resources\imageres_89.ico" />
+    <None Include="Resources\Windows Notify Calendar.wav" />
+    <None Include="Resources\Windows Vista Beta IRBegin.wav" />
+    <None Include="Resources\Windows Background.wav" />
+    <None Include="Resources\Windows Foreground.wav" />
+    <None Include="Resources\Ring10.wav" />
+    <None Include="Resources\Windows Logon.wav" />
+    <None Include="Resources\Windows Unlock.wav" />
+    <None Include="Resources\Windows Vista Beta IRInter.wav" />
+    <None Include="Resources\Windows Vista Beta Critical Stop.wav" />
+    <None Include="Resources\Windows Vista Beta Shutdown.wav" />
+    <None Include="Resources\Windows Vista Beta Startup.wav" />
+    <None Include="Resources\Windows Vista Beta Exclamation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssGmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssAol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssOutlook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssTesco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssYahoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WLPFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WLP.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssCDPlayer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSettings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssContextBar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssApps.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSketchPad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssCritical.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssWhatsNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssExclamation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssDesktop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssAppointments.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssControlPanel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssAlarm.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssUpdate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSecBad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSecGood.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssUIColours.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssTextColour.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssTaskMgr.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssTasklist.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSystemInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSecWarn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSearch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssScan.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssQuestion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssSounds.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssRestore.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssProcessList.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssPrint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssPrintPreview.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssPictures.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssRun.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SystemMenu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DirectionArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Andromeda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDPlayer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Run.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weather.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

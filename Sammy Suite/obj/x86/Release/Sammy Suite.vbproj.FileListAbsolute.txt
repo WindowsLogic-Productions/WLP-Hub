@@ -1,0 +1,1925 @@
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutscores.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicbox.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicboxabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemory.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemoryabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquestion.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutscores.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdevwhy.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserrorreporter.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelphubapps.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspreferencespanel.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicbox.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicboxabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemory.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemoryabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquestion.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexityesno.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskypeabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpbasicactions.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpgettingaround.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpsettings.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssc.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssscload.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnewhelp.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateryesno.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+D:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutscores.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdevwhy.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserrorreporter.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelphubapps.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicbox.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicboxabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemory.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemoryabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquestion.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexityesno.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskypeabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpbasicactions.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpgettingaround.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpsettings.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssc.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssscload.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnewhelp.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateryesno.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Tim\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssbreakoutscores.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdevwhy.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserrorreporter.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelphubapps.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicbox.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslogicboxabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemory.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmemoryabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquestion.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexityesno.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskypeabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpbasicactions.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpgettingaround.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpsettings.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssc.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnewhelp.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Flyken\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelgeneral.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdevwhy.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelgeneral.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+D:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssLogoff.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssLogoff.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssLogoff.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssLogoff.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\ceo\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\Guest\Dropbox\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssLogoff.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Timothy Iles\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Timothy Iles\Dropbox\Projects\sammy suite\Sammy Suite\obj\x86\Release\GenerateResource.write.1.tlog
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.exe
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.pdb
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.xml
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+F:\Dropbox and Copy\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.exe
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.pdb
+E:\Dropbox\Projects\Sammy Suite\Sammy Suite\bin\Release\MBC Hub.xml
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.pdb
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.xml
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+I:\Tim\100 GB Disk Backup\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.pdb
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.xml
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+I:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.pdb
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.xml
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+Y:\Computer Stuff\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe.config
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.exe
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.xml
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\MBC Hub.pdb
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.exe
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.pdb
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\MBC Hub.xml
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarmabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendarabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayerabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschatabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudioabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmapsabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnewsabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgviewabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmailabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpadabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweatherabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriterabout.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+E:\Backup\64 GB Memory Stick Backup\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\Logiverse Hub.exe.config
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Logiverse Hub.exe
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Logiverse Hub.xml
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Logiverse Hub.pdb
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\Logiverse Hub.exe
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\Logiverse Hub.pdb
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\Logiverse Hub.xml
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\CoreAudioApi.dll
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+C:\Users\Tim\Desktop\sammy suite\sammy suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\WLP Hub.exe
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\WLP Hub.pdb
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\bin\Release\WLP Hub.xml
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\Tim\Desktop\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\bin\Release\WLP Hub.exe.config
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.exe
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.xml
+C:\Users\jared\Google Drive\Projects\sammy suite\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\Apollo.exe.config
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\Apollo.exe
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\Apollo.pdb
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\bin\Release\Apollo.xml
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Apollo.exe
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Apollo.xml
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\Apollo.pdb
+C:\Users\Tim\Google Drive\Projects\Apollo\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.exe.config
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.xml
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.pdb
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.exe
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.pdb
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.xml
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\Interop.WMPLib.dll
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private1.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private2.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslock.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sspower.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschat.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sserror.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Resources.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssload.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.exe
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+C:\Users\Tim\Desktop\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.AboutBox1.resources
+E:\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.exe.config
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.exe
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.xml
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Apollo.pdb
+E:\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.exe
+E:\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.pdb
+E:\Apollo\Apollo\Sammy Suite\bin\Release\Apollo.xml
+E:\Apollo\Apollo\Sammy Suite\bin\Release\Interop.WMPLib.dll
+E:\Apollo\Apollo\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private1.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private2.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.AboutBox1.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslock.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sspower.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschat.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sserror.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Resources.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssload.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+E:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+H:\Apollo\Apollo\Sammy Suite\bin\Release\Interop.WMPLib.dll
+H:\Apollo\Apollo\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private1.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Private2.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslock.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sspower.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sschat.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sserror.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.Resources.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssload.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+H:\Apollo\Apollo\Sammy Suite\bin\Release\WLP Hub.exe.config
+H:\Apollo\Apollo\Sammy Suite\bin\Release\WLP Hub.exe
+H:\Apollo\Apollo\Sammy Suite\bin\Release\WLP Hub.pdb
+H:\Apollo\Apollo\Sammy Suite\bin\Release\WLP Hub.xml
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\WLP Hub.exe
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\WLP Hub.xml
+H:\Apollo\Apollo\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe.config
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.pdb
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.xml
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\Interop.WMPLib.dll
+E:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private1.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private2.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslock.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sspower.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschat.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sserror.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Resources.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssload.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe.config
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.pdb
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.xml
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\Interop.WMPLib.dll
+F:\WLP Hub\WLP Hub\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private1.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private2.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslock.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sspower.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschat.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sserror.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Resources.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssload.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+F:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+E:\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobeload.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe.config
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.pdb
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\WLP Hub.xml
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\Interop.WMPLib.dll
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private1.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Private2.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobeload.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobehub.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobewls.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslock.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelcontextbar.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sspower.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssfeedback.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschat.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sserror.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.Resources.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssload.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationbackground.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobeloaded.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationcolours.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationsounds.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobecontextbar.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobesearch.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssoobeupdates.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.mainForm.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.sschangedatetime.resources
+I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
