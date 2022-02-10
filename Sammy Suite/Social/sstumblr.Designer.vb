@@ -24,24 +24,24 @@ Partial Class sstumblr
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(sstumblr))
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ForwardButton = New System.Windows.Forms.Button()
         Me.BackButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'WebBrowser1
+        'GeckoGeckoWebBrowser1
         '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.GeckoGeckoWebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 36)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(784, 526)
-        Me.WebBrowser1.TabIndex = 14
-        Me.WebBrowser1.Url = New System.Uri("http://www.tumblr.com", System.UriKind.Absolute)
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 36)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.ScriptErrorsSuppressed = True
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(784, 526)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 14
+        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.tumblr.com", System.UriKind.Absolute)
         '
         'ForwardButton
         '
@@ -71,7 +71,7 @@ Partial Class sstumblr
         Me.ClientSize = New System.Drawing.Size(784, 562)
         Me.Controls.Add(Me.ForwardButton)
         Me.Controls.Add(Me.BackButton)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(640, 480)
@@ -81,7 +81,7 @@ Partial Class sstumblr
 
     End Sub
 
-    Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents GeckoGeckoWebBrowser1 As WebBrowser
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents ForwardButton As System.Windows.Forms.Button
     Friend WithEvents BackButton As System.Windows.Forms.Button

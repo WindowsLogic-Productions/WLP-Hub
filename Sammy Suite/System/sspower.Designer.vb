@@ -96,7 +96,7 @@ Partial Class sspower
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.ss.My.Resources.Resources.WLP
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 9)
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 10)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -106,12 +106,12 @@ Partial Class sspower
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(50, 11)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(291, 30)
+        Me.Label2.Size = New System.Drawing.Size(99, 30)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Hub Extended Service Release"
+        Me.Label2.Text = "WLP Hub"
         '
         'Label1
         '

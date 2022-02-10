@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ssmain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ssmain
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ssmain))
@@ -124,7 +124,6 @@ Partial Class ssmain
         Me.LogOff_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemPower_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExplorerButton = New System.Windows.Forms.Button()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.ContextBarButton = New System.Windows.Forms.Button()
         Me.WindowsDesktopButton = New System.Windows.Forms.Button()
         Me.HubBackground = New System.Windows.Forms.PictureBox()
@@ -199,6 +198,7 @@ Partial Class ssmain
         Me.AboutWindowsLogicProductionsHubToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuickExitDoesNotSaveSettingsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemPowerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
         Me.ContextBar.SuspendLayout()
         Me.SystemTrayMenu.SuspendLayout()
         Me.RightClickMenu.SuspendLayout()
@@ -312,9 +312,9 @@ Partial Class ssmain
         Me.VerInfo.ForeColor = System.Drawing.Color.White
         Me.VerInfo.Location = New System.Drawing.Point(3, 684)
         Me.VerInfo.Name = "VerInfo"
-        Me.VerInfo.Size = New System.Drawing.Size(87, 13)
+        Me.VerInfo.Size = New System.Drawing.Size(90, 13)
         Me.VerInfo.TabIndex = 49
-        Me.VerInfo.Text = "Hub ESR %ver%"
+        Me.VerInfo.Text = "WLP Hub %ver%"
         '
         'Clock
         '
@@ -512,7 +512,7 @@ Partial Class ssmain
         Me.SystemMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Welcome_SM, Me.Security_SM, Me.WindowsTaskManager_SM, Me.Updates_SM, Me.ToolStripSeparator6, Me.Applications_SM, Me.SocialToolStripMenuItem1, Me.DocumentsToolStripMenuItem, Me.Settings_SM, Me.Search_SM, Me.HelpAndSupport_SM, Me.Run_SM, Me.ToolStripSeparator18, Me.QuickExit_SM, Me.LogOff_SM, Me.SystemPower_SM})
         Me.SystemMenu.Name = "ContextMenuStrip3"
         Me.SystemMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.SystemMenu.Size = New System.Drawing.Size(232, 570)
+        Me.SystemMenu.Size = New System.Drawing.Size(232, 548)
         '
         'Welcome_SM
         '
@@ -630,7 +630,7 @@ Partial Class ssmain
         Me.Messages_SM.Image = Global.ss.My.Resources.Resources.ssMessages
         Me.Messages_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Messages_SM.Name = "Messages_SM"
-        Me.Messages_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Messages_SM.Size = New System.Drawing.Size(166, 38)
         Me.Messages_SM.Text = "Messages"
         Me.Messages_SM.ToolTipText = "Chat and collaborate with other people using WindowsLogic Productions Hub."
         '
@@ -1064,19 +1064,6 @@ Partial Class ssmain
         Me.ExplorerButton.Text = "File Explorer"
         Me.ExplorerButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ExplorerButton.UseVisualStyleBackColor = False
-        '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(238, 0)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(786, 700)
-        Me.WebBrowser1.TabIndex = 51
-        Me.WebBrowser1.Url = New System.Uri("", System.UriKind.Relative)
         '
         'ContextBarButton
         '
@@ -1739,14 +1726,24 @@ Partial Class ssmain
         Me.SystemPowerToolStripMenuItem.Text = "System Power..."
         Me.SystemPowerToolStripMenuItem.ToolTipText = "Perform system power options or end your session."
         '
+        'GeckoWebBrowser1
+        '
+        Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
+        Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(236, 0)
+        Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(788, 700)
+        Me.GeckoWebBrowser1.TabIndex = 60
+        Me.GeckoWebBrowser1.UseHttpActivityObserver = False
+        '
         'ssmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1024, 733)
+        Me.Controls.Add(Me.GeckoWebBrowser1)
         Me.Controls.Add(Me.ExplorerButton)
-        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.ContextBarButton)
         Me.Controls.Add(Me.NavigateBack)
         Me.Controls.Add(Me.NavigateForward)
@@ -1775,7 +1772,6 @@ Partial Class ssmain
     Friend WithEvents NavigateBack As System.Windows.Forms.Button
     Friend WithEvents NavigateForward As System.Windows.Forms.Button
     Friend WithEvents WindowsDesktopButton As System.Windows.Forms.Button
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents ContextBar As System.Windows.Forms.Panel
     Friend WithEvents VerInfo As System.Windows.Forms.Label
     Friend WithEvents HomeButton As System.Windows.Forms.Button
@@ -1946,4 +1942,5 @@ Partial Class ssmain
     Friend WithEvents QuickExit_Tray As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SystemPower_Tray As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Watermark1 As Watermark
+    Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
 End Class

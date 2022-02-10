@@ -29,7 +29,7 @@ Partial Class ssalarm
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -86,15 +86,15 @@ Partial Class ssalarm
         'Timer2
         '
         '
-        'WebBrowser1
+        'GeckoGeckoWebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(12, 56)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(147, 135)
-        Me.WebBrowser1.TabIndex = 3
-        Me.ToolTip1.SetToolTip(Me.WebBrowser1, "Analogue clock.")
-        Me.WebBrowser1.Url = New System.Uri("http://www.gheos.net/js/clock/clock.swf", System.UriKind.Absolute)
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(12, 56)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(147, 135)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.GeckoGeckoWebBrowser1, "Analogue clock.")
+        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.gheos.net/js/clock/clock.swf", System.UriKind.Absolute)
         '
         'TextBox1
         '
@@ -290,7 +290,7 @@ Partial Class ssalarm
         Me.Controls.Add(Me.SetButton)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -308,7 +308,7 @@ Partial Class ssalarm
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
+    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label2 As System.Windows.Forms.Label

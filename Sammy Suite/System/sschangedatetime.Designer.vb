@@ -43,7 +43,7 @@ Partial Class sschangedatetime
         '
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.OKButton.Location = New System.Drawing.Point(323, 71)
+        Me.OKButton.Location = New System.Drawing.Point(167, 71)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(77, 23)
         Me.OKButton.TabIndex = 2
@@ -54,7 +54,7 @@ Partial Class sschangedatetime
         '
         Me.CloseButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.CloseButton.Location = New System.Drawing.Point(323, 100)
+        Me.CloseButton.Location = New System.Drawing.Point(167, 100)
         Me.CloseButton.Name = "CloseButton"
         Me.CloseButton.Size = New System.Drawing.Size(77, 23)
         Me.CloseButton.TabIndex = 3
@@ -63,19 +63,23 @@ Partial Class sschangedatetime
         '
         'TimeText
         '
+        Me.TimeText.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TimeText.Location = New System.Drawing.Point(12, 100)
         Me.TimeText.markcolour = System.Drawing.Color.Gray
         Me.TimeText.Name = "TimeText"
-        Me.TimeText.Size = New System.Drawing.Size(305, 22)
+        Me.TimeText.Size = New System.Drawing.Size(149, 22)
         Me.TimeText.TabIndex = 1
         Me.TimeText.Watermarktext = "Set time... 00:00:00"
         '
         'DateText
         '
+        Me.DateText.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DateText.Location = New System.Drawing.Point(12, 72)
         Me.DateText.markcolour = System.Drawing.Color.Gray
         Me.DateText.Name = "DateText"
-        Me.DateText.Size = New System.Drawing.Size(305, 22)
+        Me.DateText.Size = New System.Drawing.Size(149, 22)
         Me.DateText.TabIndex = 0
         Me.DateText.Watermarktext = "Set date... 00/00/0000"
         '
@@ -86,18 +90,18 @@ Partial Class sschangedatetime
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(412, 53)
+        Me.Panel1.Size = New System.Drawing.Size(256, 53)
         Me.Panel1.TabIndex = 6
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(395, 30)
+        Me.Label1.Size = New System.Drawing.Size(228, 30)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Set the date and time of your computer..."
+        Me.Label1.Text = "Set the date and time..."
         '
         'sschangedatetime
         '
@@ -105,7 +109,7 @@ Partial Class sschangedatetime
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(412, 135)
+        Me.ClientSize = New System.Drawing.Size(256, 135)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateText)
         Me.Controls.Add(Me.TimeText)

@@ -23,6 +23,6 @@
 
     Private Sub ErrorLink_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles ErrorLink.LinkClicked
         sssearch.Show()
-        sssearch.WebBrowser1.Navigate("dev.windowslogic.co.uk/sserrors.html")
+        sssearch.GeckoWebBrowser1.Navigate("dev.windowslogic.co.uk/sserrors.html")
     End Sub
 End Class

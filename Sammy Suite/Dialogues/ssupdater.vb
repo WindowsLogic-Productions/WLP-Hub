@@ -19,7 +19,7 @@
                 If newestversion.Contains(currentversion) Then
                     Label2.Text = ("No updates available.")
                 Else
-                    WebBrowser1.Navigate(Variables.setup)
+                    GeckoGeckoWebBrowser1.Navigate(Variables.setup)
                     Label2.Text = ("Downloading updates...")
                     Me.Hide()
                 End If

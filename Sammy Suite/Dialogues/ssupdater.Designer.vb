@@ -29,7 +29,7 @@ Partial Class ssupdater
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -85,14 +85,14 @@ Partial Class ssupdater
         'Timer1
         '
         '
-        'WebBrowser1
+        'GeckoGeckoWebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 294)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Visible = False
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 294)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 0
+        Me.GeckoGeckoWebBrowser1.Visible = False
         '
         'PictureBox1
         '
@@ -164,7 +164,7 @@ Partial Class ssupdater
         Me.Controls.Add(Me.CancelButton1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -182,7 +182,7 @@ Partial Class ssupdater
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
+    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label

@@ -23,7 +23,7 @@ Partial Class ssweather
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ssweather))
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -34,16 +34,16 @@ Partial Class ssweather
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'WebBrowser1
+        'GeckoGeckoWebBrowser1
         '
-        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 24)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(794, 548)
-        Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("http://www.bbc.com/weather/", System.UriKind.Absolute)
+        Me.GeckoGeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 24)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.ScriptErrorsSuppressed = True
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(794, 548)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 0
+        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.bbc.com/weather/", System.UriKind.Absolute)
         '
         'MenuStrip1
         '
@@ -109,7 +109,7 @@ Partial Class ssweather
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(794, 572)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -123,7 +123,7 @@ Partial Class ssweather
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
+    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

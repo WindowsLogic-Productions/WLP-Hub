@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Hub ESR")> 
+<Assembly: AssemblyTitle("WLP Hub")>
 <Assembly: AssemblyDescription("The easy to use front-end for Windows.")>
-<Assembly: AssemblyCompany("WindowsLogic")>
-<Assembly: AssemblyProduct("Hub ESR")>
-<Assembly: AssemblyCopyright("Copyright © 2014 - 2018 Timothy Iles (WindowsLogic)")>
-<Assembly: AssemblyTrademark("Hub ESR")> 
+<Assembly: AssemblyCompany("WindowsLogic Productions")>
+<Assembly: AssemblyProduct("WLP Hub")>
+<Assembly: AssemblyCopyright("Copyright © 2014 - 2022 WindowsLogic Productions")>
+<Assembly: AssemblyTrademark("WLP Hub")>
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("9.2.0.11")>
-<Assembly: AssemblyFileVersion("9.2.0.11")>
+<Assembly: AssemblyVersion("10.2.0.11")>
+<Assembly: AssemblyFileVersion("10.2.0.11")>

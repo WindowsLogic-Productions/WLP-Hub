@@ -24,9 +24,9 @@ Partial Class sswhatsnew
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(sswhatsnew))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -42,34 +42,23 @@ Partial Class sswhatsnew
         Me.Panel1.Size = New System.Drawing.Size(531, 53)
         Me.Panel1.TabIndex = 0
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssRun
-        Me.PictureBox1.Location = New System.Drawing.Point(487, 9)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
-        Me.PictureBox1.Visible = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(379, 30)
+        Me.Label1.Size = New System.Drawing.Size(378, 30)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "See what's changed in the application..."
         '
         'ListBox1
         '
-        Me.ListBox1.BackColor = System.Drawing.Color.Black
+        Me.ListBox1.BackColor = System.Drawing.Color.DodgerBlue
         Me.ListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.ListBox1.ForeColor = System.Drawing.Color.White
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"~Version 9.3.0.10~ (Hub ESR 10 Beta 3)", "1. Updated about information and main icon.", "2. Changed default colour to black.", "3. Disabled 'Messages'.", "4. ", "", "~Version 9.2.0.10~ (Hub ESR 10 Beta 2)", "1. Removed 'Sample Music' option from 'Music Player'.", "2. Fixed a bug that stopped 'Search' from displaying properly.", "3. Updated .NET Framework to 4.5.2.", "4. Fixed a bug on Out Of Box Experience where some elements would appear in rando" &
+        Me.ListBox1.Items.AddRange(New Object() {"~Version 10.0.0.0~ (A fresh coat of paint.)", "1. Updated icons and backgrounds.", "2. Selection colours for desktop are now transparent.", "3. Browser now uses Gecko.", "4. Updated detached search layout.", "5. Made 'Change Date and Time' dialogue smaller.", "6. ", "", "~Version 9.2.0.10~ (Hub ESR 10 Beta 2)", "1. Removed 'Sample Music' option from 'Music Player'.", "2. Fixed a bug that stopped 'Search' from displaying properly.", "3. Updated .NET Framework to 4.5.2.", "4. Fixed a bug on Out Of Box Experience where some elements would appear in rando" &
                 "m places.", "5. Updated 'Context Bar' applications.", "6. Bug fixes, performance improvements and clean up.", "", "~Version 9.1.0.10~ (Hub ESR 10 Beta 1)", "1. Updated 'CD Player' with bug fixes and new design.", "2. Added a right click menu on the desktop.", "3. Changed the sound when changing the volume of your system on 'Volume Control'." &
                 "", "4. Added a sound when clicking on the darkened background that appears when showi" &
                 "ng the", "'Log Off', 'System Power' and 'Quick Exit' dialogues.", "5. When opening 'Hub ESR Security', the entire desktop hides itself to only show " &
@@ -114,6 +103,17 @@ Partial Class sswhatsnew
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(531, 314)
         Me.ListBox1.TabIndex = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssRun
+        Me.PictureBox1.Location = New System.Drawing.Point(487, 9)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.Visible = False
         '
         'sswhatsnew
         '

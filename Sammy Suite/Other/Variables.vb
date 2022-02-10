@@ -175,7 +175,7 @@
 #Region "Search"
     Public Shared Sub InternetSearch()
         sssearch.Show()
-        sssearch.WebBrowser1.Navigate("http://www.google.com")
+        sssearch.GeckoWebBrowser1.Navigate("http://www.google.com")
     End Sub
 
     Public Shared Sub SearchSettings()
@@ -194,22 +194,22 @@
     End Sub
 
     Public Shared Sub Updater()
-        ssupdater.Show()
+        ssupdater.ShowDialog()
     End Sub
 
     Public Shared Sub WhatsNew()
-        sswhatsnew.Show()
+        sswhatsnew.ShowDialog()
     End Sub
 
     Public Shared Sub About()
-        ssabout.Text = "About Hub ESR"
+        ssabout.Text = "About WLP Hub"
         ssabout.AppPic.Image = My.Resources.WLP
-        ssabout.AppName.Text = "Hub ESR - Version N/A"
+        ssabout.AppName.Text = "WLP Hub - Version 10.0"
         ssabout.ShowDialog()
     End Sub
 #End Region
     Public Shared Sub Run()
-        ssrun.Show()
+        ssrun.ShowDialog()
     End Sub
 
     Public Shared Sub QuickExit()
@@ -234,60 +234,60 @@
 
     Public Shared Sub SearchBarSettings()
         If My.Settings.SearchStyle = 0 Then
-            ssmain.WebBrowser1.Show()
+            ssmain.GeckoWebBrowser1.Show()
             ssmain.NavigateBack.Enabled = True
             ssmain.NavigateForward.Enabled = True
             ssmain.HomeButton.Enabled = True
             If My.Settings.SearchEngine = 0 Then
-                ssmain.WebBrowser1.Navigate("http://www.google.com/search?q=" + ssmain.Watermark1.Text)
+                ssmain.GeckoWebBrowser1.Navigate("http://www.google.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 1 Then
-                ssmain.WebBrowser1.Navigate("http://www.bing.com/search?q=" + ssmain.Watermark1.Text)
+                ssmain.GeckoWebBrowser1.Navigate("http://www.bing.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 2 Then
-                ssmain.WebBrowser1.Navigate("http://uk.search.yahoo.com/search?q=" + ssmain.Watermark1.Text)
+                ssmain.GeckoWebBrowser1.Navigate("http://uk.search.yahoo.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 3 Then
-                ssmain.WebBrowser1.Navigate("https://duckduckgo.com/?q=" + ssmain.Watermark1.Text)
+                ssmain.GeckoWebBrowser1.Navigate("https://duckduckgo.com/?q=" + ssmain.Watermark1.Text)
             End If
         End If
         If My.Settings.SearchStyle = 1 Then
             sssearch.Show()
             If My.Settings.SearchEngine = 0 Then
-                sssearch.WebBrowser1.Navigate("http://www.google.com/search?q=" + ssmain.Watermark1.Text)
+                sssearch.GeckoWebBrowser1.Navigate("http://www.google.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 1 Then
-                sssearch.WebBrowser1.Navigate("http://www.bing.com/search?q=" + ssmain.Watermark1.Text)
+                sssearch.GeckoWebBrowser1.Navigate("http://www.bing.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 2 Then
-                sssearch.WebBrowser1.Navigate("http://uk.search.yahoo.com/search?q=" + ssmain.Watermark1.Text)
+                sssearch.GeckoWebBrowser1.Navigate("http://uk.search.yahoo.com/search?q=" + ssmain.Watermark1.Text)
             End If
 
             If My.Settings.SearchEngine = 3 Then
-                sssearch.WebBrowser1.Navigate("https://duckduckgo.com/?q=" + ssmain.Watermark1.Text)
+                sssearch.GeckoWebBrowser1.Navigate("https://duckduckgo.com/?q=" + ssmain.Watermark1.Text)
             End If
         End If
     End Sub
 
     Public Shared Sub PowerOptions()
-        ssbattery.Show()
+        ssbattery.ShowDialog()
     End Sub
 
     Public Shared Sub NetworkConnections()
-        ssnetmonitor.Show()
+        ssnetmonitor.ShowDialog()
     End Sub
 
     Public Shared Sub SoundSettings()
-        ssVolume.Show()
+        ssVolume.ShowDialog()
     End Sub
 
     Public Shared Sub DateTime()
-        ssdateandtime.Show()
+        ssdateandtime.ShowDialog()
     End Sub
 #End Region
 #End Region

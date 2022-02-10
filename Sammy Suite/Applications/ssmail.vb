@@ -32,23 +32,23 @@
     End Sub
 #Region "Tool Bar"
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
-        WebBrowser1.Navigate("http://mail.google.com")
+        GeckoGeckoWebBrowser1.Navigate("http://mail.google.com")
     End Sub
 
     Private Sub ToolStripButton2_Click(sender As Object, e As EventArgs) Handles ToolStripButton2.Click
-        WebBrowser1.Navigate("http://login.yahoo.com")
+        GeckoGeckoWebBrowser1.Navigate("http://login.yahoo.com")
     End Sub
 
     Private Sub ToolStripButton3_Click(sender As Object, e As EventArgs) Handles ToolStripButton3.Click
-        WebBrowser1.Navigate("http://mail.aol.com")
+        GeckoGeckoWebBrowser1.Navigate("http://mail.aol.com")
     End Sub
 
     Private Sub ToolStripButton4_Click(sender As Object, e As EventArgs)
-        WebBrowser1.Navigate("https://email.tesco.net/login/")
+        GeckoGeckoWebBrowser1.Navigate("https://email.tesco.net/login/")
     End Sub
 
     Private Sub ToolStripButton5_Click(sender As Object, e As EventArgs) Handles ToolStripButton5.Click
-        WebBrowser1.Navigate("http://outlook.live.com")
+        GeckoGeckoWebBrowser1.Navigate("http://outlook.live.com")
     End Sub
 #End Region
 End Class

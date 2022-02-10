@@ -46,7 +46,7 @@ Partial Class ssnews
         Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -228,16 +228,16 @@ Partial Class ssnews
         Me.ToolStripButton8.Name = "ToolStripButton8"
         Me.ToolStripButton8.Size = New System.Drawing.Size(195, 36)
         '
-        'WebBrowser1
+        'GeckoGeckoWebBrowser1
         '
-        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 63)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(1182, 599)
-        Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("http://www.bbc.co.uk/news/uk", System.UriKind.Absolute)
+        Me.GeckoGeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 63)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.ScriptErrorsSuppressed = True
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(1182, 599)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 0
+        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.bbc.co.uk/news/uk", System.UriKind.Absolute)
         '
         'ssnews
         '
@@ -245,7 +245,7 @@ Partial Class ssnews
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1182, 662)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -263,7 +263,7 @@ Partial Class ssnews
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
+    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

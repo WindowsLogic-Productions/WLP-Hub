@@ -28,7 +28,7 @@
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        ssmain.WebBrowser1.Navigate("https://www.windowslogic.co.uk/appagreement.php")
+        ssmain.GeckoWebBrowser1.Navigate("https://www.windowslogic.co.uk/appagreement.php")
         Me.Close()
     End Sub
 #End Region

@@ -97,7 +97,7 @@
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutButton.Click
         ssabout.Text = "About Battery Status"
         ssabout.AppPic.Image = My.Resources.ssBatteryIcon
-        ssabout.AppName.Text = "Hub Battery Status - Version 1.1"
+        ssabout.AppName.Text = "Battery Status - Version 1.1"
         ssabout.ShowDialog()
     End Sub
 

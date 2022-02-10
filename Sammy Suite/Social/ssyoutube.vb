@@ -13,10 +13,10 @@
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BackButton.Click
-        WebBrowser1.GoBack()
+        GeckoGeckoWebBrowser1.GoBack()
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ForwardButton.Click
-        WebBrowser1.GoForward()
+        GeckoGeckoWebBrowser1.GoForward()
     End Sub
 End Class

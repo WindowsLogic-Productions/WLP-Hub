@@ -169,6 +169,9 @@
   <data name="ssExclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssExclamation.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ssWinver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssWinver.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -270,6 +273,9 @@
   </data>
   <data name="LowBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Vista Beta Battery Low.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WinBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="System" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Vista Beta IRBegin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -646,7 +652,7 @@
   <data name="ssSketchPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssSketchPad.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Copy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WinForward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinForward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

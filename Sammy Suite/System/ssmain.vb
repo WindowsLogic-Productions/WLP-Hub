@@ -1,4 +1,6 @@
-﻿Public Class ssmain
+﻿Imports Gecko
+
+Public Class ssmain
 #Region "Disable Close Button"
     Private Const CP_NOCLOSE_BUTTON As Integer = &H200
     Protected Overloads Overrides ReadOnly Property CreateParams() As CreateParams
@@ -10,6 +12,13 @@
     End Property
 #End Region
 #Region "Load Settings"
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+        Xpcom.Initialize("Firefox")
+
+    End Sub
     Private Sub ssmainbeta_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         'Load System Tray icon.
@@ -17,12 +26,19 @@
 
         'Load Parent Settings.
         ExplorerButton.Parent = HubBackground
+        ExplorerButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         VerInfo.Parent = HubBackground
         HomeButton.Parent = HubBackground
+        HomeButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         WindowsDesktopButton.Parent = HubBackground
+        WindowsDesktopButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         ContextBarButton.Parent = HubBackground
+        ContextBarButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         NavigateBack.Parent = HubBackground
+        NavigateBack.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         NavigateForward.Parent = HubBackground
+        NavigateForward.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
+        ContextBar.Parent = HubBackground
         HubBackground.Show()
 
         'Load Sound Settings.
@@ -34,7 +50,7 @@
             My.Computer.Audio.Play(My.Resources.Opening2, AudioPlayMode.Background)
         End If
 
-        WebBrowser1.Hide()
+        GeckoWebBrowser1.Hide()
         NavigateBack.Enabled = False
         NavigateForward.Enabled = False
         sswelcome.Show()
@@ -75,7 +91,7 @@
         'Load colour settings.
         If My.Settings.CCE = 1 Then
             Me.BackColor = My.Settings.CustomColour
-            ContextBar.BackColor = My.Settings.CustomColour
+            ContextBar.BackColor = Color.FromArgb(170, My.Settings.CustomColour)
         End If
 
         'Load version number and license.
@@ -84,18 +100,18 @@
 #End Region
 #Region "Hub Buttons & Links"
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HomeButton.Click
-        WebBrowser1.Hide()
+        GeckoWebBrowser1.Hide()
         NavigateBack.Enabled = False
         NavigateForward.Enabled = False
         HomeButton.Enabled = False
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NavigateBack.Click
-        WebBrowser1.GoBack()
+        GeckoWebBrowser1.GoBack()
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NavigateForward.Click
-        WebBrowser1.GoForward()
+        GeckoWebBrowser1.GoForward()
     End Sub
 
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExplorerButton.Click
@@ -152,6 +168,7 @@
 
     Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As EventArgs) Handles Clock.Tick
         LinkLabel1.Text = TimeOfDay & vbCrLf & Date.Today
+        LinkLabel1.Parent = ContextBar
     End Sub
 
     Private Sub TaskListButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TaskListButton.Click

@@ -48,7 +48,7 @@ Partial Class ssnetmonitor
         Me.NICComboBox.FormattingEnabled = True
         Me.NICComboBox.Location = New System.Drawing.Point(12, 89)
         Me.NICComboBox.Name = "NICComboBox"
-        Me.NICComboBox.Size = New System.Drawing.Size(256, 21)
+        Me.NICComboBox.Size = New System.Drawing.Size(262, 21)
         Me.NICComboBox.TabIndex = 0
         '
         'Label1
@@ -67,7 +67,7 @@ Partial Class ssnetmonitor
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(135, 125)
+        Me.Label2.Location = New System.Drawing.Point(147, 125)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(64, 13)
         Me.Label2.TabIndex = 1
@@ -87,7 +87,7 @@ Partial Class ssnetmonitor
         '
         Me.DownloadLabel.AutoSize = True
         Me.DownloadLabel.ForeColor = System.Drawing.Color.White
-        Me.DownloadLabel.Location = New System.Drawing.Point(195, 125)
+        Me.DownloadLabel.Location = New System.Drawing.Point(207, 125)
         Me.DownloadLabel.Name = "DownloadLabel"
         Me.DownloadLabel.Size = New System.Drawing.Size(43, 13)
         Me.DownloadLabel.TabIndex = 1
@@ -114,7 +114,7 @@ Partial Class ssnetmonitor
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(134, 148)
+        Me.Label4.Location = New System.Drawing.Point(146, 148)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(92, 13)
         Me.Label4.TabIndex = 1
@@ -124,7 +124,7 @@ Partial Class ssnetmonitor
         '
         Me.TotalDLLabel.AutoSize = True
         Me.TotalDLLabel.ForeColor = System.Drawing.Color.White
-        Me.TotalDLLabel.Location = New System.Drawing.Point(222, 148)
+        Me.TotalDLLabel.Location = New System.Drawing.Point(234, 148)
         Me.TotalDLLabel.Name = "TotalDLLabel"
         Me.TotalDLLabel.Size = New System.Drawing.Size(43, 13)
         Me.TotalDLLabel.TabIndex = 1
@@ -189,7 +189,7 @@ Partial Class ssnetmonitor
         '
         Me.AboutButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AboutButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.AboutButton.Location = New System.Drawing.Point(193, 168)
+        Me.AboutButton.Location = New System.Drawing.Point(199, 168)
         Me.AboutButton.Name = "AboutButton"
         Me.AboutButton.Size = New System.Drawing.Size(75, 23)
         Me.AboutButton.TabIndex = 1
@@ -200,7 +200,7 @@ Partial Class ssnetmonitor
         '
         Me.RefreshButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RefreshButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.RefreshButton.Location = New System.Drawing.Point(112, 168)
+        Me.RefreshButton.Location = New System.Drawing.Point(118, 168)
         Me.RefreshButton.Name = "RefreshButton"
         Me.RefreshButton.Size = New System.Drawing.Size(75, 23)
         Me.RefreshButton.TabIndex = 0
@@ -212,7 +212,7 @@ Partial Class ssnetmonitor
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(280, 203)
+        Me.ClientSize = New System.Drawing.Size(286, 203)
         Me.Controls.Add(Me.RefreshButton)
         Me.Controls.Add(Me.AboutButton)
         Me.Controls.Add(Me.DownloadLabel)

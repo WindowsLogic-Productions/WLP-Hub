@@ -1,10 +1,10 @@
 ﻿Public Class ssdeviantart
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        WebBrowser1.GoBack()
+        GeckoGeckoWebBrowser1.GoBack()
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        WebBrowser1.GoForward()
+        GeckoGeckoWebBrowser1.GoForward()
     End Sub
 
     Private Sub sstwitter_Load(sender As Object, e As EventArgs) Handles MyBase.Load
