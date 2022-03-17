@@ -1,0 +1,239 @@
+# –@üƒ}ƒbƒvƒ^ƒCƒv
+# •W€‚Åfog,softparticle‚ğ•t‚¯‚é
+
+FXC_EXE	= "fxc.exe"
+
+
+# shader type 
+# ---------------------------------------------------------------
+shader_type = [
+
+	{},
+	{:Fog => true},
+	{:SoftParticle => true},
+	{:SoftParticle => true, :Fog => true},
+]
+
+type_list = [
+
+	{},
+	{:Color => true },
+]
+
+shader_type.each do |shader|
+type_list.each do |type|
+
+
+# vs shader code
+# ---------------------------------------------------------------
+vscode = ""
+
+# constant
+	vscode << "float4x4 WorldViewProjMatrix;\n"
+	vscode << "float4   DiffuseColor;\n"
+	vscode << "float4   ColorScale;\n"
+	vscode << "float4   OffsetPosition;\n"
+	
+	vscode << "float4   Texture0Scroll;\n"
+	vscode << "float4x4 WorldViewMatrix;\n"
+#	vscode << "float4   AmbientLightColor;\n"
+#	vscode << "float4   LightColor;\n"
+	vscode << "float4   LightDir;\n"
+#	vscode << "float4   EmissionColor;\n"
+#	vscode << "float4   SpecularColorAndPow;\n"
+	vscode << "float4x4 WorldViewProjTexMatrix;\n"	if shader[:SoftParticle]
+	
+
+# output	
+	vscode << "struct VOUT{\n"
+	vscode << "	float4 vaPosition        : POSITION;\n"
+	vscode << "	float4 vaColor           : COLOR0;\n"
+#	vscode << "	float4 vaSpecular        : COLOR1;\n"
+	vscode << "	float2 vaBaseTexCoord    : TEXCOORD0;\n"
+	vscode << "	float3 vaEye             : TEXCOORD1;	//’¸“_À•WŒn‚Å‚Ì‹ü•ûŒüƒxƒNƒgƒ‹\n"
+	vscode << "	float3 vaLight           : TEXCOORD2;	//’¸“_À•WŒn‚Å‚Ì’¸“_ ¨ ƒ‰ƒCƒgˆÊ’uƒxƒNƒgƒ‹\n"
+	vscode << "	float  vaPositionForSoft : TEXCOORD3; // ‰“‹ßË‰eÀ•WŒn‚Ö•ÏŠ·‚µ‚½’¸“_À•W\n"			if shader[:SoftParticle]
+	vscode << "	float4 vaScreenTexCoord  : TEXCOORD4; // ƒeƒNƒXƒ`ƒƒ[À•WŒn‚Ö•ÏŠ·‚µ‚½’¸“_À•W\n"	if shader[:SoftParticle]
+	vscode << "	float  vaPositionW       : TEXCOORD5;\n"	if shader[:Fog]
+	vscode << "};\n"
+
+
+# main
+	vscode << "VOUT main(\n"
+	vscode << "	float3 atPosition      : POSITION\n"
+	vscode << "	,float4 atColor        : COLOR\n"			if type[:Color]
+	vscode << "	,float2 atBaseTexCoord : TEXCOORD0\n"
+	vscode << "	,float3 atTangent      : TANGENT0   //ÚüƒxƒNƒgƒ‹\n"
+	vscode << "	,float3 atBinormal     : BINORMAL0  //]–@üƒxƒNƒgƒ‹\n"
+	vscode << "	,float3 atNormal       : NORMAL\n"
+	vscode << "){\n"
+	vscode << "	VOUT o;\n"
+	vscode << "\n"
+
+	vscode << "	float4 pos;\n"
+	vscode << "	pos.xyz = atPosition.xyz + OffsetPosition.xyz;\n"
+	vscode << "	pos.w = 1.0f;\n"
+	vscode << "	o.vaPosition = mul(pos, WorldViewProjMatrix);\n"
+if shader[:SoftParticle]
+	vscode << "	o.vaScreenTexCoord  = mul(atPosition, WorldViewProjTexMatrix);\n"
+	vscode << "	o.vaPositionForSoft = o.vaPosition.z;\n"
+end
+	vscode << "\n"
+	vscode << "	//float3 normal = mul(float4(atNormal.xyz, 0.0), WorldViewMatrix).xyz;\n"
+	vscode << "	//normal = normalize(normal);\n"
+	vscode << "	//float lumi = max(0.0, dot(LightDir.xyz, normal));\n"
+	vscode << "	//o.vaColor.rgb =  AmbientLightColor.rgb + LightColor.rgb * lumi;\n"
+	vscode << "	//o.vaColor.rgb *= atColor.rgb * DiffuseColor.rgb;\n"
+	vscode << "	//o.vaColor.rgb += EmissionColor.rgb;\n"
+	vscode << "	//o.vaColor.a   =  atColor.a   * DiffuseColor.a;\n"
+	vscode << "	//o.vaColor     *= ColorScale;\n"
+	vscode << "	o.vaColor =  ColorScale * DiffuseColor * atColor;\n"	if type[:Color]
+	vscode << "	o.vaColor = ColorScale * DiffuseColor;\n"							unless type[:Color]
+	vscode << "\n"
+	vscode << "	//float3 eye = - mul(atPosition, WorldViewMatrix).xyz;\n"
+	vscode << "	//eye = normalize(eye);\n"
+	vscode << "	//float3 hv = normalize(eye + LightDir.xyz);\n"
+	vscode << "	//float slumi = pow(max(0.0, dot(hv, normal)), SpecularColorAndPow.w);\n"
+	vscode << "	//o.vaSpecular.rgb = LightColor.rgb * SpecularColorAndPow.rgb * slumi;\n"
+	vscode << "	//o.vaSpecular.a = 0.0;\n"
+	vscode << "	o.vaBaseTexCoord = atBaseTexCoord + Texture0Scroll.xy;\n"
+
+	vscode << "	o.vaPositionW  = o.vaPosition.w;\n"		if shader[:Fog]
+	
+	vscode << "\n"
+	vscode << "	{\n"
+	vscode << "		//‹üƒxƒNƒgƒ‹‚ğŒvZ\n"
+	vscode << "		//float3 Eye = normalize(CameraDir.xyz - atPosition.xyz);\n"
+	vscode << "		//float3 Eye = CameraDir.xyz - atPosition.xyz;\n"
+	vscode << "		float3 Eye = - mul(atPosition, WorldViewMatrix).xyz;\n"
+	vscode << "		//float3 Eye = - o.vaPosition;\n"
+	vscode << "		Eye = normalize(Eye);\n"
+	vscode << "\n"
+	vscode << "		//‹üƒxƒNƒgƒ‹‚ğ’¸“_À•WŒn‚É•ÏŠ·‚·‚é\n"
+	vscode << "		o.vaEye.x = dot(Eye, atTangent);\n"
+	vscode << "		o.vaEye.y = dot(Eye, atBinormal);\n"
+	vscode << "		o.vaEye.z = dot(Eye, atNormal);\n"
+	vscode << "		o.vaEye = normalize(o.vaEye);\n"
+	vscode << "\n"
+	vscode << "		//ƒ‰ƒCƒgƒxƒNƒgƒ‹‚ğ’¸“_À•WŒn‚É•ÏŠ·‚·‚é\n"
+	vscode << "		//float3 Light = -LightDir.xyz;\n"
+	vscode << "		//o.vaLight.x = dot(Light, atTangent);\n"
+	vscode << "		//o.vaLight.y = dot(Light, atBinormal);\n"
+	vscode << "		//o.vaLight.z = dot(Light, atNormal);\n"
+	vscode << "		//o.vaLight   = normalize(o.vaLight);\n"
+	vscode << "		o.vaLight.x = dot(LightDir, atTangent);\n"
+	vscode << "		o.vaLight.y = dot(LightDir, atBinormal);\n"
+	vscode << "		o.vaLight.z = dot(LightDir, atNormal);\n"
+	vscode << "		o.vaLight   = normalize(o.vaLight);\n"
+	vscode << "	}\n"
+
+	vscode << "\n"
+	vscode << "	return o;\n"
+	vscode << "}\n"
+
+
+# ps shader code
+# ---------------------------------------------------------------
+pscode = ""
+
+# constant
+	pscode << "sampler2D BaseTexture;\n"
+
+	pscode << "sampler2D SubTexture;\n"
+	pscode << "sampler2D DepthTexture;\n"		if shader[:SoftParticle]
+	pscode << "float4    SpecularColorAndPow;\n"
+	pscode << "float4    SoftThreshold;\n"	if shader[:SoftParticle]
+	pscode << "float4    FogColor;\n"				if shader[:Fog]
+	pscode << "float4    FogArea;\n"				if shader[:Fog]
+
+# output
+	pscode << "struct POUT{\n"
+	pscode << "	float4 Color       : COLOR0;\n"
+	pscode << "};\n"
+
+# main
+	pscode << "POUT main(\n"
+	pscode << "	float4 vaColor           : COLOR0\n"
+#	pscode << "	,float4 vaSpecular        : COLOR1\n"
+	pscode << "	,float2 vaBaseTexCoord    : TEXCOORD0\n"
+	pscode << "	,float3 vaEye             : TEXCOORD1	//’¸“_À•WŒn‚Å‚Ì‹ü•ûŒüƒxƒNƒgƒ‹\n"
+	pscode << "	,float3 vaLight           : TEXCOORD2	//’¸“_À•WŒn‚Å‚Ì’¸“_ ¨ ƒ‰ƒCƒgˆÊ’uƒxƒNƒgƒ‹\n"
+	pscode << "	,float  vaPositionForSoft : TEXCOORD3 // ‰“‹ßË‰eÀ•WŒn‚Ö•ÏŠ·‚µ‚½’¸“_À•W\n"			if shader[:SoftParticle]
+	pscode << "	,float4 vaScreenTexCoord  : TEXCOORD4 // ƒeƒNƒXƒ`ƒƒ[À•WŒn‚Ö•ÏŠ·‚µ‚½’¸“_À•W\n"	if shader[:SoftParticle]
+	pscode << "	,float  vaPositionW       : TEXCOORD5\n"	if shader[:Fog]
+	pscode << "){\n"
+	pscode << "	POUT o;\n"
+	pscode << "\n"
+
+	pscode << "	float4 sub_texture = tex2D(SubTexture, vaBaseTexCoord);\n"
+	pscode << "	o.Color =  vaColor;\n"
+if shader[:Fog]
+	pscode << "	float density = FogArea.x + FogArea.y * vaPositionW;\n"
+	pscode << "	density  = clamp(density, 0.0f, 1.0f);\n"
+	pscode << "	o.Color.rgb *= density;\n"
+	pscode << "	o.Color.rgb += (1.0f - density) * FogColor.rgb;\n"
+end
+	
+	pscode << "	o.Color *= tex2D(BaseTexture, vaBaseTexCoord);\n"
+	pscode << "\n"
+	pscode << "	float3 specular;\n"
+	pscode << "	{\n"
+	pscode << "		float3 normal = 2.0 * sub_texture.xyz - 1.0;		// 0.0 ` 1.0 ‚©‚ç -1.0 ` 1.0 ‚É•ÏŠ·\n"
+	pscode << "		//ƒn[ƒtƒxƒNƒgƒ‹‚ÌŒvZ\n"
+	pscode << "		float3 half_vect = normalize(vaLight + vaEye);\n"
+	pscode << "		float slumi = pow(max(0.0, dot(half_vect, normal)), SpecularColorAndPow.w);\n"
+	pscode << "		specular.rgb = SpecularColorAndPow.rgb * slumi;\n"
+	pscode << "	}\n"
+	pscode << "	o.Color.rgb += specular.rgb;\n"
+
+if shader[:SoftParticle]
+	pscode << "	o.Color.a *= saturate(distance(tex2Dproj(DepthTexture, vaScreenTexCoord).r, vaPositionForSoft) * SoftThreshold);\n"
+end
+
+	pscode << "\n"
+	pscode << "	return o;\n"
+	pscode << "}\n"
+
+
+# make file
+# ---------------------------------------------------------------
+filename = "Normalmap"
+Dir.mkdir(filename) unless FileTest.exist?(filename)
+filename << "/"
+filename << "Fog"						if shader[:Fog]
+filename << "SoftParticle"	if shader[:SoftParticle]
+Dir.mkdir(filename) unless FileTest.exist?(filename)
+filename << "/Position"
+filename << "Color"					if type[:Color]
+filename << "TexCoord0"
+vsh_filename = filename + ".vsh"
+psh_filename = filename + ".psh"
+File.open(vsh_filename, "w"){ |f|	f.puts vscode	}
+File.open(psh_filename, "w"){ |f|	f.puts pscode	}
+# test compile
+File.delete("obj.vsh_obj") if system("#{FXC_EXE} #{vsh_filename} /T vs_3_0 /Fo obj.vsh_obj /nologo")
+File.delete("obj.psh_obj") if system("#{FXC_EXE} #{psh_filename} /T ps_3_0 /Fo obj.psh_obj /nologo")
+
+
+end	# end of vertex format
+end	# end of shader
+
+system("pause")
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ‰PNG
+
+   IHDR   _   Ÿ   ¨zõs   sBITÛáOà   PLTERRR”úÜ„Ú¼,¢|¥ëçBÇÆÿÿ÷kçïÿÿÿúúTÿëÿÿàîi8­ kş®ÎÅÇÅÅ™ ïÎş÷cïµ                              ^^ úúTúúÿúÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    …»*€   tRNS @æØf   	pHYs  Ä  Ä•+  vIDAThµ›Û’¬ E¥™ªşÿÿåfBHĞæåTÑµÃ&D{Û–Zk÷éù¿Uaÿ­DØÏ%¼—’B’	ÿ@€mß«ÆIw ·ï
+HìÌwî‘€9Ä/áOùãĞ÷=Æ†_Áci€ï¼mÒÍéÇq üÙ‹€Œ¿é˜oñ øeìjŸO?Z‹=_+|¾ËSüq0ü"p^¢â‡Pg%Rèè”¯ìÀi~*Z×M@â¾¦×Øz03½„w˜¯4(ç¸5)°ø5åÔ¬÷–sx”û•?ï@IıÎ2|ã+:Ğ¦–÷mpÖS|íå¡è@›¹·»)¾ğ¯?Ìø 2xñ	¾ñ9ÿO¬÷©Dôø"¢à£Â–º’İŒ¿+ÃÏ¼“ğ~W—}—øqÈ
+~W¼“ğ
+>YV_4¾àü¿óñIøŒ;ø4|=^Áágî”ih‰ß„Ïá/ó§îÜ|¹>„~B·óx—/WóñÄšã|€Ÿ[Û£åßø!ıïïo…_R9Ö’ÄNô"Qâ‰£åğ[ƒ|7¾/!|@ı»ı©öŒùò7Ï³{û¹ıM@â#¸»½‡öL–w†ïÙØóÿ9+¿œpÀhÜZ6Ï¶‡õl„OHäOwWıèè~u¨âUt8»æÛóKñ*šì‡
+Í_oOU¨|•AÚìdš.{š=f¾Jà®Ív~9*%*°g¿MgÁc~îDzÿ„l"^½Ã/"²;9=È_JÏOù(ü_Û³Ê¿*ÒI\vzÛ³(à¿ü?T¼È¿#]¹mÁ‡0½ÿÔ34{ø7ıŠÄÅ÷ÌÆiÛõA:ùŸ¥ãyxT3(pU ÔÃ¸z Ê
+|VŠFX¾>¬ñ¯vC
+=é ÄøË~~á/:ÔÒøKà€/¼& ¿ñBo $¾k|³ ÄJDé‚•Ãß†ü%ƒàK†ß­ò±şšÿ˜8PXœa=OTx‰/&ébb`ƒ%À>½8çÑböù?”u‹ïÁS~ /‘Öê0İ™ğ|mú—³XÃÇÇ Ü\÷bÜÄ¿Ão¯Ùé€rákù7¾m=GüRüÕŸÑÜüCÚ9ûïõüj:ı<şV¸WúHôéM8^
+˜ÑU ~Ü½k—<j>şî‹Ït$^— ,¿¼«ı~34ÿ[_p¾B@âûÛøßÂGx¿ÙÓ_Ğj^B¼Æ 6¼8ü–‚{‚¿ÍŸ¯áóöd¾«|8o* ç_®Ï*?êøËñãÏpnşåü·Ú¿1Xæ7š¥‰O:ğ€OÅ
+Ìølz–s¯¾î¤Œ@JŸ°õu(mXLÏŒBO3•o)pCşÆñ7SğQm¤ø!Ôó[ıª„¢|
+ül„oGj~¤|'ğ?¦å—OÿĞ§&ßP{{ÒFı¼ÄßºİI»Ş¸öJüsÓ&ÀÙÂÆÕÒCz"¾Pwh«C÷”×AVªÎÎQø¶òÉÿqøİ9á³öÃ·t@å>ˆİa:¿1ŸÙ³É“ ¿`ñs{’ ßô3§öÈ¥_‚4%f_BÂgíÙÄ
+åGÌ)¾È:°ãÖã5ÙÃu ^…Ï”Ÿw(ø¥Á÷á«ùí2
+ÅáëìïC<ˆÄ=_!iøj>¬s‚@Â¯ógoà‚ˆWóG¸ºĞB½qáød¥!¶›ğ5Û!htOÏ`ĞSş`
+ˆw8_¨Aşh ú/TŞç‰9{okÌ±ğ«|R_ş¥æÂö]d®q^¯8    IEND®B`‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    BIKE               ÜB  pB   `ó                 o   <       ³¥¿  €?P°¥¿   @Ä¬¥¿  @@×¨¥¿  €@°¤¥¿   @i ¥¿  À@œ¥¿  à@³—¥¿   A[“¥¿  A¥¿   AÕŠ¥¿  0Aµ†¥¿  @A³‚¥¿  PAÕ~¥¿  `A"{¥¿  pAœw¥¿  €AHt¥¿  ˆA+q¥¿  AKn¥¿  ˜A©k¥¿   ANi¥¿  ¨A8g¥¿  °Ape¥¿  ¸Aøc¥¿  ÀAÑb¥¿  ÈAb¥¿  ĞA„a¥¿  ØA[a¥¿  àA~a¥¿  èAæa¥¿  ğA’b¥¿  øAƒc¥¿   B¶d¥¿  B,f¥¿  Bäg¥¿  BÛi¥¿  Bl¥¿  B‡n¥¿  B;q¥¿  B+t¥¿   BUw¥¿  $B¼z¥¿  (B[~¥¿  ,B3‚¥¿  0BA†¥¿  4B‰Š¥¿  8B¥¿  <Bµ“¥¿  @B›˜¥¿  DBµ¥¿  HB£¥¿  LB€¨¥¿  PB0®¥¿  TB´¥¿  XB)º¥¿  \BoÀ¥¿  `B®Æ¥¿  dB²Ì¥¿  hBuÒ¥¿  lBü×¥¿  pBDİ¥¿  tBMâ¥¿  xBç¥¿  |B¤ë¥¿  €Bğï¥¿  ‚Büó¥¿  „BË÷¥¿  †BZû¥¿  ˆB«ş¥¿  ŠB¼¦¿  ŒB¦¿  B%¦¿  B|	¦¿  ’B”¦¿  ”Bp¦¿  –B¦¿  ˜Bm¦¿  šB¦¿  œBu¦¿  B¦¿   B‰¦¿  ¢B¶¦¿  ¤B¥¦¿  ¦BF¦¿  ¨B¦¿  ªB‰¦¿  ¬B=¦¿  ®B°¦¿  °Bè¦¿  ²Bé
+¦¿  ´B·¦¿  ¶BS¦¿  ¸BÂ¦¿  ºB¦¿  ¼Bş¥¿  ¾Bû¥¿  ÀBÅ÷¥¿  ÂB\ô¥¿  ÄBÉğ¥¿  ÆBí¥¿  ÈB$é¥¿  ÊBå¥¿  ÌBÇà¥¿  ÎBPÜ¥¿  ĞB ×¥¿  ÒB²Ò¥¿  ÔB}Í¥¿  ÖBîÇ¥¿  ØBéÁ¥¿  ÚB0»¥¿  ÜB³¥¿   o   À      i}ğ>  €?u2ñ>   @&åñ>  @@K•ò>  €@”Bó>   @°ìó>  À@P“ô>  à@"6õ>   AÚÔõ>  A(oö>   AÁ÷>  0AU•÷>  @A• ø>  PA.¦ø>  `AÉ%ù>  pAŸù>  €Aú>  ˆA}ú>  A	áú>  ˜A=û>   A˜û>  ¨A6Ûû>  °ARü>  ¸ANSü>  ÀAü>  ÈA$ ü>  ĞAl´ü>  ØAh»ü>  àAé´ü>  èAÁ¡ü>  ğAn‚ü>  øAhWü>   B,!ü>  B7àû>  B•û>  B@û>  BÔáú>  BĞzú>  Bzú>  BT”ù>   B×ù>  $B€ø>  (BÇø>  ,B.s÷>  0B)Üö>  4B:@ö>  8BÛŸõ>  <B‡ûô>  @B¹Sô>  DBî¨ó>  HB¡ûò>  LBMLò>  PBo›ñ>  TB€éğ>  XBÿ6ğ>  \Bd„ï>  `BÒî>  dB? î>  hB„oí>  lBUÀì>  pB,ì>  tB‡hë>  xBßÀê>  |B°ê>  €Bv|é>  ‚B¬àè>  „BĞIè>  †BZ¸ç>  ˆBÆ,ç>  ŠB§æ>  ŒB5)æ>  B.²å>  B÷Bå>  ’BÜä>  ”Bè}ä>  –B)ä>  ˜Báİã>  šBõœã>  œB¼fã>  B²;ã>   BTã>  ¢B	ã>  ¤Bƒã>  ¦B:ã>  ¨BÁ#ã>  ªB×Iã>  ¬B¼{ã>  ®B¸ã>  °BËıã>  ²BÿKä>  ´Bö¡ä>  ¶Bÿä>  ¸Bäbå>  ºBóÌå>  ¼Bî<æ>  ¾B²æ>  ÀB•-ç>  ÂBß­ç>  ÄBJ3è>  ÆBÃ½è>  ÈBIMé>  ÊBåáé>  ÌBº{ê>  ÎBë>  ĞBÀë>  ÒB’kì>  ÔBWí>  ÖBìÙí>  ØB$¡î>  ÚBZzï>  ÜBi}ğ>   o   D      åµ¿  €?¹µ¿   @]ş´¿  @@î´¿  €@Ìİ´¿   @ÆÍ´¿  À@ÿ½´¿  à@…®´¿   AdŸ´¿  A¤´¿   AP‚´¿  0Art´¿  @Ag´¿  PA<Z´¿  `AöM´¿  pANB´¿  €AI7´¿  ˆAõ,´¿  A[#´¿  ˜A‰´¿   A‰´¿  ¨Ah´¿  °A5´¿  ¸Aüÿ³¿  ÀAÏû³¿  ÈA¾ø³¿  ĞAÙö³¿  ØA2ö³¿  àAËö³¿  èAø³¿  ğAqû³¿  øAiÿ³¿   Bn´¿  Br
+´¿  Bn´¿  BU´¿  B"´¿  B¿+´¿  B-6´¿  B\A´¿   BCM´¿  $B×Y´¿  
