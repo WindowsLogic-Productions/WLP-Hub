@@ -2023,3 +2023,103 @@ C:\Users\Tim\Desktop\WLP Hub\Sammy Suite\bin\Release\WLP Hub.exe
 C:\Users\Tim\Desktop\WLP Hub\Sammy Suite\bin\Release\WLP Hub.pdb
 C:\Users\Tim\Desktop\WLP Hub\Sammy Suite\bin\Release\WLP Hub.xml
 C:\Users\Tim\Desktop\WLP Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\WLP Hub.exe.config
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\WLP Hub.exe
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\WLP Hub.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\WLP Hub.xml
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Core.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Winforms.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Core.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Winforms.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Interop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.Private1.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.Private2.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssalarm.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscalculations.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscalendar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschatemotes.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudiodark.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssbackgroundconfirm.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssbatterycritical.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssbatterylow.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdedicate.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslistyesno.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobeupdates.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobesearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobecontextbar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationsounds.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationcolours.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobeloaded.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobepersonalisationbackground.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobeload.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobehub.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobewls.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschangedatetime.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssnetmonitor.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sslock.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmain.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssinformation.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscontextbar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssgoogleplus.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmaps.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssnews.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sspower.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmail.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssrun.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelhub.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelpersonalise.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelupdates.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssketchpad.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssabout.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscalc.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscalcconsts.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sscdplayer.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssysinfo.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sstasklist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sstumblr.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sstwitter.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssupdateprompt.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswelcome.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswhatsnew.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschat.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sserror.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssexclamation.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssexit.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswriter.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.Resources.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sshelpoffline.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssimgview.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssload.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssskype.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssupdater.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssweather.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswritersaveyesno.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssyoutube.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResource.Cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
