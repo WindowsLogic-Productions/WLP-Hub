@@ -36,37 +36,34 @@
 #Region "Buttons"
     Private Sub LockPCButton_Click(sender As System.Object, e As System.EventArgs) Handles LockPCButton.Click
         If My.Settings.ALS = 1 Then
-            sslock.Show()
+            sslock.ShowDialog()
             sssecuritybackground.Show()
             Me.Close()
         End If
 
         If My.Settings.ALS = 0 Then
-            ssinformation.Show()
-            ssinformation.Label1.Text = "You need to enable Hub ESR Locking System before you can use this feature."
+            ssinformation.Label1.Text = "You need to enable Hub Locking System before you can use this feature."
+            ssinformation.ShowDialog()
         End If
     End Sub
 
     Private Sub LogOffButton_Click(sender As System.Object, e As System.EventArgs) Handles LogOffButton.Click
-        sslogoff.Show()
-        sssecuritybackground.Show()
+        sslogoff.ShowDialog()
     End Sub
 
     Private Sub SystemPowerButton_Click(sender As System.Object, e As System.EventArgs) Handles SystemPowerButton.Click
-        sspower.Show()
-        sssecuritybackground.Show()
+        sspower.ShowDialog()
     End Sub
 
     Private Sub ChangePasswrdButton_Click(sender As System.Object, e As System.EventArgs) Handles ChangePasswrdButton.Click
         If My.Settings.ALS = 1 Then
-            sschangepassword.Show()
-            sssecuritybackground.Show()
+            sschangepassword.ShowDialog()
             Me.Close()
         End If
 
         If My.Settings.ALS = 0 Then
-            ssinformation.Show()
             ssinformation.Label1.Text = "You need to enable Hub ESR Locking System before you can use this feature."
+            ssinformation.ShowDialog()
         End If
     End Sub
 
@@ -75,7 +72,6 @@
     End Sub
 
     Private Sub CancelButton_Click(sender As System.Object, e As System.EventArgs) Handles CancelButton.Click
-        sssecuritybackground.Close()
         Me.Close()
     End Sub
 #End Region

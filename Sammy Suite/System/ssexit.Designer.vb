@@ -48,11 +48,11 @@ Partial Class ssexit
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(330, 213)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(273, 37)
+        Me.Label2.Size = New System.Drawing.Size(270, 37)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Saving your settings..."
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

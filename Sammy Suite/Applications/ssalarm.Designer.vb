@@ -94,7 +94,7 @@ Partial Class ssalarm
         Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(147, 135)
         Me.GeckoGeckoWebBrowser1.TabIndex = 3
         Me.ToolTip1.SetToolTip(Me.GeckoGeckoWebBrowser1, "Analogue clock.")
-        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.gheos.net/js/clock/clock.swf", System.UriKind.Absolute)
+        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("https://windowslogic.co.uk/clock.swf", System.UriKind.Absolute)
         '
         'TextBox1
         '
@@ -129,7 +129,7 @@ Partial Class ssalarm
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'SoundsToolStripMenuItem
@@ -145,7 +145,7 @@ Partial Class ssalarm
         Me.ChimesToolStripMenuItem.CheckOnClick = True
         Me.ChimesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ChimesToolStripMenuItem.Name = "ChimesToolStripMenuItem"
-        Me.ChimesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChimesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ChimesToolStripMenuItem.Text = "Chimes"
         '
         'XylophoneToolStripMenuItem
@@ -153,7 +153,7 @@ Partial Class ssalarm
         Me.XylophoneToolStripMenuItem.CheckOnClick = True
         Me.XylophoneToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.XylophoneToolStripMenuItem.Name = "XylophoneToolStripMenuItem"
-        Me.XylophoneToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.XylophoneToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.XylophoneToolStripMenuItem.Text = "Xylophone"
         '
         'ChordsToolStripMenuItem
@@ -161,7 +161,7 @@ Partial Class ssalarm
         Me.ChordsToolStripMenuItem.CheckOnClick = True
         Me.ChordsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ChordsToolStripMenuItem.Name = "ChordsToolStripMenuItem"
-        Me.ChordsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChordsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ChordsToolStripMenuItem.Text = "Chords"
         '
         'TapToolStripMenuItem
@@ -169,7 +169,7 @@ Partial Class ssalarm
         Me.TapToolStripMenuItem.CheckOnClick = True
         Me.TapToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TapToolStripMenuItem.Name = "TapToolStripMenuItem"
-        Me.TapToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TapToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.TapToolStripMenuItem.Text = "Tap"
         '
         'JingleToolStripMenuItem
@@ -177,7 +177,7 @@ Partial Class ssalarm
         Me.JingleToolStripMenuItem.CheckOnClick = True
         Me.JingleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.JingleToolStripMenuItem.Name = "JingleToolStripMenuItem"
-        Me.JingleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.JingleToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.JingleToolStripMenuItem.Text = "Jingle"
         '
         'TransitionToolStripMenuItem
@@ -185,7 +185,7 @@ Partial Class ssalarm
         Me.TransitionToolStripMenuItem.CheckOnClick = True
         Me.TransitionToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.TransitionToolStripMenuItem.Name = "TransitionToolStripMenuItem"
-        Me.TransitionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TransitionToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.TransitionToolStripMenuItem.Text = "Transition"
         '
         'DescendingToolStripMenuItem
@@ -193,7 +193,7 @@ Partial Class ssalarm
         Me.DescendingToolStripMenuItem.CheckOnClick = True
         Me.DescendingToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.DescendingToolStripMenuItem.Name = "DescendingToolStripMenuItem"
-        Me.DescendingToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DescendingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.DescendingToolStripMenuItem.Text = "Descending"
         '
         'BounceToolStripMenuItem
@@ -201,7 +201,7 @@ Partial Class ssalarm
         Me.BounceToolStripMenuItem.CheckOnClick = True
         Me.BounceToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.BounceToolStripMenuItem.Name = "BounceToolStripMenuItem"
-        Me.BounceToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BounceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BounceToolStripMenuItem.Text = "Bounce"
         '
         'EchoToolStripMenuItem
@@ -209,7 +209,7 @@ Partial Class ssalarm
         Me.EchoToolStripMenuItem.CheckOnClick = True
         Me.EchoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.EchoToolStripMenuItem.Name = "EchoToolStripMenuItem"
-        Me.EchoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.EchoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EchoToolStripMenuItem.Text = "Echo"
         '
         'AscendingToolStripMenuItem
@@ -217,7 +217,7 @@ Partial Class ssalarm
         Me.AscendingToolStripMenuItem.CheckOnClick = True
         Me.AscendingToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AscendingToolStripMenuItem.Name = "AscendingToolStripMenuItem"
-        Me.AscendingToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AscendingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AscendingToolStripMenuItem.Text = "Ascending"
         '
         'HelpToolStripMenuItem
@@ -234,13 +234,13 @@ Partial Class ssalarm
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem
         '
@@ -248,7 +248,7 @@ Partial Class ssalarm
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'PictureBox1

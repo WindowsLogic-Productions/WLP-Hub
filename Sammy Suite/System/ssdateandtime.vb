@@ -11,6 +11,6 @@
     End Sub
 
     Private Sub SettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SettingsButton.Click
-        sschangedatetime.Show()
+        sschangedatetime.ShowDialog()
     End Sub
 End Class

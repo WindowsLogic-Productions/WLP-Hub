@@ -1757,7 +1757,7 @@ Partial Class ssmain
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(1024, 726)
         Me.Name = "ssmain"
-        Me.Text = "Hub ESR"
+        Me.Text = "WLP Hub"
         Me.ContextBar.ResumeLayout(False)
         Me.ContextBar.PerformLayout()
         Me.SystemTrayMenu.ResumeLayout(False)

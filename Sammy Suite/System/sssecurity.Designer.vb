@@ -56,23 +56,23 @@ Partial Class sssecurity
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLP
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLPFull
         Me.PictureBox1.Location = New System.Drawing.Point(12, 9)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(50, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(291, 30)
+        Me.Label1.Size = New System.Drawing.Size(99, 30)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Hub Extended Service Release"
+        Me.Label1.Text = "WLP Hub"
         '
         'LogOffButton
         '
@@ -213,7 +213,7 @@ Partial Class sssecurity
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Hub Extended Service Release Security"
+        Me.Text = "WLP Hub Security"
         Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

@@ -54,11 +54,11 @@ Partial Class sschangepassword
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLP
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLPFull
         Me.PictureBox1.Location = New System.Drawing.Point(12, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
