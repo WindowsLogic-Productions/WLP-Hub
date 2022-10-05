@@ -3,9 +3,9 @@ WLP Hub is a lightweight desktop replacement that has built-in applications and 
 
 The goal is to create a useable front-end (shell) to overlay Windows in a meaningful way which uses less memory than Explorer.
 
-# Archive
+# Archive & Releases
 
-Download the archived versions of WLP Hub on the [Releases](https://github.com/windowslogic/wlp-hub/releases) page.
+Download the archived and new versions of WLP Hub on the [Releases](https://github.com/windowslogic/wlp-hub/releases) page.
 
 # Support & Feedback
 
