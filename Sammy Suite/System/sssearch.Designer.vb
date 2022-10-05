@@ -83,8 +83,10 @@ Partial Class sssearch
         '
         'GeckoWebBrowser1
         '
+        Me.GeckoWebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
-        Me.GeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
         Me.GeckoWebBrowser1.Location = New System.Drawing.Point(0, 38)
         Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
