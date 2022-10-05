@@ -114,8 +114,8 @@ Partial Class ssrun
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(283, 26)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Type the name of an application, folder, document, or" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Internet resource, and Hub" &
-    " ESR will open it for you."
+        Me.Label1.Text = "Type the name of an application, folder, document, or" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Internet resource, and WLP" &
+    " Hub will open it for you."
         '
         'ssrun
         '
@@ -123,7 +123,7 @@ Partial Class ssrun
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(364, 133)
+        Me.ClientSize = New System.Drawing.Size(364, 127)
         Me.Controls.Add(Me.OKButton)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.BrowseButton)
