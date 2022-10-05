@@ -37,9 +37,10 @@ Partial Class ssquickexit
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(381, 64)
+        Me.Panel1.Size = New System.Drawing.Size(381, 52)
         Me.Panel1.TabIndex = 7
         '
         'Label1
@@ -49,8 +50,8 @@ Partial Class ssquickexit
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(306, 26)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Are you sure you want to perform a Quick Exit?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(This will not save any changes m" & _
-            "ade during your session.)"
+        Me.Label1.Text = "Are you sure you want to perform a Quick Exit?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(This will not save any changes m" &
+    "ade during your session.)"
         '
         'PictureBox1
         '
@@ -66,7 +67,7 @@ Partial Class ssquickexit
         'NoButton
         '
         Me.NoButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.NoButton.Location = New System.Drawing.Point(193, 70)
+        Me.NoButton.Location = New System.Drawing.Point(193, 58)
         Me.NoButton.Name = "NoButton"
         Me.NoButton.Size = New System.Drawing.Size(75, 23)
         Me.NoButton.TabIndex = 6
@@ -76,7 +77,7 @@ Partial Class ssquickexit
         'YesButton
         '
         Me.YesButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.YesButton.Location = New System.Drawing.Point(112, 70)
+        Me.YesButton.Location = New System.Drawing.Point(112, 58)
         Me.YesButton.Name = "YesButton"
         Me.YesButton.Size = New System.Drawing.Size(75, 23)
         Me.YesButton.TabIndex = 5
@@ -89,7 +90,7 @@ Partial Class ssquickexit
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(381, 99)
+        Me.ClientSize = New System.Drawing.Size(381, 87)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.NoButton)
         Me.Controls.Add(Me.YesButton)
