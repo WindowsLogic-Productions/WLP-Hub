@@ -1299,15 +1299,6 @@ Partial Class ssmain
         Me.YouTubeToolStripMenuItem1.Text = "YouTube"
         Me.YouTubeToolStripMenuItem1.ToolTipText = "Watch, create and share videos."
         '
-        'GoogleToolStripMenuItem1
-        '
-        Me.GoogleToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssGooglePlus
-        Me.GoogleToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.GoogleToolStripMenuItem1.Name = "GoogleToolStripMenuItem1"
-        Me.GoogleToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
-        Me.GoogleToolStripMenuItem1.Text = "Google+"
-        Me.GoogleToolStripMenuItem1.ToolTipText = "Share and collaborate with friends and family."
-        '
         'MyDocumentsToolStripMenuItem
         '
         Me.MyDocumentsToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssDocuments
@@ -1680,14 +1671,6 @@ Partial Class ssmain
         Me.YouTubeToolStripMenuItem.Name = "YouTubeToolStripMenuItem"
         Me.YouTubeToolStripMenuItem.Size = New System.Drawing.Size(146, 38)
         Me.YouTubeToolStripMenuItem.Text = "YouTube"
-        '
-        'GoogleToolStripMenuItem
-        '
-        Me.GoogleToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssGooglePlus
-        Me.GoogleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(146, 38)
-        Me.GoogleToolStripMenuItem.Text = "Google+"
         '
         'AboutWindowsLogicProductionsHubToolStripMenuItem
         '

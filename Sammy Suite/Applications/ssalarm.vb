@@ -271,7 +271,7 @@
     Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem.Click
         ssabout.Text = "About Alarm"
         ssabout.AppPic.Image = My.Resources.ssAlarm
-        ssabout.AppName.Text = "Hub Alarm - Version 4.2"
+        ssabout.AppName.Text = "Alarm - Version 4.3"
         ssabout.ShowDialog()
     End Sub
 

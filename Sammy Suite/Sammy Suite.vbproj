@@ -1037,7 +1037,6 @@
     <None Include="Resources\SysPower.ico" />
     <None Include="Resources\SysLogoff.ico" />
     <None Include="Resources\ssWinver.ico" />
-    <None Include="Resources\ssGooglePlus.ico" />
     <None Include="Resources\ssYouTube.ico" />
     <None Include="Resources\ssDeviantart.ico" />
     <None Include="Resources\ssTumblr.ico" />

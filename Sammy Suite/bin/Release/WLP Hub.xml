@@ -477,11 +477,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssGooglePlus">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssHelpHome">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
