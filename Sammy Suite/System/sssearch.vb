@@ -33,5 +33,9 @@
             GeckoWebBrowser1.Navigate("https://duckduckgo.com/?q=" + Watermark1.Text)
         End If
     End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Me.Text = GeckoWebBrowser1.DocumentTitle & " - Search"
+    End Sub
 #End Region
 End Class

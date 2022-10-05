@@ -18,6 +18,9 @@ Public Class ssmain
         InitializeComponent()
         Xpcom.Initialize("Firefox")
 
+        Dim sUserAgent As String = "Mozilla/5.0 (Windows; Win64; x64; rv:63.0) Gecko/20100101 Firefox/999.0 (.NET CLR 3.5.30729)"
+        Gecko.GeckoPreferences.User("general.useragent.override") = sUserAgent
+
     End Sub
     Private Sub ssmainbeta_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
@@ -277,31 +280,27 @@ Public Class ssmain
 #End Region
 #Region "Social"
     Private Sub SkypeToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Skype_SM.Click
-        ssskype.Show()
+        Variables.Skype()
     End Sub
 
     Private Sub FacebookToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Facebook_SM.Click
-        ssfacebook.Show()
+        Variables.Facebook()
     End Sub
 
     Private Sub TwitterToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Twitter_SM.Click
-        sstwitter.Show()
+        Variables.Twitter()
     End Sub
 
     Private Sub TumblrToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Tumblr_SM.Click
-        sstumblr.Show()
+        Variables.Tumblr()
     End Sub
 
     Private Sub DeviantArtToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles DeviantArt_SM.Click
-        ssdeviantart.Show()
+        Variables.DeviantArt()
     End Sub
 
     Private Sub YouTubeToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles YouTube_SM.Click
-        ssyoutube.Show()
-    End Sub
-
-    Private Sub GoogleToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Google_SM.Click
-        ssgoogleplus.Show()
+        Variables.YouTube()
     End Sub
 #End Region
 #Region "Documents"
@@ -411,6 +410,10 @@ Public Class ssmain
 
     Private Sub PropertiesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PropertiesToolStripMenuItem.Click
         sssettingspanelpersonalise.Show()
+    End Sub
+
+    Private Sub Discord_SM_Click(sender As Object, e As EventArgs) Handles Discord_SM.Click
+        Variables.Discord()
     End Sub
 #End Region
 End Class

@@ -1295,6 +1295,7 @@
     <Content Include="Firefox\qipcap.dll" />
     <Content Include="Firefox\softokn3.dll" />
     <Content Include="Firefox\xul.dll" />
+    <None Include="Resources\Discord.ico" />
     <None Include="Resources\WinForward.png" />
     <None Include="Resources\WinBack.png" />
   </ItemGroup>

@@ -145,31 +145,31 @@
 #End Region
 #Region "Social"
     Private Sub SkypeToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Skype_SM.Click
-        ssskype.Show()
+        Variables.Skype()
     End Sub
 
     Private Sub FacebookToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Facebook_SM.Click
-        ssfacebook.Show()
+        Variables.Facebook()
     End Sub
 
     Private Sub TwitterToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Twitter_SM.Click
-        sstwitter.Show()
+        Variables.Twitter()
     End Sub
 
     Private Sub TumblrToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Tumblr_SM.Click
-        sstumblr.Show()
+        Variables.Tumblr()
     End Sub
 
     Private Sub DeviantArtToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles DeviantArt_SM.Click
-        ssdeviantart.Show()
+        Variables.DeviantArt()
     End Sub
 
     Private Sub YouTubeToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles YouTube_SM.Click
-        ssyoutube.Show()
+        Variables.YouTube()
     End Sub
 
     Private Sub GoogleToolStripMenuItem1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Google_SM.Click
-        ssgoogleplus.Show()
+        Variables.Discord()
     End Sub
 #End Region
 #Region "Documents"

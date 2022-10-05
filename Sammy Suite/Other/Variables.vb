@@ -89,31 +89,45 @@
 #End Region
 #Region "Social"
     Public Shared Sub Skype()
-        ssskype.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://web.skype.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
+    End Sub
+
+    Public Shared Sub Discord()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://discord.gg/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 
     Public Shared Sub Facebook()
-        ssfacebook.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://facebook.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 
     Public Shared Sub Twitter()
-        sstwitter.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://twitter.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 
     Public Shared Sub Tumblr()
-        sstumblr.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://tumblr.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 
     Public Shared Sub DeviantArt()
-        ssdeviantart.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://deviantart.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 
     Public Shared Sub YouTube()
-        ssyoutube.Show()
-    End Sub
-
-    Public Shared Sub GooglePlus()
-        ssgoogleplus.Show()
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://youtube.com/")
+        sssearch.Text = sssearch.GeckoWebBrowser1.DocumentTitle
     End Sub
 #End Region
 #Region "Documents"

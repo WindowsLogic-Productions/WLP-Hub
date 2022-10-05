@@ -187,7 +187,7 @@ Partial Class sscontextbar
         Me.SystemMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Welcome_SM, Me.Security_SM, Me.WindowsTaskManager_SM, Me.Updates_SM, Me.ToolStripSeparator6, Me.Applications_SM, Me.SocialToolStripMenuItem1, Me.DocumentsToolStripMenuItem, Me.Settings_SM, Me.Search_SM, Me.HelpAndSupport_SM, Me.Run_SM, Me.ToolStripSeparator8, Me.QuickExit_SM, Me.LogOff_SM, Me.SystemPower_SM})
         Me.SystemMenu.Name = "ContextMenuStrip3"
         Me.SystemMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.SystemMenu.Size = New System.Drawing.Size(232, 548)
+        Me.SystemMenu.Size = New System.Drawing.Size(232, 570)
         '
         'Welcome_SM
         '
@@ -245,7 +245,7 @@ Partial Class sscontextbar
         Me.Calculator_SM.Image = CType(resources.GetObject("Calculator_SM.Image"), System.Drawing.Image)
         Me.Calculator_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Calculator_SM.Name = "Calculator_SM"
-        Me.Calculator_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Calculator_SM.Size = New System.Drawing.Size(168, 38)
         Me.Calculator_SM.Text = "Calculator"
         Me.Calculator_SM.ToolTipText = "Calculate simple and complex sums and look up mathematical terms."
         '
@@ -254,7 +254,7 @@ Partial Class sscontextbar
         Me.Writer_SM.Image = Global.ss.My.Resources.Resources.ssWriter
         Me.Writer_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Writer_SM.Name = "Writer_SM"
-        Me.Writer_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Writer_SM.Size = New System.Drawing.Size(168, 38)
         Me.Writer_SM.Text = "Writer"
         Me.Writer_SM.ToolTipText = "Create and view documents with extensive formatting."
         '
@@ -263,7 +263,7 @@ Partial Class sscontextbar
         Me.Music_SM.Image = Global.ss.My.Resources.Resources.ssMusic
         Me.Music_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Music_SM.Name = "Music_SM"
-        Me.Music_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Music_SM.Size = New System.Drawing.Size(168, 38)
         Me.Music_SM.Text = "Music"
         Me.Music_SM.ToolTipText = "Play your favourite music."
         '
@@ -272,7 +272,7 @@ Partial Class sscontextbar
         Me.ImageView_SM.Image = CType(resources.GetObject("ImageView_SM.Image"), System.Drawing.Image)
         Me.ImageView_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ImageView_SM.Name = "ImageView_SM"
-        Me.ImageView_SM.Size = New System.Drawing.Size(196, 38)
+        Me.ImageView_SM.Size = New System.Drawing.Size(168, 38)
         Me.ImageView_SM.Tag = "View your pictures and photos."
         Me.ImageView_SM.Text = "Image Viewer"
         '
@@ -281,7 +281,7 @@ Partial Class sscontextbar
         Me.CDPlayer_SM.Image = Global.ss.My.Resources.Resources.CDPlayer
         Me.CDPlayer_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.CDPlayer_SM.Name = "CDPlayer_SM"
-        Me.CDPlayer_SM.Size = New System.Drawing.Size(196, 38)
+        Me.CDPlayer_SM.Size = New System.Drawing.Size(168, 38)
         Me.CDPlayer_SM.Text = "CD Player"
         '
         'SketchPad_SM
@@ -289,7 +289,7 @@ Partial Class sscontextbar
         Me.SketchPad_SM.Image = CType(resources.GetObject("SketchPad_SM.Image"), System.Drawing.Image)
         Me.SketchPad_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.SketchPad_SM.Name = "SketchPad_SM"
-        Me.SketchPad_SM.Size = New System.Drawing.Size(196, 38)
+        Me.SketchPad_SM.Size = New System.Drawing.Size(168, 38)
         Me.SketchPad_SM.Text = "Sketch Pad"
         Me.SketchPad_SM.ToolTipText = "Paint pictures and save them to show your friends."
         '
@@ -298,7 +298,7 @@ Partial Class sscontextbar
         Me.Weather_SM.Image = Global.ss.My.Resources.Resources.Weather
         Me.Weather_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Weather_SM.Name = "Weather_SM"
-        Me.Weather_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Weather_SM.Size = New System.Drawing.Size(168, 38)
         Me.Weather_SM.Text = "Weather"
         Me.Weather_SM.ToolTipText = "See what the weather is doing."
         '
@@ -307,7 +307,7 @@ Partial Class sscontextbar
         Me.Messages_SM.Image = Global.ss.My.Resources.Resources.ssMessages
         Me.Messages_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Messages_SM.Name = "Messages_SM"
-        Me.Messages_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Messages_SM.Size = New System.Drawing.Size(168, 38)
         Me.Messages_SM.Text = "Messages"
         Me.Messages_SM.ToolTipText = "Chat and collaborate with other people using WindowsLogic Productions Hub."
         '
@@ -316,7 +316,7 @@ Partial Class sscontextbar
         Me.Alarm_SM.Image = CType(resources.GetObject("Alarm_SM.Image"), System.Drawing.Image)
         Me.Alarm_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Alarm_SM.Name = "Alarm_SM"
-        Me.Alarm_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Alarm_SM.Size = New System.Drawing.Size(168, 38)
         Me.Alarm_SM.Text = "Alarm"
         Me.Alarm_SM.ToolTipText = "Set an alarm or view the time."
         '
@@ -325,7 +325,7 @@ Partial Class sscontextbar
         Me.Mail_SM.Image = CType(resources.GetObject("Mail_SM.Image"), System.Drawing.Image)
         Me.Mail_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Mail_SM.Name = "Mail_SM"
-        Me.Mail_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Mail_SM.Size = New System.Drawing.Size(168, 38)
         Me.Mail_SM.Text = "Mail"
         Me.Mail_SM.ToolTipText = "Manage your e-mail."
         '
@@ -334,7 +334,7 @@ Partial Class sscontextbar
         Me.Appointments_SM.Image = CType(resources.GetObject("Appointments_SM.Image"), System.Drawing.Image)
         Me.Appointments_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Appointments_SM.Name = "Appointments_SM"
-        Me.Appointments_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Appointments_SM.Size = New System.Drawing.Size(168, 38)
         Me.Appointments_SM.Text = "Appointments"
         Me.Appointments_SM.ToolTipText = "View and edit your appointments."
         '
@@ -343,7 +343,7 @@ Partial Class sscontextbar
         Me.Maps_SM.Image = Global.ss.My.Resources.Resources.ssMaps
         Me.Maps_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Maps_SM.Name = "Maps_SM"
-        Me.Maps_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Maps_SM.Size = New System.Drawing.Size(168, 38)
         Me.Maps_SM.Text = "Maps"
         Me.Maps_SM.ToolTipText = "Search up locations or plot routes to places."
         '
@@ -352,7 +352,7 @@ Partial Class sscontextbar
         Me.News_SM.Image = Global.ss.My.Resources.Resources.ssNews
         Me.News_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.News_SM.Name = "News_SM"
-        Me.News_SM.Size = New System.Drawing.Size(196, 38)
+        Me.News_SM.Size = New System.Drawing.Size(168, 38)
         Me.News_SM.Text = "News"
         Me.News_SM.ToolTipText = "Find out what's happening in the world."
         '
@@ -361,27 +361,27 @@ Partial Class sscontextbar
         Me.GIFStudio_SM.Image = Global.ss.My.Resources.Resources.ssGIFStudio
         Me.GIFStudio_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.GIFStudio_SM.Name = "GIFStudio_SM"
-        Me.GIFStudio_SM.Size = New System.Drawing.Size(196, 38)
+        Me.GIFStudio_SM.Size = New System.Drawing.Size(168, 38)
         Me.GIFStudio_SM.Text = "GIF Studio"
         Me.GIFStudio_SM.ToolTipText = "Process Graphic Interchange Format images."
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'Start_SM
         '
         Me.Start_SM.Image = Global.ss.My.Resources.Resources.ssWinver
         Me.Start_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Start_SM.Name = "Start_SM"
-        Me.Start_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Start_SM.Size = New System.Drawing.Size(168, 38)
         Me.Start_SM.Text = "Start"
         Me.Start_SM.ToolTipText = "Get to items on your Start menu."
         '
         'SocialToolStripMenuItem1
         '
-        Me.SocialToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Skype_SM, Me.Facebook_SM, Me.Twitter_SM, Me.Tumblr_SM, Me.DeviantArt_SM, Me.YouTube_SM, Me.Google_SM})
+        Me.SocialToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Skype_SM, Me.Google_SM, Me.Facebook_SM, Me.Twitter_SM, Me.Tumblr_SM, Me.DeviantArt_SM, Me.YouTube_SM})
         Me.SocialToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssSkype
         Me.SocialToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.SocialToolStripMenuItem1.Name = "SocialToolStripMenuItem1"
@@ -394,7 +394,7 @@ Partial Class sscontextbar
         Me.Skype_SM.Image = Global.ss.My.Resources.Resources.ssSkype
         Me.Skype_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Skype_SM.Name = "Skype_SM"
-        Me.Skype_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Skype_SM.Size = New System.Drawing.Size(168, 38)
         Me.Skype_SM.Text = "Skype"
         Me.Skype_SM.ToolTipText = "Keep in touch with friends and family all over the world."
         '
@@ -403,7 +403,7 @@ Partial Class sscontextbar
         Me.Facebook_SM.Image = Global.ss.My.Resources.Resources.ssFacebook
         Me.Facebook_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Facebook_SM.Name = "Facebook_SM"
-        Me.Facebook_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Facebook_SM.Size = New System.Drawing.Size(168, 38)
         Me.Facebook_SM.Text = "Facebook"
         Me.Facebook_SM.ToolTipText = "Socialise with people in your life who are close."
         '
@@ -412,7 +412,7 @@ Partial Class sscontextbar
         Me.Twitter_SM.Image = Global.ss.My.Resources.Resources.ssTwitter
         Me.Twitter_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Twitter_SM.Name = "Twitter_SM"
-        Me.Twitter_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Twitter_SM.Size = New System.Drawing.Size(168, 38)
         Me.Twitter_SM.Text = "Twitter"
         Me.Twitter_SM.ToolTipText = "Keep your fans and friends updated frequently."
         '
@@ -421,7 +421,7 @@ Partial Class sscontextbar
         Me.Tumblr_SM.Image = Global.ss.My.Resources.Resources.ssTumblr
         Me.Tumblr_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Tumblr_SM.Name = "Tumblr_SM"
-        Me.Tumblr_SM.Size = New System.Drawing.Size(196, 38)
+        Me.Tumblr_SM.Size = New System.Drawing.Size(168, 38)
         Me.Tumblr_SM.Text = "Tumblr"
         Me.Tumblr_SM.ToolTipText = "Create your own blog. (Warning: We are not responsible if you somehow get eaten a" &
     "live.)"
@@ -431,7 +431,7 @@ Partial Class sscontextbar
         Me.DeviantArt_SM.Image = Global.ss.My.Resources.Resources.ssDeviantart
         Me.DeviantArt_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.DeviantArt_SM.Name = "DeviantArt_SM"
-        Me.DeviantArt_SM.Size = New System.Drawing.Size(196, 38)
+        Me.DeviantArt_SM.Size = New System.Drawing.Size(168, 38)
         Me.DeviantArt_SM.Text = "DeviantArt"
         Me.DeviantArt_SM.ToolTipText = "Create a virtual art portfolio."
         '
@@ -440,17 +440,17 @@ Partial Class sscontextbar
         Me.YouTube_SM.Image = Global.ss.My.Resources.Resources.ssYouTube
         Me.YouTube_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.YouTube_SM.Name = "YouTube_SM"
-        Me.YouTube_SM.Size = New System.Drawing.Size(196, 38)
+        Me.YouTube_SM.Size = New System.Drawing.Size(168, 38)
         Me.YouTube_SM.Text = "YouTube"
         Me.YouTube_SM.ToolTipText = "Watch, create and share videos."
         '
         'Google_SM
         '
-        Me.Google_SM.Image = Global.ss.My.Resources.Resources.ssGooglePlus
+        Me.Google_SM.Image = Global.ss.My.Resources.Resources.Discord
         Me.Google_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Google_SM.Name = "Google_SM"
-        Me.Google_SM.Size = New System.Drawing.Size(196, 38)
-        Me.Google_SM.Text = "Google+"
+        Me.Google_SM.Size = New System.Drawing.Size(168, 38)
+        Me.Google_SM.Text = "Discord"
         Me.Google_SM.ToolTipText = "It's Google's effort at a social media entity, I don't" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "even know why they bother" &
     "ed, it's a bit rubbish to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "be honest."
         '
@@ -469,7 +469,7 @@ Partial Class sscontextbar
         Me.MyDocuments_SM.Image = Global.ss.My.Resources.Resources.ssDocuments
         Me.MyDocuments_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyDocuments_SM.Name = "MyDocuments_SM"
-        Me.MyDocuments_SM.Size = New System.Drawing.Size(196, 38)
+        Me.MyDocuments_SM.Size = New System.Drawing.Size(171, 38)
         Me.MyDocuments_SM.Text = "My Documents"
         '
         'MyMusic_SM
@@ -477,7 +477,7 @@ Partial Class sscontextbar
         Me.MyMusic_SM.Image = Global.ss.My.Resources.Resources.ssMusic
         Me.MyMusic_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyMusic_SM.Name = "MyMusic_SM"
-        Me.MyMusic_SM.Size = New System.Drawing.Size(196, 38)
+        Me.MyMusic_SM.Size = New System.Drawing.Size(171, 38)
         Me.MyMusic_SM.Text = "My Music"
         '
         'MyPictures_SM
@@ -485,7 +485,7 @@ Partial Class sscontextbar
         Me.MyPictures_SM.Image = Global.ss.My.Resources.Resources.ssPictures
         Me.MyPictures_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyPictures_SM.Name = "MyPictures_SM"
-        Me.MyPictures_SM.Size = New System.Drawing.Size(196, 38)
+        Me.MyPictures_SM.Size = New System.Drawing.Size(171, 38)
         Me.MyPictures_SM.Text = "My Pictures"
         '
         'Settings_SM
@@ -609,21 +609,21 @@ Partial Class sscontextbar
         Me.OnTheInternet_SM.Image = CType(resources.GetObject("OnTheInternet_SM.Image"), System.Drawing.Image)
         Me.OnTheInternet_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.OnTheInternet_SM.Name = "OnTheInternet_SM"
-        Me.OnTheInternet_SM.Size = New System.Drawing.Size(196, 38)
+        Me.OnTheInternet_SM.Size = New System.Drawing.Size(182, 38)
         Me.OnTheInternet_SM.Text = "On The Internet..."
         Me.OnTheInternet_SM.ToolTipText = "Opens a new Search window so you can browse the web."
         '
         'ToolStripSeparator7
         '
         Me.ToolStripSeparator7.Name = "ToolStripSeparator7"
-        Me.ToolStripSeparator7.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator7.Size = New System.Drawing.Size(179, 6)
         '
         'SearchSettings_SM
         '
         Me.SearchSettings_SM.Image = CType(resources.GetObject("SearchSettings_SM.Image"), System.Drawing.Image)
         Me.SearchSettings_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.SearchSettings_SM.Name = "SearchSettings_SM"
-        Me.SearchSettings_SM.Size = New System.Drawing.Size(196, 38)
+        Me.SearchSettings_SM.Size = New System.Drawing.Size(182, 38)
         Me.SearchSettings_SM.Text = "Search Settings..."
         Me.SearchSettings_SM.ToolTipText = "Opens the Search Settings Panel."
         '

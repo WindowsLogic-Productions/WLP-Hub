@@ -88,7 +88,6 @@ Partial Class ssmain
         Me.Tumblr_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeviantArt_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.YouTube_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Google_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyDocuments_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyMusic_SM = New System.Windows.Forms.ToolStripMenuItem()
@@ -199,6 +198,7 @@ Partial Class ssmain
         Me.QuickExitDoesNotSaveSettingsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemPowerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
+        Me.Discord_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextBar.SuspendLayout()
         Me.SystemTrayMenu.SuspendLayout()
         Me.RightClickMenu.SuspendLayout()
@@ -512,7 +512,7 @@ Partial Class ssmain
         Me.SystemMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Welcome_SM, Me.Security_SM, Me.WindowsTaskManager_SM, Me.Updates_SM, Me.ToolStripSeparator6, Me.Applications_SM, Me.SocialToolStripMenuItem1, Me.DocumentsToolStripMenuItem, Me.Settings_SM, Me.Search_SM, Me.HelpAndSupport_SM, Me.Run_SM, Me.ToolStripSeparator18, Me.QuickExit_SM, Me.LogOff_SM, Me.SystemPower_SM})
         Me.SystemMenu.Name = "ContextMenuStrip3"
         Me.SystemMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.SystemMenu.Size = New System.Drawing.Size(232, 548)
+        Me.SystemMenu.Size = New System.Drawing.Size(232, 570)
         '
         'Welcome_SM
         '
@@ -703,7 +703,7 @@ Partial Class ssmain
         '
         'SocialToolStripMenuItem1
         '
-        Me.SocialToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Skype_SM, Me.Facebook_SM, Me.Twitter_SM, Me.Tumblr_SM, Me.DeviantArt_SM, Me.YouTube_SM, Me.Google_SM})
+        Me.SocialToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Skype_SM, Me.Discord_SM, Me.Facebook_SM, Me.Twitter_SM, Me.Tumblr_SM, Me.DeviantArt_SM, Me.YouTube_SM})
         Me.SocialToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssSkype
         Me.SocialToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.SocialToolStripMenuItem1.Name = "SocialToolStripMenuItem1"
@@ -716,7 +716,7 @@ Partial Class ssmain
         Me.Skype_SM.Image = Global.ss.My.Resources.Resources.ssSkype
         Me.Skype_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Skype_SM.Name = "Skype_SM"
-        Me.Skype_SM.Size = New System.Drawing.Size(146, 38)
+        Me.Skype_SM.Size = New System.Drawing.Size(168, 38)
         Me.Skype_SM.Text = "Skype"
         Me.Skype_SM.ToolTipText = "Keep in touch with friends and family all over the world."
         '
@@ -725,7 +725,7 @@ Partial Class ssmain
         Me.Facebook_SM.Image = Global.ss.My.Resources.Resources.ssFacebook
         Me.Facebook_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Facebook_SM.Name = "Facebook_SM"
-        Me.Facebook_SM.Size = New System.Drawing.Size(146, 38)
+        Me.Facebook_SM.Size = New System.Drawing.Size(168, 38)
         Me.Facebook_SM.Text = "Facebook"
         Me.Facebook_SM.ToolTipText = "Socialise with people in your life who are close."
         '
@@ -734,7 +734,7 @@ Partial Class ssmain
         Me.Twitter_SM.Image = Global.ss.My.Resources.Resources.ssTwitter
         Me.Twitter_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Twitter_SM.Name = "Twitter_SM"
-        Me.Twitter_SM.Size = New System.Drawing.Size(146, 38)
+        Me.Twitter_SM.Size = New System.Drawing.Size(168, 38)
         Me.Twitter_SM.Text = "Twitter"
         Me.Twitter_SM.ToolTipText = "Keep your fans and friends updated frequently."
         '
@@ -743,7 +743,7 @@ Partial Class ssmain
         Me.Tumblr_SM.Image = Global.ss.My.Resources.Resources.ssTumblr
         Me.Tumblr_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.Tumblr_SM.Name = "Tumblr_SM"
-        Me.Tumblr_SM.Size = New System.Drawing.Size(146, 38)
+        Me.Tumblr_SM.Size = New System.Drawing.Size(168, 38)
         Me.Tumblr_SM.Text = "Tumblr"
         Me.Tumblr_SM.ToolTipText = "Create your own blog. (Warning: We are not responsible if you somehow get eaten a" &
     "live.)"
@@ -753,7 +753,7 @@ Partial Class ssmain
         Me.DeviantArt_SM.Image = Global.ss.My.Resources.Resources.ssDeviantart
         Me.DeviantArt_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.DeviantArt_SM.Name = "DeviantArt_SM"
-        Me.DeviantArt_SM.Size = New System.Drawing.Size(146, 38)
+        Me.DeviantArt_SM.Size = New System.Drawing.Size(168, 38)
         Me.DeviantArt_SM.Text = "DeviantArt"
         Me.DeviantArt_SM.ToolTipText = "Create a virtual art portfolio."
         '
@@ -762,19 +762,9 @@ Partial Class ssmain
         Me.YouTube_SM.Image = Global.ss.My.Resources.Resources.ssYouTube
         Me.YouTube_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.YouTube_SM.Name = "YouTube_SM"
-        Me.YouTube_SM.Size = New System.Drawing.Size(146, 38)
+        Me.YouTube_SM.Size = New System.Drawing.Size(168, 38)
         Me.YouTube_SM.Text = "YouTube"
         Me.YouTube_SM.ToolTipText = "Watch, create and share videos."
-        '
-        'Google_SM
-        '
-        Me.Google_SM.Image = Global.ss.My.Resources.Resources.ssGooglePlus
-        Me.Google_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Google_SM.Name = "Google_SM"
-        Me.Google_SM.Size = New System.Drawing.Size(146, 38)
-        Me.Google_SM.Text = "Google+"
-        Me.Google_SM.ToolTipText = "It's Google's effort at a social media entity, I don't" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "even know why they bother" &
-    "ed, it's a bit rubbish to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "be honest."
         '
         'DocumentsToolStripMenuItem
         '
@@ -1739,6 +1729,14 @@ Partial Class ssmain
         Me.GeckoWebBrowser1.TabIndex = 60
         Me.GeckoWebBrowser1.UseHttpActivityObserver = False
         '
+        'Discord_SM
+        '
+        Me.Discord_SM.Image = Global.ss.My.Resources.Resources.Discord
+        Me.Discord_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.Discord_SM.Name = "Discord_SM"
+        Me.Discord_SM.Size = New System.Drawing.Size(168, 38)
+        Me.Discord_SM.Text = "Discord"
+        '
         'ssmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1904,7 +1902,6 @@ Partial Class ssmain
     Friend WithEvents Tumblr_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DeviantArt_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents YouTube_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Google_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DocumentsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MyDocuments_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MyMusic_SM As System.Windows.Forms.ToolStripMenuItem
@@ -1946,4 +1943,5 @@ Partial Class ssmain
     Friend WithEvents SystemPower_Tray As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Watermark1 As Watermark
     Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
+    Friend WithEvents Discord_SM As ToolStripMenuItem
 End Class

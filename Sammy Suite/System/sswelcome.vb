@@ -8,8 +8,8 @@
         End If
 
         If My.Settings.Minimise = 0 Then
-            sswelcomedialogue.Show()
-            Me.Close()
+                sswelcomedialogue.Show()
+                Me.Close()
             End If
         End If
     End Sub

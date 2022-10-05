@@ -31,6 +31,7 @@ Partial Class sssearch
         Me.Watermark1 = New ss.Watermark()
         Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -106,6 +107,11 @@ Partial Class sssearch
         Me.Panel1.Size = New System.Drawing.Size(788, 40)
         Me.Panel1.TabIndex = 62
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 50
+        '
         'sssearch
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -134,4 +140,5 @@ Partial Class sssearch
     Friend WithEvents Watermark1 As ss.Watermark
     Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Timer1 As Timer
 End Class

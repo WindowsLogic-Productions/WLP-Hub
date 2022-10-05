@@ -4,6 +4,12 @@
     End Sub
 
     Private Sub ssdevwhy_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        NewsFeed.Navigate("https://news.windowslogic.co.uk/")
+
+        Website.Navigate("https://windowslogic.co.uk/")
+
+        BS.Navigate("https://www.youtube.com/watch?v=Nvf4dTMo3oU")
+
         If My.Settings.CCE = 1 Then
             Me.BackColor = My.Settings.CustomColour
         End If
@@ -17,7 +23,7 @@
         End If
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WhatsNewButton.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         sswhatsnew.Show()
     End Sub
 
@@ -38,7 +44,24 @@
             Me.Close()
 
             ssinformation.Show()
-            ssinformation.Label1.Text = "Hub ESR Lo cking System is now enabled. To disable, go to 'Settings Panel > Hub'."
+            ssinformation.Label1.Text = "Hub Locking System is now enabled. To disable, go to 'Settings Panel > Hub'."
+        End If
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        sswhatsnew.ShowDialog()
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        If My.Settings.SearchStyle = 0 Then
+            ssmain.GeckoWebBrowser1.Show()
+            ssmain.NavigateBack.Enabled = True
+            ssmain.NavigateForward.Enabled = True
+            ssmain.HomeButton.Enabled = True
+            ssmain.GeckoWebBrowser1.Navigate("https://windowslogic.co.uk/feedback.php")
+        Else
+            sssearch.Show()
+            sssearch.GeckoWebBrowser1.Navigate("https://windowslogic.co.uk/feedback.php")
         End If
     End Sub
 End Class
