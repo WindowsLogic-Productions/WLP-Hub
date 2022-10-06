@@ -101,6 +101,22 @@ Public Class sslock
 #End Region
 #Region "Load Settings"
     Private Sub sslock_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        ssmain.HomeButton.Visible = False
+        ssmain.ExplorerButton.Visible = False
+        ssmain.WindowsDesktopButton.Visible = False
+        ssmain.VerInfo.Visible = False
+        ssmain.NavigateBack.Visible = False
+        ssmain.NavigateForward.Visible = False
+
+        If My.Settings.DetachContextBar = 0 Then
+            ssmain.ContextBar.Visible = False
+        End If
+
+        If My.Settings.DetachContextBar = 1 Then
+            sscontextbar.Close()
+            ssmain.ContextBarButton.Visible = False
+        End If
+
         HookKeyboard()
 
         If My.Settings.CCE = 1 Then
@@ -140,9 +156,23 @@ Public Class sslock
 #Region "Other"
     Private Sub OKButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OKButton.Click
         If UsernameBox.Text = My.Settings.Username And PasswordBox.Text = My.Settings.Password Then
-            sssecurity.Show()
+            'sssecurity.Show()
             Me.Close()
-            sssecuritybackground.Close()
+            ssmain.HomeButton.Visible = True
+            ssmain.ExplorerButton.Visible = True
+            ssmain.WindowsDesktopButton.Visible = True
+            ssmain.VerInfo.Visible = True
+            ssmain.NavigateBack.Visible = True
+            ssmain.NavigateForward.Visible = True
+
+            If My.Settings.DetachContextBar = 0 Then
+                ssmain.ContextBar.Visible = True
+            End If
+
+            If My.Settings.DetachContextBar = 1 Then
+                sscontextbar.Show()
+                ssmain.ContextBarButton.Visible = True
+            End If
         Else
             sserror.Show()
             sserror.Label1.Text = "The credentials you have entered are incorrect."

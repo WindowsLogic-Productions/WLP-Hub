@@ -122,7 +122,17 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ss.My.Resources.Resources.Changes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ss.My.Resources.Resources.Christmas">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.CloseTab">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -203,6 +213,11 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.Latin_America">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Lock">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

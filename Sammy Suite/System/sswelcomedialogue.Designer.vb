@@ -38,21 +38,24 @@ Partial Class sswelcomedialogue
         Me.Label2 = New System.Windows.Forms.Label()
         Me.WelcomeTabs = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.NewsFeed = New Gecko.GeckoWebBrowser()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.Website = New Gecko.GeckoWebBrowser()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.BS = New Gecko.GeckoWebBrowser()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.BetaLabel = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.WelcomeTabs.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'CloseButton
@@ -223,6 +226,8 @@ Partial Class sswelcomedialogue
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.BetaLabel)
+        Me.TabPage1.Controls.Add(Me.PictureBox1)
         Me.TabPage1.Controls.Add(Me.LinkLabel2)
         Me.TabPage1.Controls.Add(Me.LinkLabel1)
         Me.TabPage1.Controls.Add(Me.Label5)
@@ -236,46 +241,16 @@ Partial Class sswelcomedialogue
         Me.TabPage1.Text = "Welcome"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
+        'LinkLabel2
         '
-        Me.TabPage2.Controls.Add(Me.NewsFeed)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(752, 482)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "News Feed"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'TabPage3
-        '
-        Me.TabPage3.Controls.Add(Me.Website)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(752, 482)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Website"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'TabPage4
-        '
-        Me.TabPage4.Controls.Add(Me.BS)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(752, 482)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "Get your birthday suit?"
-        Me.TabPage4.UseVisualStyleBackColor = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(32, 245)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(689, 13)
-        Me.Label5.TabIndex = 7
-        Me.Label5.Text = "With the new design and the ability to change even more settings, WLP Hub is more" &
-    " customisable and easier to use that ever before!"
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel2.Location = New System.Drawing.Point(368, 282)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(170, 32)
+        Me.LinkLabel2.TabIndex = 9
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Send Feedback"
         '
         'LinkLabel1
         '
@@ -288,16 +263,26 @@ Partial Class sswelcomedialogue
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "What's New?"
         '
-        'LinkLabel2
+        'Label5
         '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel2.Location = New System.Drawing.Point(368, 282)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(170, 32)
-        Me.LinkLabel2.TabIndex = 9
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Send Feedback"
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(32, 245)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(689, 13)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "With the new design and the ability to change even more settings, WLP Hub is more" &
+    " customisable and easier to use that ever before!"
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.NewsFeed)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(752, 482)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "News Feed"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'NewsFeed
         '
@@ -312,6 +297,16 @@ Partial Class sswelcomedialogue
         Me.NewsFeed.TabIndex = 62
         Me.NewsFeed.UseHttpActivityObserver = False
         '
+        'TabPage3
+        '
+        Me.TabPage3.Controls.Add(Me.Website)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(752, 482)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Website"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
         'Website
         '
         Me.Website.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -325,6 +320,16 @@ Partial Class sswelcomedialogue
         Me.Website.TabIndex = 63
         Me.Website.UseHttpActivityObserver = False
         '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.BS)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(752, 482)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Get your birthday suit?"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
         'BS
         '
         Me.BS.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -337,6 +342,26 @@ Partial Class sswelcomedialogue
         Me.BS.Size = New System.Drawing.Size(752, 482)
         Me.BS.TabIndex = 64
         Me.BS.UseHttpActivityObserver = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssConstruction
+        Me.PictureBox1.Location = New System.Drawing.Point(152, 400)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
+        '
+        'BetaLabel
+        '
+        Me.BetaLabel.AutoSize = True
+        Me.BetaLabel.Location = New System.Drawing.Point(190, 400)
+        Me.BetaLabel.Name = "BetaLabel"
+        Me.BetaLabel.Size = New System.Drawing.Size(411, 26)
+        Me.BetaLabel.TabIndex = 11
+        Me.BetaLabel.Text = "This software is currently in development and may have unfinished areas, bugs" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "or" &
+    " non-working functions. Use at your own risk."
         '
         'sswelcomedialogue
         '
@@ -364,6 +389,7 @@ Partial Class sswelcomedialogue
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -392,4 +418,6 @@ Partial Class sswelcomedialogue
     Friend WithEvents NewsFeed As Gecko.GeckoWebBrowser
     Friend WithEvents Website As Gecko.GeckoWebBrowser
     Friend WithEvents BS As Gecko.GeckoWebBrowser
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents BetaLabel As Label
 End Class

@@ -47,9 +47,9 @@ Partial Class ssabout
         Me.MainName.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainName.Location = New System.Drawing.Point(50, 11)
         Me.MainName.Name = "MainName"
-        Me.MainName.Size = New System.Drawing.Size(291, 30)
+        Me.MainName.Size = New System.Drawing.Size(308, 30)
         Me.MainName.TabIndex = 1
-        Me.MainName.Text = "Hub Extended Service Release"
+        Me.MainName.Text = "WindowsLogic Productions Hub"
         '
         'OKButton
         '
@@ -138,9 +138,9 @@ Partial Class ssabout
         Me.AppName.AutoSize = True
         Me.AppName.Location = New System.Drawing.Point(44, 21)
         Me.AppName.Name = "AppName"
-        Me.AppName.Size = New System.Drawing.Size(233, 13)
+        Me.AppName.Size = New System.Drawing.Size(127, 13)
         Me.AppName.TabIndex = 16
-        Me.AppName.Text = "Hub Extended Service Release - Version: N/A"
+        Me.AppName.Text = "WLP Hub - Version: N/A"
         '
         'AppPic
         '
@@ -171,7 +171,7 @@ Partial Class ssabout
         Me.Name = "ssabout"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "About Hub Extended Service Release"
+        Me.Text = "About WLP Hub"
         Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

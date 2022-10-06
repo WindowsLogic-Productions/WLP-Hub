@@ -12,11 +12,10 @@
             System.Diagnostics.Process.GetProcessById(Process.SubItems(4).Text).Kill()
         Next
         Me.Close()
-        ssinformation.Show()
         ssinformation.Label1.Text = "The process has been killed."
+        ssinformation.ShowDialog()
     End Sub
 
-    
     Private Sub NoButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NoButton.Click
         Me.Close()
     End Sub

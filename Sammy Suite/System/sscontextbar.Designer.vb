@@ -34,9 +34,6 @@ Partial Class sscontextbar
         Me.SystemButton = New System.Windows.Forms.Button()
         Me.SystemMenu = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Welcome_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Security_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WindowsTaskManager_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Updates_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
         Me.Applications_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.Calculator_SM = New System.Windows.Forms.ToolStripMenuItem()
@@ -57,30 +54,19 @@ Partial Class sscontextbar
         Me.Start_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.SocialToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Skype_SM = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Google_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.Facebook_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.Twitter_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tumblr_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeviantArt_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.YouTube_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Google_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.DocumentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyDocuments_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyMusic_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.MyPictures_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Settings_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SettingsPanel_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ProcessList_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SystemInformation_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
-        Me.WindowsSettings_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ControlPanel_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator12 = New System.Windows.Forms.ToolStripSeparator()
-        Me.Network_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DeviceManager_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Registry_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WindowsExplorer_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WindowsVersion_SM = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Search_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.OnTheInternet_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
@@ -92,12 +78,11 @@ Partial Class sscontextbar
         Me.CheckForUpdates_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateLog_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.About_SM = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Run_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
-        Me.QuickExit_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogOff_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemPower_SM = New System.Windows.Forms.ToolStripMenuItem()
         Me.SearchBox = New ss.Watermark()
+        Me.LockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemMenu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -184,10 +169,10 @@ Partial Class sscontextbar
         '
         'SystemMenu
         '
-        Me.SystemMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Welcome_SM, Me.Security_SM, Me.WindowsTaskManager_SM, Me.Updates_SM, Me.ToolStripSeparator6, Me.Applications_SM, Me.SocialToolStripMenuItem1, Me.DocumentsToolStripMenuItem, Me.Settings_SM, Me.Search_SM, Me.HelpAndSupport_SM, Me.Run_SM, Me.ToolStripSeparator8, Me.QuickExit_SM, Me.LogOff_SM, Me.SystemPower_SM})
+        Me.SystemMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Welcome_SM, Me.ToolStripSeparator6, Me.Applications_SM, Me.SocialToolStripMenuItem1, Me.DocumentsToolStripMenuItem, Me.Search_SM, Me.HelpAndSupport_SM, Me.ToolStripSeparator8, Me.LockToolStripMenuItem, Me.LogOff_SM, Me.SystemPower_SM})
         Me.SystemMenu.Name = "ContextMenuStrip3"
         Me.SystemMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.SystemMenu.Size = New System.Drawing.Size(232, 570)
+        Me.SystemMenu.Size = New System.Drawing.Size(232, 358)
         '
         'Welcome_SM
         '
@@ -197,33 +182,6 @@ Partial Class sscontextbar
         Me.Welcome_SM.Size = New System.Drawing.Size(231, 38)
         Me.Welcome_SM.Text = "Show Welcome Dialogue..."
         Me.Welcome_SM.ToolTipText = "Opens the welcome dialogue."
-        '
-        'Security_SM
-        '
-        Me.Security_SM.Image = Global.ss.My.Resources.Resources.ssSystemInfo
-        Me.Security_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Security_SM.Name = "Security_SM"
-        Me.Security_SM.Size = New System.Drawing.Size(231, 38)
-        Me.Security_SM.Text = "Hub ESR Security..."
-        Me.Security_SM.ToolTipText = "View the Hub ESR security options."
-        '
-        'WindowsTaskManager_SM
-        '
-        Me.WindowsTaskManager_SM.Image = Global.ss.My.Resources.Resources.ssTaskMgr
-        Me.WindowsTaskManager_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.WindowsTaskManager_SM.Name = "WindowsTaskManager_SM"
-        Me.WindowsTaskManager_SM.Size = New System.Drawing.Size(231, 38)
-        Me.WindowsTaskManager_SM.Text = "Windows Task Manager..."
-        Me.WindowsTaskManager_SM.ToolTipText = "View real-time information about this computer."
-        '
-        'Updates_SM
-        '
-        Me.Updates_SM.Image = Global.ss.My.Resources.Resources.ssUpdate
-        Me.Updates_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Updates_SM.Name = "Updates_SM"
-        Me.Updates_SM.Size = New System.Drawing.Size(231, 38)
-        Me.Updates_SM.Text = "Updates..."
-        Me.Updates_SM.ToolTipText = "Opens the Updates Settings Panel."
         '
         'ToolStripSeparator6
         '
@@ -398,6 +356,16 @@ Partial Class sscontextbar
         Me.Skype_SM.Text = "Skype"
         Me.Skype_SM.ToolTipText = "Keep in touch with friends and family all over the world."
         '
+        'Google_SM
+        '
+        Me.Google_SM.Image = Global.ss.My.Resources.Resources.Discord
+        Me.Google_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.Google_SM.Name = "Google_SM"
+        Me.Google_SM.Size = New System.Drawing.Size(168, 38)
+        Me.Google_SM.Text = "Discord"
+        Me.Google_SM.ToolTipText = "It's Google's effort at a social media entity, I don't" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "even know why they bother" &
+    "ed, it's a bit rubbish to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "be honest."
+        '
         'Facebook_SM
         '
         Me.Facebook_SM.Image = Global.ss.My.Resources.Resources.ssFacebook
@@ -444,24 +412,14 @@ Partial Class sscontextbar
         Me.YouTube_SM.Text = "YouTube"
         Me.YouTube_SM.ToolTipText = "Watch, create and share videos."
         '
-        'Google_SM
-        '
-        Me.Google_SM.Image = Global.ss.My.Resources.Resources.Discord
-        Me.Google_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Google_SM.Name = "Google_SM"
-        Me.Google_SM.Size = New System.Drawing.Size(168, 38)
-        Me.Google_SM.Text = "Discord"
-        Me.Google_SM.ToolTipText = "It's Google's effort at a social media entity, I don't" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "even know why they bother" &
-    "ed, it's a bit rubbish to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "be honest."
-        '
         'DocumentsToolStripMenuItem
         '
-        Me.DocumentsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MyDocuments_SM, Me.MyMusic_SM, Me.MyPictures_SM})
+        Me.DocumentsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MyDocuments_SM, Me.MyMusic_SM, Me.MyPictures_SM, Me.ToolStripSeparator2, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2})
         Me.DocumentsToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssDocuments
         Me.DocumentsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.DocumentsToolStripMenuItem.Name = "DocumentsToolStripMenuItem"
         Me.DocumentsToolStripMenuItem.Size = New System.Drawing.Size(231, 38)
-        Me.DocumentsToolStripMenuItem.Text = "Documents"
+        Me.DocumentsToolStripMenuItem.Text = "Documents and Settings"
         Me.DocumentsToolStripMenuItem.ToolTipText = "Access notes, letters, pictures, music and other kinds of documents."
         '
         'MyDocuments_SM
@@ -469,7 +427,7 @@ Partial Class sscontextbar
         Me.MyDocuments_SM.Image = Global.ss.My.Resources.Resources.ssDocuments
         Me.MyDocuments_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyDocuments_SM.Name = "MyDocuments_SM"
-        Me.MyDocuments_SM.Size = New System.Drawing.Size(171, 38)
+        Me.MyDocuments_SM.Size = New System.Drawing.Size(187, 38)
         Me.MyDocuments_SM.Text = "My Documents"
         '
         'MyMusic_SM
@@ -477,7 +435,7 @@ Partial Class sscontextbar
         Me.MyMusic_SM.Image = Global.ss.My.Resources.Resources.ssMusic
         Me.MyMusic_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyMusic_SM.Name = "MyMusic_SM"
-        Me.MyMusic_SM.Size = New System.Drawing.Size(171, 38)
+        Me.MyMusic_SM.Size = New System.Drawing.Size(187, 38)
         Me.MyMusic_SM.Text = "My Music"
         '
         'MyPictures_SM
@@ -485,114 +443,29 @@ Partial Class sscontextbar
         Me.MyPictures_SM.Image = Global.ss.My.Resources.Resources.ssPictures
         Me.MyPictures_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.MyPictures_SM.Name = "MyPictures_SM"
-        Me.MyPictures_SM.Size = New System.Drawing.Size(171, 38)
+        Me.MyPictures_SM.Size = New System.Drawing.Size(187, 38)
         Me.MyPictures_SM.Text = "My Pictures"
         '
-        'Settings_SM
+        'ToolStripSeparator2
         '
-        Me.Settings_SM.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsPanel_SM, Me.ToolStripSeparator5, Me.ProcessList_SM, Me.SystemInformation_SM, Me.ToolStripSeparator9, Me.WindowsSettings_SM})
-        Me.Settings_SM.Image = Global.ss.My.Resources.Resources.Settings
-        Me.Settings_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Settings_SM.Name = "Settings_SM"
-        Me.Settings_SM.Size = New System.Drawing.Size(231, 38)
-        Me.Settings_SM.Text = "Settings and Commands"
-        Me.Settings_SM.ToolTipText = "Change settings and perform commands."
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(184, 6)
         '
-        'SettingsPanel_SM
+        'ToolStripMenuItem1
         '
-        Me.SettingsPanel_SM.Image = Global.ss.My.Resources.Resources.Settings
-        Me.SettingsPanel_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.SettingsPanel_SM.Name = "SettingsPanel_SM"
-        Me.SettingsPanel_SM.Size = New System.Drawing.Size(272, 38)
-        Me.SettingsPanel_SM.Text = "Settings Panel..."
+        Me.ToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.Settings
+        Me.ToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(187, 38)
+        Me.ToolStripMenuItem1.Text = "Settings Panel..."
         '
-        'ToolStripSeparator5
+        'ToolStripMenuItem2
         '
-        Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(269, 6)
-        '
-        'ProcessList_SM
-        '
-        Me.ProcessList_SM.Image = Global.ss.My.Resources.Resources.Processes
-        Me.ProcessList_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ProcessList_SM.Name = "ProcessList_SM"
-        Me.ProcessList_SM.Size = New System.Drawing.Size(272, 38)
-        Me.ProcessList_SM.Text = "Process List..."
-        '
-        'SystemInformation_SM
-        '
-        Me.SystemInformation_SM.Image = CType(resources.GetObject("SystemInformation_SM.Image"), System.Drawing.Image)
-        Me.SystemInformation_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.SystemInformation_SM.Name = "SystemInformation_SM"
-        Me.SystemInformation_SM.Size = New System.Drawing.Size(272, 38)
-        Me.SystemInformation_SM.Text = "System Information..."
-        '
-        'ToolStripSeparator9
-        '
-        Me.ToolStripSeparator9.Name = "ToolStripSeparator9"
-        Me.ToolStripSeparator9.Size = New System.Drawing.Size(269, 6)
-        '
-        'WindowsSettings_SM
-        '
-        Me.WindowsSettings_SM.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ControlPanel_SM, Me.ToolStripSeparator12, Me.Network_SM, Me.DeviceManager_SM, Me.Registry_SM, Me.WindowsExplorer_SM, Me.WindowsVersion_SM})
-        Me.WindowsSettings_SM.Image = Global.ss.My.Resources.Resources.ssWinver
-        Me.WindowsSettings_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.WindowsSettings_SM.Name = "WindowsSettings_SM"
-        Me.WindowsSettings_SM.Size = New System.Drawing.Size(272, 38)
-        Me.WindowsSettings_SM.Text = "Windows Settings and Commands"
-        '
-        'ControlPanel_SM
-        '
-        Me.ControlPanel_SM.Image = Global.ss.My.Resources.Resources.Settings
-        Me.ControlPanel_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ControlPanel_SM.Name = "ControlPanel_SM"
-        Me.ControlPanel_SM.Size = New System.Drawing.Size(248, 38)
-        Me.ControlPanel_SM.Text = "Control Panel..."
-        '
-        'ToolStripSeparator12
-        '
-        Me.ToolStripSeparator12.Name = "ToolStripSeparator12"
-        Me.ToolStripSeparator12.Size = New System.Drawing.Size(245, 6)
-        '
-        'Network_SM
-        '
-        Me.Network_SM.Image = Global.ss.My.Resources.Resources.ssNetwork
-        Me.Network_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Network_SM.Name = "Network_SM"
-        Me.Network_SM.Size = New System.Drawing.Size(248, 38)
-        Me.Network_SM.Text = "Network and Sharing Centre..."
-        '
-        'DeviceManager_SM
-        '
-        Me.DeviceManager_SM.Image = Global.ss.My.Resources.Resources.ssDevice
-        Me.DeviceManager_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.DeviceManager_SM.Name = "DeviceManager_SM"
-        Me.DeviceManager_SM.Size = New System.Drawing.Size(248, 38)
-        Me.DeviceManager_SM.Text = "Device Manager..."
-        '
-        'Registry_SM
-        '
-        Me.Registry_SM.Image = CType(resources.GetObject("Registry_SM.Image"), System.Drawing.Image)
-        Me.Registry_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Registry_SM.Name = "Registry_SM"
-        Me.Registry_SM.Size = New System.Drawing.Size(248, 38)
-        Me.Registry_SM.Text = "Registry Editor..."
-        '
-        'WindowsExplorer_SM
-        '
-        Me.WindowsExplorer_SM.Image = Global.ss.My.Resources.Resources.ssApps
-        Me.WindowsExplorer_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.WindowsExplorer_SM.Name = "WindowsExplorer_SM"
-        Me.WindowsExplorer_SM.Size = New System.Drawing.Size(248, 38)
-        Me.WindowsExplorer_SM.Text = "Windows Explorer..."
-        '
-        'WindowsVersion_SM
-        '
-        Me.WindowsVersion_SM.Image = Global.ss.My.Resources.Resources.ssWinver
-        Me.WindowsVersion_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.WindowsVersion_SM.Name = "WindowsVersion_SM"
-        Me.WindowsVersion_SM.Size = New System.Drawing.Size(248, 38)
-        Me.WindowsVersion_SM.Text = "Windows Version..."
+        Me.ToolStripMenuItem2.Image = Global.ss.My.Resources.Resources.Processes
+        Me.ToolStripMenuItem2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(187, 38)
+        Me.ToolStripMenuItem2.Text = "System Manager..."
         '
         'Search_SM
         '
@@ -687,28 +560,10 @@ Partial Class sscontextbar
         Me.About_SM.Text = "About Hub ESR..."
         Me.About_SM.ToolTipText = "Opens the about dialogue."
         '
-        'Run_SM
-        '
-        Me.Run_SM.Image = Global.ss.My.Resources.Resources.Run
-        Me.Run_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.Run_SM.Name = "Run_SM"
-        Me.Run_SM.Size = New System.Drawing.Size(231, 38)
-        Me.Run_SM.Text = "Run..."
-        Me.Run_SM.ToolTipText = "Create a new process or browse a directory."
-        '
         'ToolStripSeparator8
         '
         Me.ToolStripSeparator8.Name = "ToolStripSeparator8"
         Me.ToolStripSeparator8.Size = New System.Drawing.Size(228, 6)
-        '
-        'QuickExit_SM
-        '
-        Me.QuickExit_SM.Image = Global.ss.My.Resources.Resources.ssExit
-        Me.QuickExit_SM.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.QuickExit_SM.Name = "QuickExit_SM"
-        Me.QuickExit_SM.Size = New System.Drawing.Size(231, 38)
-        Me.QuickExit_SM.Text = "Quick Exit"
-        Me.QuickExit_SM.ToolTipText = "Perform a Quick Exit and end your session immediately"
         '
         'LogOff_SM
         '
@@ -737,6 +592,14 @@ Partial Class sscontextbar
         Me.SearchBox.Size = New System.Drawing.Size(686, 22)
         Me.SearchBox.TabIndex = 62
         Me.SearchBox.Watermarktext = "Search the World Wide Web..."
+        '
+        'LockToolStripMenuItem
+        '
+        Me.LockToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Lock
+        Me.LockToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.LockToolStripMenuItem.Name = "LockToolStripMenuItem"
+        Me.LockToolStripMenuItem.Size = New System.Drawing.Size(231, 38)
+        Me.LockToolStripMenuItem.Text = "Lock"
         '
         'sscontextbar
         '
@@ -775,9 +638,6 @@ Partial Class sscontextbar
     Friend WithEvents PowerButton As System.Windows.Forms.Button
     Friend WithEvents SystemMenu As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents Welcome_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Security_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents WindowsTaskManager_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Updates_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator6 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents Applications_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Calculator_SM As System.Windows.Forms.ToolStripMenuItem
@@ -808,20 +668,6 @@ Partial Class sscontextbar
     Friend WithEvents MyDocuments_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MyMusic_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MyPictures_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Settings_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SettingsPanel_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator5 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ProcessList_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SystemInformation_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator9 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents WindowsSettings_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ControlPanel_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator12 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents Network_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DeviceManager_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Registry_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents WindowsExplorer_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents WindowsVersion_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Search_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents OnTheInternet_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator7 As System.Windows.Forms.ToolStripSeparator
@@ -833,10 +679,12 @@ Partial Class sscontextbar
     Friend WithEvents CheckForUpdates_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents UpdateLog_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents About_SM As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Run_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator8 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents QuickExit_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LogOff_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SystemPower_SM As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SearchBox As Watermark
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents LockToolStripMenuItem As ToolStripMenuItem
 End Class

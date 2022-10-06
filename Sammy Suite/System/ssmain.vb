@@ -42,6 +42,7 @@ Public Class ssmain
         NavigateForward.Parent = HubBackground
         NavigateForward.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         ContextBar.Parent = HubBackground
+        LinkLabel1.Parent = HubBackground
         HubBackground.Show()
 
         'Load Sound Settings.
@@ -155,14 +156,6 @@ Public Class ssmain
             MsgBox(ex.Message)
         End Try
     End Sub
-
-    Private Sub QuickExit_Tray_Click(sender As Object, e As EventArgs) Handles QuickExit_Tray.Click
-        Variables.QuickExit()
-    End Sub
-
-    Private Sub SystemPower_Tray_Click(sender As Object, e As EventArgs) Handles SystemPower_Tray.Click
-        Variables.SystemPower()
-    End Sub
 #End Region
 #Region "Context Bar"
     Private Sub SystemButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles SystemButton.Click
@@ -204,18 +197,6 @@ Public Class ssmain
 #Region "Context Bar - System Menu"
     Private Sub FunctionsToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Welcome_SM.Click
         Variables.ShowWelcomeDialog()
-    End Sub
-
-    Private Sub WLPHubSecurityToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Security_SM.Click
-        Variables.LogiverseHubSecurity()
-    End Sub
-
-    Private Sub WindowsTaskManagerToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles WindowsTaskManager_SM.Click
-        Variables.TaskManager()
-    End Sub
-
-    Private Sub UpdatesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Updates_SM.Click
-        Variables.Updates()
     End Sub
 #Region "Applications"
     Private Sub CalculatorToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Calculator_SM.Click
@@ -303,7 +284,7 @@ Public Class ssmain
         Variables.YouTube()
     End Sub
 #End Region
-#Region "Documents"
+#Region "Documents and Settings"
     Private Sub MyDocumentsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyDocuments_SM.Click
         Dim userdocs As String = "C:\Users\" + System.Windows.Forms.SystemInformation.UserName + "\Documents"
         ssexplorer.Show()
@@ -322,42 +303,13 @@ Public Class ssmain
         ssexplorer.Show()
         ssexplorer.Explorer1.Navigate(userpics)
     End Sub
-#End Region
-#Region "Settings"
-    Private Sub SettingsPanelToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SettingsPanel_SM.Click
+
+    Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
         Variables.SettingsPanel()
     End Sub
 
-    Private Sub ProcessListToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcessList_SM.Click
+    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
         Variables.ProcessList()
-    End Sub
-
-    Private Sub SystemInformationToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SystemInformation_SM.Click
-        Variables.SystemInfo()
-    End Sub
-
-    Private Sub ControlPanelToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ControlPanel_SM.Click
-        Variables.ControlPanel()
-    End Sub
-
-    Private Sub NetworkAndSharingCentreToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Network_SM.Click
-        Variables.NetworkCentre()
-    End Sub
-
-    Private Sub DeviceManagerToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DeviceManager_SM.Click
-        Variables.DeviceManager()
-    End Sub
-
-    Private Sub RegistryEditorToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Registry_SM.Click
-        Variables.Regedit()
-    End Sub
-
-    Private Sub WindowsExplorerToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WindowsExplorer_SM.Click
-        Variables.WindowsExplorer()
-    End Sub
-
-    Private Sub WindowsVersionToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles WindowsVersion_SM.Click
-        Variables.Winver()
     End Sub
 #End Region
 #Region "Search"
@@ -390,20 +342,13 @@ Public Class ssmain
         Variables.About()
     End Sub
 #End Region
-    Private Sub RunToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Run_SM.Click
-        Variables.Run()
-    End Sub
 
-    Private Sub QuickExitDoesNotSaveAnyChangesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles QuickExit_SM.Click
-        Variables.QuickExit()
+    Private Sub LockToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LockToolStripMenuItem.Click
+        Variables.Lock()
     End Sub
 
     Private Sub LoggOffToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LogOff_SM.Click
         Variables.LogOff()
-    End Sub
-
-    Private Sub PowerToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles SystemPower_SM.Click
-        Variables.SystemPower()
     End Sub
 #End Region
 #Region "Right Click Menu"
@@ -415,5 +360,25 @@ Public Class ssmain
     Private Sub Discord_SM_Click(sender As Object, e As EventArgs) Handles Discord_SM.Click
         Variables.Discord()
     End Sub
+
+    Private Sub RestartToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartToolStripMenuItem.Click
+        Variables.Restart()
+    End Sub
+
+    Private Sub ShutDownToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ShutDownToolStripMenuItem.Click
+        Variables.Shutdown()
+    End Sub
+
+    Private Sub RestartWLPHubToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RestartWLPHubToolStripMenuItem.Click
+        Variables.RestartHub()
+    End Sub
+
+    Private Sub ExitWLPHubToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitWLPHubToolStripMenuItem.Click
+        Variables.ExitHub()
+    End Sub
+
+
+
+
 #End Region
 End Class

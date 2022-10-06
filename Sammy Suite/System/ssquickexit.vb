@@ -22,7 +22,6 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NoButton.Click
-        sssecuritybackground.Close()
         Me.Close()
     End Sub
 #End Region

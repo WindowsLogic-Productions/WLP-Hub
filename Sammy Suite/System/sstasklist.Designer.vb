@@ -204,9 +204,9 @@ Partial Class sstasklist
         Me.ProcessListButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ProcessListButton.Location = New System.Drawing.Point(196, 21)
         Me.ProcessListButton.Name = "ProcessListButton"
-        Me.ProcessListButton.Size = New System.Drawing.Size(89, 27)
+        Me.ProcessListButton.Size = New System.Drawing.Size(105, 27)
         Me.ProcessListButton.TabIndex = 41
-        Me.ProcessListButton.Text = "Process List"
+        Me.ProcessListButton.Text = "System Manager"
         Me.ProcessListButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ProcessListButton.UseVisualStyleBackColor = True
         Me.ProcessListButton.Visible = False
@@ -514,7 +514,7 @@ Partial Class sstasklist
         Me.HelpCentreButton.ContextMenuStrip = Me.HelpCentreMenu
         Me.HelpCentreButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.HelpCentreButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.HelpCentreButton.Location = New System.Drawing.Point(386, 21)
+        Me.HelpCentreButton.Location = New System.Drawing.Point(402, 21)
         Me.HelpCentreButton.Name = "HelpCentreButton"
         Me.HelpCentreButton.Size = New System.Drawing.Size(89, 27)
         Me.HelpCentreButton.TabIndex = 32
@@ -938,7 +938,7 @@ Partial Class sstasklist
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 11)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(501, 30)
@@ -1240,7 +1240,7 @@ Partial Class sstasklist
         Me.SettingsPanelButton.ContextMenuStrip = Me.SettingsPanelMenu
         Me.SettingsPanelButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.SettingsPanelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.SettingsPanelButton.Location = New System.Drawing.Point(291, 21)
+        Me.SettingsPanelButton.Location = New System.Drawing.Point(307, 21)
         Me.SettingsPanelButton.Name = "SettingsPanelButton"
         Me.SettingsPanelButton.Size = New System.Drawing.Size(89, 27)
         Me.SettingsPanelButton.TabIndex = 44
@@ -1283,7 +1283,7 @@ Partial Class sstasklist
         Me.WLPHubButton.Name = "WLPHubButton"
         Me.WLPHubButton.Size = New System.Drawing.Size(89, 27)
         Me.WLPHubButton.TabIndex = 42
-        Me.WLPHubButton.Text = "Hub ESR"
+        Me.WLPHubButton.Text = "WLP Hub"
         Me.WLPHubButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.WLPHubButton.UseVisualStyleBackColor = True
         '

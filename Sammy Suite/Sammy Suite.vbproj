@@ -303,12 +303,6 @@
     <Compile Include="Dialogues\ssbatterycritical.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="System\sschangepassword.Designer.vb">
-      <DependentUpon>sschangepassword.vb</DependentUpon>
-    </Compile>
-    <Compile Include="System\sschangepassword.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="System\ssexplorer.Designer.vb">
       <DependentUpon>ssexplorer.vb</DependentUpon>
     </Compile>
@@ -392,12 +386,6 @@
     <Compile Include="System\sssearch.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="System\sssecuritybackground.Designer.vb">
-      <DependentUpon>sssecuritybackground.vb</DependentUpon>
-    </Compile>
-    <Compile Include="System\sssecuritybackground.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="System\sssettingspanelsearch.Designer.vb">
       <DependentUpon>sssettingspanelsearch.vb</DependentUpon>
     </Compile>
@@ -458,22 +446,10 @@
     <Compile Include="System\sslogoff.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="System\sspower.Designer.vb">
-      <DependentUpon>sspower.vb</DependentUpon>
-    </Compile>
-    <Compile Include="System\sspower.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="System\ssprocesslist.Designer.vb">
       <DependentUpon>ssprocesslist.vb</DependentUpon>
     </Compile>
     <Compile Include="System\ssprocesslist.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="System\sssecurity.Designer.vb">
-      <DependentUpon>sssecurity.vb</DependentUpon>
-    </Compile>
-    <Compile Include="System\sssecurity.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\sssettingspanel.Designer.vb">
@@ -756,9 +732,6 @@
     <EmbeddedResource Include="System\ssbattery.resx">
       <DependentUpon>ssbattery.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="System\sschangepassword.resx">
-      <DependentUpon>sschangepassword.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="System\ssexplorer.resx">
       <DependentUpon>ssexplorer.vb</DependentUpon>
     </EmbeddedResource>
@@ -785,9 +758,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\sssearch.resx">
       <DependentUpon>sssearch.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="System\sssecuritybackground.resx">
-      <DependentUpon>sssecuritybackground.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\sssettingspanelsearch.resx">
       <DependentUpon>sssettingspanelsearch.vb</DependentUpon>
@@ -819,14 +789,8 @@
     <EmbeddedResource Include="System\sslogoff.resx">
       <DependentUpon>sslogoff.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="System\sspower.resx">
-      <DependentUpon>sspower.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="System\ssprocesslist.resx">
       <DependentUpon>ssprocesslist.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="System\sssecurity.resx">
-      <DependentUpon>sssecurity.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\sssettingspanel.resx">
       <DependentUpon>sssettingspanel.vb</DependentUpon>
@@ -1294,6 +1258,9 @@
     <Content Include="Firefox\qipcap.dll" />
     <Content Include="Firefox\softokn3.dll" />
     <Content Include="Firefox\xul.dll" />
+    <None Include="Resources\Lock.ico" />
+    <None Include="Resources\Changes.ico" />
+    <None Include="Resources\CloseTab.ico" />
     <None Include="Resources\Discord.ico" />
     <None Include="Resources\WinForward.png" />
     <None Include="Resources\WinBack.png" />

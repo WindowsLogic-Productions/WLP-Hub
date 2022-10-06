@@ -388,7 +388,7 @@
     End Sub
 
     Private Sub ToolStripMenuItem26_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem26.Click
-        sspower.Show()
+        'sspower.Show()
     End Sub
 
     Private Sub ToolStripMenuItem21_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripMenuItem21.Click

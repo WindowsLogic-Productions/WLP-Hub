@@ -2062,7 +2062,6 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssoobewls.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschangedatetime.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssnetmonitor.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssbattery.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sschangepassword.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssexplorer.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sslock.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmain.resources
@@ -2072,7 +2071,6 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssecuritybackground.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
@@ -2083,9 +2081,7 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmusic.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmusicplaylist.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssnews.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sslogoff.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sspower.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssprocesslist.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssecurity.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanel.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssgifstudio.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssmail.resources

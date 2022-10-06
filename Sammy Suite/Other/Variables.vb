@@ -13,18 +13,6 @@
     Public Shared Sub ShowWelcomeDialog()
         sswelcomedialogue.Show()
     End Sub
-
-    Public Shared Sub LogiverseHubSecurity()
-        sssecurity.Show()
-    End Sub
-
-    Public Shared Sub TaskManager()
-        Process.Start("C:\Windows\System32\taskmgr.exe")
-    End Sub
-
-    Public Shared Sub Updates()
-        sssettingspanelupdates.Show()
-    End Sub
 #Region "Applications"
     Public Shared Sub Calculator()
         sscalc.Show()
@@ -157,34 +145,6 @@
     Public Shared Sub ProcessList()
         ssprocesslist.Show()
     End Sub
-
-    Public Shared Sub SystemInfo()
-        sssysinfo.Show()
-    End Sub
-
-    Public Shared Sub ControlPanel()
-        Process.Start("control")
-    End Sub
-
-    Public Shared Sub NetworkCentre()
-        Shell("control /name Microsoft.NetworkAndSharingCenter")
-    End Sub
-
-    Public Shared Sub DeviceManager()
-        Shell("control /name Microsoft.DeviceManager")
-    End Sub
-
-    Public Shared Sub Regedit()
-        Process.Start("regedit")
-    End Sub
-
-    Public Shared Sub WindowsExplorer()
-        Process.Start("explorer")
-    End Sub
-
-    Public Shared Sub Winver()
-        Process.Start("winver")
-    End Sub
 #End Region
 #Region "Search"
     Public Shared Sub InternetSearch()
@@ -226,19 +186,39 @@
         ssrun.ShowDialog()
     End Sub
 
-    Public Shared Sub QuickExit()
-        sssecuritybackground.Show()
-        ssquickexit.Show()
+    Public Shared Sub Lock()
+        If My.Settings.ALS = 1 Then
+            sslock.ShowDialog()
+        End If
+
+        If My.Settings.ALS = 0 Then
+            ssinformation.Label1.Text = "You need to enable Hub Locking System before you can use this feature."
+            ssinformation.ShowDialog()
+        End If
     End Sub
 
     Public Shared Sub LogOff()
-        sssecuritybackground.Show()
-        sslogoff.Show()
+        sslogoff.ShowDialog()
     End Sub
 
-    Public Shared Sub SystemPower()
-        sssecuritybackground.Show()
-        sspower.Show()
+    Public Shared Sub Shutdown()
+        Shell("shutdown -s -t 00")
+    End Sub
+
+    Public Shared Sub Restart()
+        Shell("shutdown -r -t 00")
+    End Sub
+
+    Public Shared Sub RestartHub()
+        ssload.Show()
+        ssmain.Dispose()
+        sscontextbar.Dispose()
+        My.Settings.Save()
+    End Sub
+
+    Public Shared Sub ExitHub()
+        ssexit.Show()
+        sstasklist.Close()
     End Sub
 #End Region
 #Region "Buttons"

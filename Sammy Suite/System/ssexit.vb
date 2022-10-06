@@ -34,8 +34,6 @@
         ssupdater.Close()
         ssupdateprompt.Close()
         sswritersaveyesno.Close()
-        sspower.Close()
-        sssecuritybackground.Close()
         Timer2.Start()
         Label2.Text = "Saving your settings..."
         My.Settings.Save()

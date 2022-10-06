@@ -17,7 +17,6 @@
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NoButton.Click
         Me.Dispose()
-        sssecuritybackground.Dispose()
     End Sub
 
     Private Sub ssLogoff_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
