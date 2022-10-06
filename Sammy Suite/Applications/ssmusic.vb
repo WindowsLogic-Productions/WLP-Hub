@@ -211,10 +211,11 @@ Public Class ssmusic
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Music"
-        ssabout.AppPic.Image = My.Resources.ssMusic
-        ssabout.AppName.Text = "Hub Music - Version 5.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Music"
+        ssappabout.AppPic.Image = My.Resources.ssMusic
+        ssappabout.AppName.Text = "Music"
+        ssappabout.AppVer.Text = "Version 5.1"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Updates"

@@ -179,8 +179,7 @@
         ssexplorer.Show()
         ssexplorer.Explorer1.Navigate(userpics)
     End Sub
-#End Region
-#Region "Settings"
+
     Private Sub SettingsPanelToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Variables.SettingsPanel()
     End Sub

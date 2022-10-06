@@ -269,10 +269,11 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Alarm"
-        ssabout.AppPic.Image = My.Resources.ssAlarm
-        ssabout.AppName.Text = "Alarm - Version 4.3"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Alarm"
+        ssappabout.AppPic.Image = My.Resources.ssAlarm
+        ssappabout.AppName.Text = "Alarm"
+        ssappabout.AppVer.Text = "Version 4.3"
+        ssappabout.ShowDialog()
     End Sub
 
     Private Sub SetButton_Click(sender As Object, e As EventArgs) Handles SetButton.Click

@@ -135,10 +135,11 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About CD Player"
-        ssabout.AppPic.Image = My.Resources.ssCDPlayer
-        ssabout.AppName.Text = "Hub CD Player - Version 7.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About CD Player"
+        ssappabout.AppPic.Image = My.Resources.CDPlayer
+        ssappabout.AppName.Text = "CD Player"
+        ssappabout.AppVer.Text = "Version 7.1"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Track System"

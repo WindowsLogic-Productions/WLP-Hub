@@ -178,10 +178,11 @@ Public Class sswriter
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Writer"
-        ssabout.AppPic.Image = My.Resources.ssWriter
-        ssabout.AppName.Text = "Hub Writer - Version 3.3"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Writer"
+        ssappabout.AppPic.Image = My.Resources.ssWriter
+        ssappabout.AppName.Text = "Writer"
+        ssappabout.AppVer.Text = "Version 3.3"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Toolbar Functions"

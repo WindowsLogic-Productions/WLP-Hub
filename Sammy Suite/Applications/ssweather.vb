@@ -21,9 +21,10 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Weather"
-        ssabout.AppPic.Image = My.Resources.ssWeather
-        ssabout.AppName.Text = "Apollo Weather - Version 3.5"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Weather"
+        ssappabout.AppPic.Image = My.Resources.ssWeather
+        ssappabout.AppName.Text = "Weather"
+        ssappabout.AppVer.Text = "Version 3.5"
+        ssappabout.ShowDialog()
     End Sub
 End Class

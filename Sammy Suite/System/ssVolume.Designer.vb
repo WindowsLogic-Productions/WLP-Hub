@@ -100,7 +100,6 @@ Partial Class ssVolume
         Me.Name = "ssVolume"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Volume Control"
-        Me.TopMost = True
         CType(Me.VolumeSlider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -192,9 +192,10 @@ Public Class ssnetmonitor
     End Sub
 
     Private Sub AboutButton_Click(sender As Object, e As EventArgs) Handles AboutButton.Click
-        ssabout.Text = "About Network Monitor"
-        ssabout.AppPic.Image = My.Resources.ssNetwork
-        ssabout.AppName.Text = "Hub Network Monitor - Version 2.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Network Monitor"
+        ssappabout.AppPic.Image = My.Resources.ssNetwork
+        ssappabout.AppName.Text = "Network Monitor"
+        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.ShowDialog()
     End Sub
 End Class

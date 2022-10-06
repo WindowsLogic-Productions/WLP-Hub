@@ -21,10 +21,11 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About News"
-        ssabout.AppPic.Image = My.Resources.ssNews
-        ssabout.AppName.Text = "Hub News - Version 2.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About News"
+        ssappabout.AppPic.Image = My.Resources.ssNews
+        ssappabout.AppName.Text = "News"
+        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Toolbar"

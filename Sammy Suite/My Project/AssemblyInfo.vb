@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WLP Hub")>
+<Assembly: AssemblyTitle("WindowsLogic Productions Hub")>
 <Assembly: AssemblyDescription("The easy to use front-end for Windows.")>
 <Assembly: AssemblyCompany("WindowsLogic Productions")>
-<Assembly: AssemblyProduct("WLP Hub")>
+<Assembly: AssemblyProduct("WindowsLogic Productions Hub")>
 <Assembly: AssemblyCopyright("Copyright © 2014 - 2022 WindowsLogic Productions")>
 <Assembly: AssemblyTrademark("WLP Hub")>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("10.2.0.11")>
-<Assembly: AssemblyFileVersion("10.2.0.11")>
+<Assembly: AssemblyVersion("9.3.0.10")>
+<Assembly: AssemblyFileVersion("9.3.0.10")>

@@ -67,9 +67,10 @@ Public Class ssVolume
     End Sub
 
     Private Sub AboutButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutButton.Click
-        ssabout.Text = "About Volume Control"
-        ssabout.AppPic.Image = My.Resources.ssUnmute
-        ssabout.AppName.Text = "Hub Volume Control - Version 1.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Volume Control"
+        ssappabout.AppPic.Image = My.Resources.ssUnmute
+        ssappabout.AppName.Text = "Volume Control"
+        ssappabout.AppVer.Text = "Version 1.1"
+        ssappabout.ShowDialog()
     End Sub
 End Class

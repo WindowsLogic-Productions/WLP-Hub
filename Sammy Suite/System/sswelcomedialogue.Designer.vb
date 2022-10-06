@@ -38,6 +38,8 @@ Partial Class sswelcomedialogue
         Me.Label2 = New System.Windows.Forms.Label()
         Me.WelcomeTabs = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.BetaLabel = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -47,15 +49,13 @@ Partial Class sswelcomedialogue
         Me.Website = New Gecko.GeckoWebBrowser()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.BS = New Gecko.GeckoWebBrowser()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.BetaLabel = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.WelcomeTabs.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'CloseButton
@@ -81,8 +81,7 @@ Partial Class sswelcomedialogue
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Location = New System.Drawing.Point(52, 455)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(784, 561)
         Me.Panel1.TabIndex = 5
@@ -226,6 +225,7 @@ Partial Class sswelcomedialogue
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Panel1)
         Me.TabPage1.Controls.Add(Me.BetaLabel)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
         Me.TabPage1.Controls.Add(Me.LinkLabel2)
@@ -240,6 +240,26 @@ Partial Class sswelcomedialogue
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Welcome"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'BetaLabel
+        '
+        Me.BetaLabel.AutoSize = True
+        Me.BetaLabel.Location = New System.Drawing.Point(190, 400)
+        Me.BetaLabel.Name = "BetaLabel"
+        Me.BetaLabel.Size = New System.Drawing.Size(411, 26)
+        Me.BetaLabel.TabIndex = 11
+        Me.BetaLabel.Text = "This software is currently in development and may have unfinished areas, bugs" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "or" &
+    " non-working functions. Use at your own risk."
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssConstruction
+        Me.PictureBox1.Location = New System.Drawing.Point(152, 400)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
         '
         'LinkLabel2
         '
@@ -266,12 +286,12 @@ Partial Class sswelcomedialogue
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(32, 245)
+        Me.Label5.Location = New System.Drawing.Point(72, 245)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(689, 13)
+        Me.Label5.Size = New System.Drawing.Size(609, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "With the new design and the ability to change even more settings, WLP Hub is more" &
-    " customisable and easier to use that ever before!"
+        Me.Label5.Text = "With the return of the classic layout and the ability to change even more setting" &
+    "s, WLP Hub is easier to use than ever!"
         '
         'TabPage2
         '
@@ -343,26 +363,6 @@ Partial Class sswelcomedialogue
         Me.BS.TabIndex = 64
         Me.BS.UseHttpActivityObserver = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssConstruction
-        Me.PictureBox1.Location = New System.Drawing.Point(152, 400)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
-        '
-        'BetaLabel
-        '
-        Me.BetaLabel.AutoSize = True
-        Me.BetaLabel.Location = New System.Drawing.Point(190, 400)
-        Me.BetaLabel.Name = "BetaLabel"
-        Me.BetaLabel.Size = New System.Drawing.Size(411, 26)
-        Me.BetaLabel.TabIndex = 11
-        Me.BetaLabel.Text = "This software is currently in development and may have unfinished areas, bugs" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "or" &
-    " non-working functions. Use at your own risk."
-        '
         'sswelcomedialogue
         '
         Me.AcceptButton = Me.StartWLSButton
@@ -370,7 +370,6 @@ Partial Class sswelcomedialogue
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(784, 561)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.WelcomeTabs)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -386,10 +385,10 @@ Partial Class sswelcomedialogue
         Me.WelcomeTabs.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

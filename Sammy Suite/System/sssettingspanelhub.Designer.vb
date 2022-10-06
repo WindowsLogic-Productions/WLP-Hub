@@ -25,6 +25,7 @@ Partial Class sssettingspanelhub
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(sssettingspanelhub))
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.ClassicBox = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
@@ -37,7 +38,6 @@ Partial Class sssettingspanelhub
         Me.BackButton = New System.Windows.Forms.Button()
         Me.TitleLabel = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.GroupBox4.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -47,7 +47,7 @@ Partial Class sssettingspanelhub
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.CheckBox6)
+        Me.GroupBox4.Controls.Add(Me.ClassicBox)
         Me.GroupBox4.Controls.Add(Me.CheckBox5)
         Me.GroupBox4.Controls.Add(Me.PictureBox4)
         Me.GroupBox4.Controls.Add(Me.CheckBox3)
@@ -59,6 +59,16 @@ Partial Class sssettingspanelhub
         Me.GroupBox4.TabIndex = 5
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Hub"
+        '
+        'ClassicBox
+        '
+        Me.ClassicBox.AutoSize = True
+        Me.ClassicBox.Location = New System.Drawing.Point(44, 78)
+        Me.ClassicBox.Name = "ClassicBox"
+        Me.ClassicBox.Size = New System.Drawing.Size(128, 17)
+        Me.ClassicBox.TabIndex = 6
+        Me.ClassicBox.Text = "Enable classic mode"
+        Me.ClassicBox.UseVisualStyleBackColor = True
         '
         'CheckBox5
         '
@@ -176,16 +186,6 @@ Partial Class sssettingspanelhub
         Me.TitleLabel.TabIndex = 2
         Me.TitleLabel.Text = "Change Hub settings..."
         '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(44, 78)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(128, 17)
-        Me.CheckBox6.TabIndex = 6
-        Me.CheckBox6.Text = "Enable classic mode"
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
         'sssettingspanelhub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -229,5 +229,5 @@ Partial Class sssettingspanelhub
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox5 As CheckBox
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents CheckBox6 As CheckBox
+    Friend WithEvents ClassicBox As CheckBox
 End Class

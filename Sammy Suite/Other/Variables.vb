@@ -1,11 +1,12 @@
 ﻿Public Class Variables
-    Public Shared ver As String = My.Application.Info.Version.ToString + ".main.dev.N/A"
+    Public Shared ver As String = My.Application.Info.Version.ToString + " (October 2022)"
+    Public Shared appname As String = "WLP Hub"
     Public Shared user As String = System.Windows.Forms.SystemInformation.UserName
     Public Shared vertext As String = "http://u.windowslogic.co.uk/HUB/SS.txt"
     Public Shared setup As String = "http://u.windowslogic.co.uk/HUB/WLP%20Hub%20Setup.exe"
 
     Public Shared Sub ParseVariables(ByVal input As Label)
-        input.Text = input.Text.Replace("%ver%", Variables.ver).Replace("%user%", Variables.user)
+        input.Text = input.Text.Replace("%ver%", Variables.ver).Replace("%user%", Variables.user).Replace("%appname%", Variables.appname)
     End Sub
 
 #Region "Context Bar"
@@ -176,9 +177,6 @@
     End Sub
 
     Public Shared Sub About()
-        ssabout.Text = "About WLP Hub"
-        ssabout.AppPic.Image = My.Resources.WLP
-        ssabout.AppName.Text = "WLP Hub - Version 10.0"
         ssabout.ShowDialog()
     End Sub
 #End Region

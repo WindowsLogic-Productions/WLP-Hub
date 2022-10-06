@@ -58,10 +58,11 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Image Viewer"
-        ssabout.AppPic.Image = My.Resources.ssImgView
-        ssabout.AppName.Text = "Hub Image Viewer - Version 2.2"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Image Viewer"
+        ssappabout.AppPic.Image = My.Resources.ssImgView
+        ssappabout.AppName.Text = "Image Viewer"
+        ssappabout.AppVer.Text = "Version 2.2"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Other"

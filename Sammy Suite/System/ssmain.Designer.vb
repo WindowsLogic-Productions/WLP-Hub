@@ -28,8 +28,8 @@ Partial Class ssmain
         Me.Watermark1 = New ss.Watermark()
         Me.PowerButton = New System.Windows.Forms.Button()
         Me.NetworkButton = New System.Windows.Forms.Button()
-        Me.SoundButton = New System.Windows.Forms.Button()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.SoundButton = New System.Windows.Forms.Button()
         Me.TaskListButton = New System.Windows.Forms.Button()
         Me.SystemButton = New System.Windows.Forms.Button()
         Me.VerInfo = New System.Windows.Forms.Label()
@@ -51,6 +51,13 @@ Partial Class ssmain
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.NavigateBack = New System.Windows.Forms.Button()
         Me.NavigateForward = New System.Windows.Forms.Button()
+        Me.ExplorerButton = New System.Windows.Forms.Button()
+        Me.ContextBarButton = New System.Windows.Forms.Button()
+        Me.WindowsDesktopButton = New System.Windows.Forms.Button()
+        Me.ClassicSCButton = New System.Windows.Forms.Button()
+        Me.ClassicDesktopButton = New System.Windows.Forms.Button()
+        Me.ClassicExplorerButton = New System.Windows.Forms.Button()
+        Me.ClassicWLPButton = New System.Windows.Forms.Button()
         Me.HomeButton = New System.Windows.Forms.Button()
         Me.RightClickMenu = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.TestItemToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -115,9 +122,6 @@ Partial Class ssmain
         Me.ExitWLPHubToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GoogleToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
-        Me.ExplorerButton = New System.Windows.Forms.Button()
-        Me.ContextBarButton = New System.Windows.Forms.Button()
-        Me.WindowsDesktopButton = New System.Windows.Forms.Button()
         Me.HubBackground = New System.Windows.Forms.PictureBox()
         Me.CalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WriterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -189,11 +193,23 @@ Partial Class ssmain
         Me.AboutWindowsLogicProductionsHubToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuickExitDoesNotSaveSettingsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SystemPowerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClassicSidePanel = New System.Windows.Forms.Panel()
+        Me.ClassicPanel = New System.Windows.Forms.Panel()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.NewsFeedBrowser = New Gecko.GeckoWebBrowser()
         Me.ContextBar.SuspendLayout()
         Me.SystemTrayMenu.SuspendLayout()
         Me.RightClickMenu.SuspendLayout()
         Me.SystemMenu.SuspendLayout()
         CType(Me.HubBackground, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ClassicSidePanel.SuspendLayout()
+        Me.ClassicPanel.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ContextBar
@@ -202,8 +218,8 @@ Partial Class ssmain
         Me.ContextBar.Controls.Add(Me.Watermark1)
         Me.ContextBar.Controls.Add(Me.PowerButton)
         Me.ContextBar.Controls.Add(Me.NetworkButton)
-        Me.ContextBar.Controls.Add(Me.SoundButton)
         Me.ContextBar.Controls.Add(Me.LinkLabel1)
+        Me.ContextBar.Controls.Add(Me.SoundButton)
         Me.ContextBar.Controls.Add(Me.TaskListButton)
         Me.ContextBar.Controls.Add(Me.SystemButton)
         Me.ContextBar.Dock = System.Windows.Forms.DockStyle.Bottom
@@ -215,10 +231,10 @@ Partial Class ssmain
         'Watermark1
         '
         Me.Watermark1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Watermark1.Location = New System.Drawing.Point(97, 5)
+        Me.Watermark1.Location = New System.Drawing.Point(90, 5)
         Me.Watermark1.markcolour = System.Drawing.Color.Gray
         Me.Watermark1.Name = "Watermark1"
-        Me.Watermark1.Size = New System.Drawing.Size(767, 22)
+        Me.Watermark1.Size = New System.Drawing.Size(778, 22)
         Me.Watermark1.TabIndex = 19
         Me.Watermark1.Watermarktext = "Search the World Wide Web..."
         '
@@ -226,8 +242,11 @@ Partial Class ssmain
         '
         Me.PowerButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PowerButton.FlatAppearance.BorderSize = 0
+        Me.PowerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.PowerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
         Me.PowerButton.Image = Global.ss.My.Resources.Resources.ssBattery
-        Me.PowerButton.Location = New System.Drawing.Point(870, 3)
+        Me.PowerButton.Location = New System.Drawing.Point(874, 3)
         Me.PowerButton.Name = "PowerButton"
         Me.PowerButton.Size = New System.Drawing.Size(26, 26)
         Me.PowerButton.TabIndex = 18
@@ -238,48 +257,53 @@ Partial Class ssmain
         '
         Me.NetworkButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.NetworkButton.FlatAppearance.BorderSize = 0
+        Me.NetworkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.NetworkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
         Me.NetworkButton.Image = Global.ss.My.Resources.Resources.ssNetworkCentre
-        Me.NetworkButton.Location = New System.Drawing.Point(895, 3)
+        Me.NetworkButton.Location = New System.Drawing.Point(899, 3)
         Me.NetworkButton.Name = "NetworkButton"
         Me.NetworkButton.Size = New System.Drawing.Size(26, 26)
         Me.NetworkButton.TabIndex = 17
         Me.ToolTip1.SetToolTip(Me.NetworkButton, "Network Monitor")
         Me.NetworkButton.UseVisualStyleBackColor = True
         '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Cyan
+        Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(952, 1)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(69, 26)
+        Me.LinkLabel1.TabIndex = 15
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "00:00:00 AM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "00/00/0000"
+        Me.LinkLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ToolTip1.SetToolTip(Me.LinkLabel1, "Open 'Date and Time' dialogue.")
+        '
         'SoundButton
         '
         Me.SoundButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.SoundButton.Image = Global.ss.My.Resources.Resources.ssSound
-        Me.SoundButton.Location = New System.Drawing.Point(920, 3)
+        Me.SoundButton.Location = New System.Drawing.Point(924, 3)
         Me.SoundButton.Name = "SoundButton"
         Me.SoundButton.Size = New System.Drawing.Size(26, 26)
         Me.SoundButton.TabIndex = 16
         Me.ToolTip1.SetToolTip(Me.SoundButton, "Volume Control")
         Me.SoundButton.UseVisualStyleBackColor = True
         '
-        'LinkLabel1
-        '
-        Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Cyan
-        Me.LinkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
-        Me.LinkLabel1.Location = New System.Drawing.Point(952, 3)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(69, 26)
-        Me.LinkLabel1.TabIndex = 15
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "00:00:00 AM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "00/00/0000"
-        Me.ToolTip1.SetToolTip(Me.LinkLabel1, "Open 'Date and Time' dialogue.")
-        '
         'TaskListButton
         '
         Me.TaskListButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.TaskListButton.Location = New System.Drawing.Point(28, 3)
         Me.TaskListButton.Name = "TaskListButton"
-        Me.TaskListButton.Size = New System.Drawing.Size(63, 26)
+        Me.TaskListButton.Size = New System.Drawing.Size(56, 26)
         Me.TaskListButton.TabIndex = 14
-        Me.TaskListButton.Text = "Task List..."
+        Me.TaskListButton.Text = "Task List"
         Me.ToolTip1.SetToolTip(Me.TaskListButton, "View and close currently running tasks.")
         Me.TaskListButton.UseVisualStyleBackColor = True
         '
@@ -300,7 +324,7 @@ Partial Class ssmain
         Me.VerInfo.BackColor = System.Drawing.Color.Transparent
         Me.VerInfo.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.VerInfo.ForeColor = System.Drawing.Color.White
-        Me.VerInfo.Location = New System.Drawing.Point(4, 671)
+        Me.VerInfo.Location = New System.Drawing.Point(0, 671)
         Me.VerInfo.Name = "VerInfo"
         Me.VerInfo.Size = New System.Drawing.Size(191, 26)
         Me.VerInfo.TabIndex = 49
@@ -435,6 +459,151 @@ Partial Class ssmain
         Me.NavigateForward.TabIndex = 53
         Me.ToolTip1.SetToolTip(Me.NavigateForward, "Navigate Forward")
         Me.NavigateForward.UseVisualStyleBackColor = False
+        '
+        'ExplorerButton
+        '
+        Me.ExplorerButton.BackColor = System.Drawing.Color.Transparent
+        Me.ExplorerButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ExplorerButton.FlatAppearance.BorderSize = 0
+        Me.ExplorerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ExplorerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ExplorerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ExplorerButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ExplorerButton.ForeColor = System.Drawing.Color.White
+        Me.ExplorerButton.Image = Global.ss.My.Resources.Resources.ssApps
+        Me.ExplorerButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ExplorerButton.Location = New System.Drawing.Point(12, 46)
+        Me.ExplorerButton.Name = "ExplorerButton"
+        Me.ExplorerButton.Size = New System.Drawing.Size(84, 73)
+        Me.ExplorerButton.TabIndex = 59
+        Me.ExplorerButton.Text = "File Explorer"
+        Me.ExplorerButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolTip1.SetToolTip(Me.ExplorerButton, "Browse your files.")
+        Me.ExplorerButton.UseVisualStyleBackColor = False
+        '
+        'ContextBarButton
+        '
+        Me.ContextBarButton.BackColor = System.Drawing.Color.Transparent
+        Me.ContextBarButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ContextBarButton.FlatAppearance.BorderSize = 0
+        Me.ContextBarButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ContextBarButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ContextBarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ContextBarButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContextBarButton.ForeColor = System.Drawing.Color.White
+        Me.ContextBarButton.Image = Global.ss.My.Resources.Resources.ssContextBar
+        Me.ContextBarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ContextBarButton.Location = New System.Drawing.Point(12, 204)
+        Me.ContextBarButton.Name = "ContextBarButton"
+        Me.ContextBarButton.Size = New System.Drawing.Size(84, 73)
+        Me.ContextBarButton.TabIndex = 58
+        Me.ContextBarButton.Text = "Context Bar"
+        Me.ContextBarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolTip1.SetToolTip(Me.ContextBarButton, "Lost Context Bar? Click here to get it back.")
+        Me.ContextBarButton.UseVisualStyleBackColor = False
+        Me.ContextBarButton.Visible = False
+        '
+        'WindowsDesktopButton
+        '
+        Me.WindowsDesktopButton.BackColor = System.Drawing.Color.Transparent
+        Me.WindowsDesktopButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.WindowsDesktopButton.FlatAppearance.BorderSize = 0
+        Me.WindowsDesktopButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.WindowsDesktopButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.WindowsDesktopButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.WindowsDesktopButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WindowsDesktopButton.ForeColor = System.Drawing.Color.White
+        Me.WindowsDesktopButton.Image = CType(resources.GetObject("WindowsDesktopButton.Image"), System.Drawing.Image)
+        Me.WindowsDesktopButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.WindowsDesktopButton.Location = New System.Drawing.Point(12, 125)
+        Me.WindowsDesktopButton.Name = "WindowsDesktopButton"
+        Me.WindowsDesktopButton.Size = New System.Drawing.Size(84, 73)
+        Me.WindowsDesktopButton.TabIndex = 56
+        Me.WindowsDesktopButton.Text = "Windows Desktop"
+        Me.WindowsDesktopButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.ToolTip1.SetToolTip(Me.WindowsDesktopButton, "Return to the Windows Desktop.")
+        Me.WindowsDesktopButton.UseVisualStyleBackColor = False
+        '
+        'ClassicSCButton
+        '
+        Me.ClassicSCButton.BackColor = System.Drawing.Color.Transparent
+        Me.ClassicSCButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClassicSCButton.FlatAppearance.BorderSize = 0
+        Me.ClassicSCButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ClassicSCButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ClassicSCButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClassicSCButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClassicSCButton.ForeColor = System.Drawing.Color.White
+        Me.ClassicSCButton.Image = Global.ss.My.Resources.Resources.ssContextBar
+        Me.ClassicSCButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClassicSCButton.Location = New System.Drawing.Point(0, 117)
+        Me.ClassicSCButton.Name = "ClassicSCButton"
+        Me.ClassicSCButton.Size = New System.Drawing.Size(238, 40)
+        Me.ClassicSCButton.TabIndex = 57
+        Me.ClassicSCButton.Text = "Context Bar"
+        Me.ToolTip1.SetToolTip(Me.ClassicSCButton, "Lost Context Bar? Click here to get it back.")
+        Me.ClassicSCButton.UseVisualStyleBackColor = False
+        Me.ClassicSCButton.Visible = False
+        '
+        'ClassicDesktopButton
+        '
+        Me.ClassicDesktopButton.BackColor = System.Drawing.Color.Transparent
+        Me.ClassicDesktopButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClassicDesktopButton.FlatAppearance.BorderSize = 0
+        Me.ClassicDesktopButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ClassicDesktopButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ClassicDesktopButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClassicDesktopButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClassicDesktopButton.ForeColor = System.Drawing.Color.White
+        Me.ClassicDesktopButton.Image = CType(resources.GetObject("ClassicDesktopButton.Image"), System.Drawing.Image)
+        Me.ClassicDesktopButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClassicDesktopButton.Location = New System.Drawing.Point(0, 78)
+        Me.ClassicDesktopButton.Name = "ClassicDesktopButton"
+        Me.ClassicDesktopButton.Size = New System.Drawing.Size(238, 40)
+        Me.ClassicDesktopButton.TabIndex = 58
+        Me.ClassicDesktopButton.Text = "Windows Desktop"
+        Me.ToolTip1.SetToolTip(Me.ClassicDesktopButton, "Return to the Windows Desktop.")
+        Me.ClassicDesktopButton.UseVisualStyleBackColor = False
+        '
+        'ClassicExplorerButton
+        '
+        Me.ClassicExplorerButton.BackColor = System.Drawing.Color.Transparent
+        Me.ClassicExplorerButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClassicExplorerButton.FlatAppearance.BorderSize = 0
+        Me.ClassicExplorerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ClassicExplorerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ClassicExplorerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClassicExplorerButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClassicExplorerButton.ForeColor = System.Drawing.Color.White
+        Me.ClassicExplorerButton.Image = Global.ss.My.Resources.Resources.ssApps
+        Me.ClassicExplorerButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClassicExplorerButton.Location = New System.Drawing.Point(0, 0)
+        Me.ClassicExplorerButton.Name = "ClassicExplorerButton"
+        Me.ClassicExplorerButton.Size = New System.Drawing.Size(238, 40)
+        Me.ClassicExplorerButton.TabIndex = 59
+        Me.ClassicExplorerButton.Text = "File Explorer"
+        Me.ToolTip1.SetToolTip(Me.ClassicExplorerButton, "Browse your files.")
+        Me.ClassicExplorerButton.UseVisualStyleBackColor = False
+        '
+        'ClassicWLPButton
+        '
+        Me.ClassicWLPButton.BackColor = System.Drawing.Color.Transparent
+        Me.ClassicWLPButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClassicWLPButton.FlatAppearance.BorderSize = 0
+        Me.ClassicWLPButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.ClassicWLPButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
+        Me.ClassicWLPButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClassicWLPButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClassicWLPButton.ForeColor = System.Drawing.Color.White
+        Me.ClassicWLPButton.Image = Global.ss.My.Resources.Resources.ssInternet
+        Me.ClassicWLPButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClassicWLPButton.Location = New System.Drawing.Point(0, 39)
+        Me.ClassicWLPButton.Name = "ClassicWLPButton"
+        Me.ClassicWLPButton.Size = New System.Drawing.Size(238, 40)
+        Me.ClassicWLPButton.TabIndex = 60
+        Me.ClassicWLPButton.Text = "WLP Website"
+        Me.ToolTip1.SetToolTip(Me.ClassicWLPButton, "Visit the WindowsLogic Productions website.")
+        Me.ClassicWLPButton.UseVisualStyleBackColor = False
         '
         'HomeButton
         '
@@ -963,72 +1132,11 @@ Partial Class ssmain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
         Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
-        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(236, 0)
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(238, 0)
         Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
-        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(788, 700)
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(786, 700)
         Me.GeckoWebBrowser1.TabIndex = 60
         Me.GeckoWebBrowser1.UseHttpActivityObserver = False
-        '
-        'ExplorerButton
-        '
-        Me.ExplorerButton.BackColor = System.Drawing.Color.Transparent
-        Me.ExplorerButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ExplorerButton.FlatAppearance.BorderSize = 0
-        Me.ExplorerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
-        Me.ExplorerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
-        Me.ExplorerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ExplorerButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ExplorerButton.ForeColor = System.Drawing.Color.White
-        Me.ExplorerButton.Image = Global.ss.My.Resources.Resources.ssApps
-        Me.ExplorerButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ExplorerButton.Location = New System.Drawing.Point(12, 46)
-        Me.ExplorerButton.Name = "ExplorerButton"
-        Me.ExplorerButton.Size = New System.Drawing.Size(84, 73)
-        Me.ExplorerButton.TabIndex = 59
-        Me.ExplorerButton.Text = "File Explorer"
-        Me.ExplorerButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ExplorerButton.UseVisualStyleBackColor = False
-        '
-        'ContextBarButton
-        '
-        Me.ContextBarButton.BackColor = System.Drawing.Color.Transparent
-        Me.ContextBarButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ContextBarButton.FlatAppearance.BorderSize = 0
-        Me.ContextBarButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
-        Me.ContextBarButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
-        Me.ContextBarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ContextBarButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ContextBarButton.ForeColor = System.Drawing.Color.White
-        Me.ContextBarButton.Image = Global.ss.My.Resources.Resources.ssContextBar
-        Me.ContextBarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ContextBarButton.Location = New System.Drawing.Point(12, 204)
-        Me.ContextBarButton.Name = "ContextBarButton"
-        Me.ContextBarButton.Size = New System.Drawing.Size(84, 73)
-        Me.ContextBarButton.TabIndex = 58
-        Me.ContextBarButton.Text = "Context Bar"
-        Me.ContextBarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ContextBarButton.UseVisualStyleBackColor = False
-        Me.ContextBarButton.Visible = False
-        '
-        'WindowsDesktopButton
-        '
-        Me.WindowsDesktopButton.BackColor = System.Drawing.Color.Transparent
-        Me.WindowsDesktopButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.WindowsDesktopButton.FlatAppearance.BorderSize = 0
-        Me.WindowsDesktopButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
-        Me.WindowsDesktopButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue
-        Me.WindowsDesktopButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.WindowsDesktopButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WindowsDesktopButton.ForeColor = System.Drawing.Color.White
-        Me.WindowsDesktopButton.Image = CType(resources.GetObject("WindowsDesktopButton.Image"), System.Drawing.Image)
-        Me.WindowsDesktopButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.WindowsDesktopButton.Location = New System.Drawing.Point(12, 125)
-        Me.WindowsDesktopButton.Name = "WindowsDesktopButton"
-        Me.WindowsDesktopButton.Size = New System.Drawing.Size(84, 73)
-        Me.WindowsDesktopButton.TabIndex = 56
-        Me.WindowsDesktopButton.Text = "Windows Desktop"
-        Me.WindowsDesktopButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.WindowsDesktopButton.UseVisualStyleBackColor = False
         '
         'HubBackground
         '
@@ -1638,6 +1746,123 @@ Partial Class ssmain
         Me.SystemPowerToolStripMenuItem.Text = "System Power..."
         Me.SystemPowerToolStripMenuItem.ToolTipText = "Perform system power options or end your session."
         '
+        'ClassicSidePanel
+        '
+        Me.ClassicSidePanel.Controls.Add(Me.ClassicWLPButton)
+        Me.ClassicSidePanel.Controls.Add(Me.ClassicExplorerButton)
+        Me.ClassicSidePanel.Controls.Add(Me.ClassicDesktopButton)
+        Me.ClassicSidePanel.Controls.Add(Me.ClassicSCButton)
+        Me.ClassicSidePanel.Location = New System.Drawing.Point(0, 40)
+        Me.ClassicSidePanel.Name = "ClassicSidePanel"
+        Me.ClassicSidePanel.Size = New System.Drawing.Size(238, 660)
+        Me.ClassicSidePanel.TabIndex = 61
+        Me.ClassicSidePanel.Visible = False
+        '
+        'ClassicPanel
+        '
+        Me.ClassicPanel.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ClassicPanel.Controls.Add(Me.LinkLabel2)
+        Me.ClassicPanel.Controls.Add(Me.LinkLabel3)
+        Me.ClassicPanel.Controls.Add(Me.Label5)
+        Me.ClassicPanel.Controls.Add(Me.Label1)
+        Me.ClassicPanel.Controls.Add(Me.Label2)
+        Me.ClassicPanel.Controls.Add(Me.GroupBox1)
+        Me.ClassicPanel.Location = New System.Drawing.Point(238, 0)
+        Me.ClassicPanel.Name = "ClassicPanel"
+        Me.ClassicPanel.Size = New System.Drawing.Size(786, 700)
+        Me.ClassicPanel.TabIndex = 62
+        Me.ClassicPanel.Visible = False
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel2.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel2.Location = New System.Drawing.Point(385, 122)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(170, 32)
+        Me.LinkLabel2.TabIndex = 14
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Send Feedback"
+        '
+        'LinkLabel3
+        '
+        Me.LinkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.LinkLabel3.AutoSize = True
+        Me.LinkLabel3.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel3.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel3.Location = New System.Drawing.Point(231, 122)
+        Me.LinkLabel3.Name = "LinkLabel3"
+        Me.LinkLabel3.Size = New System.Drawing.Size(148, 32)
+        Me.LinkLabel3.TabIndex = 13
+        Me.LinkLabel3.TabStop = True
+        Me.LinkLabel3.Text = "What's New?"
+        '
+        'Label5
+        '
+        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label5.AutoSize = True
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(89, 85)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(609, 13)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "With the return of the classic layout and the ability to change even more setting" &
+    "s, WLP Hub is easier to use than ever!"
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(327, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(133, 37)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Welcome!"
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(193, 62)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(401, 13)
+        Me.Label2.TabIndex = 11
+        Me.Label2.Text = "WLP Hub 10 makes its open source debut, with some much needed changes."
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.NewsFeedBrowser)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(10, 169)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(768, 525)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "News Feed"
+        '
+        'NewsFeedBrowser
+        '
+        Me.NewsFeedBrowser.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.NewsFeedBrowser.ConsoleMessageEventReceivesConsoleLogCalls = True
+        Me.NewsFeedBrowser.FrameEventsPropagateToMainWindow = False
+        Me.NewsFeedBrowser.Location = New System.Drawing.Point(6, 21)
+        Me.NewsFeedBrowser.Name = "NewsFeedBrowser"
+        Me.NewsFeedBrowser.Size = New System.Drawing.Size(756, 498)
+        Me.NewsFeedBrowser.TabIndex = 61
+        Me.NewsFeedBrowser.UseHttpActivityObserver = False
+        '
         'ssmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1645,12 +1870,14 @@ Partial Class ssmain
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1024, 733)
         Me.Controls.Add(Me.GeckoWebBrowser1)
+        Me.Controls.Add(Me.ClassicPanel)
+        Me.Controls.Add(Me.VerInfo)
+        Me.Controls.Add(Me.ClassicSidePanel)
         Me.Controls.Add(Me.ExplorerButton)
         Me.Controls.Add(Me.ContextBarButton)
         Me.Controls.Add(Me.NavigateBack)
         Me.Controls.Add(Me.NavigateForward)
         Me.Controls.Add(Me.WindowsDesktopButton)
-        Me.Controls.Add(Me.VerInfo)
         Me.Controls.Add(Me.HomeButton)
         Me.Controls.Add(Me.ContextBar)
         Me.Controls.Add(Me.HubBackground)
@@ -1666,6 +1893,10 @@ Partial Class ssmain
         Me.RightClickMenu.ResumeLayout(False)
         Me.SystemMenu.ResumeLayout(False)
         CType(Me.HubBackground, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ClassicSidePanel.ResumeLayout(False)
+        Me.ClassicPanel.ResumeLayout(False)
+        Me.ClassicPanel.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1835,4 +2066,17 @@ Partial Class ssmain
     Friend WithEvents ToolStripSeparator20 As ToolStripSeparator
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents ClassicSidePanel As Panel
+    Friend WithEvents ClassicSCButton As Button
+    Friend WithEvents ClassicPanel As Panel
+    Friend WithEvents ClassicDesktopButton As Button
+    Friend WithEvents ClassicExplorerButton As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents NewsFeedBrowser As Gecko.GeckoWebBrowser
+    Friend WithEvents LinkLabel2 As LinkLabel
+    Friend WithEvents LinkLabel3 As LinkLabel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents ClassicWLPButton As Button
 End Class

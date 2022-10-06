@@ -42,8 +42,21 @@ Public Class ssmain
         NavigateForward.Parent = HubBackground
         NavigateForward.FlatAppearance.MouseOverBackColor = Color.FromArgb(170, Color.MidnightBlue)
         ContextBar.Parent = HubBackground
-        LinkLabel1.Parent = HubBackground
+        LinkLabel1.Parent = ContextBar
         HubBackground.Show()
+
+        'Load classic mode settings.
+        If My.Settings.ClassicMode = 0 Then
+            NewsFeedBrowser.Stop()
+            WindowsDesktopButton.Visible = True
+            ExplorerButton.Visible = True
+        Else
+            NewsFeedBrowser.Navigate("https://news.windowslogic.co.uk")
+            ClassicSidePanel.Parent = HubBackground
+            ClassicPanel.Parent = HubBackground
+            WindowsDesktopButton.Visible = False
+            ExplorerButton.Visible = False
+        End If
 
         'Load Sound Settings.
         If My.Settings.HubSounds = 0 Then
@@ -126,7 +139,7 @@ Public Class ssmain
         Me.WindowState = FormWindowState.Minimized
         Me.Visible = False
         SystemTrayIcon.Visible = True
-        SystemTrayIcon.ShowBalloonTip(1, "Hub ESR - Notification", "Hub ESR is now running in the background.", ToolTipIcon.Info)
+        SystemTrayIcon.ShowBalloonTip(1, "WLP Hub - Notification", "WLP Hub is now running in the background.", ToolTipIcon.Info)
     End Sub
 
     Private Sub ContextBarButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ContextBarButton.Click
@@ -134,6 +147,14 @@ Public Class ssmain
         sscontextbar.TopMost = False
         sscontextbar.WindowState = FormWindowState.Normal
     End Sub
+
+    'Classic Buttons
+
+    Private Sub ClassicExplorerButton_Click(sender As Object, e As EventArgs) Handles ClassicExplorerButton.Click
+        ssexplorer.Show()
+    End Sub
+
+
 #End Region
 #Region "System Tray Menu"
 
@@ -377,8 +398,34 @@ Public Class ssmain
         Variables.ExitHub()
     End Sub
 
+    Private Sub ClassicWLPButton_Click(sender As Object, e As EventArgs) Handles ClassicWLPButton.Click
+        GeckoWebBrowser1.Show()
+        NavigateBack.Enabled = True
+        NavigateForward.Enabled = True
+        HomeButton.Enabled = True
+        GeckoWebBrowser1.Navigate("https://windowslogic.co.uk")
+    End Sub
 
+    Private Sub ClassicDesktopButton_Click(sender As Object, e As EventArgs) Handles ClassicDesktopButton.Click
+        Me.WindowState = FormWindowState.Minimized
+        Me.Visible = False
+        SystemTrayIcon.Visible = True
+        SystemTrayIcon.ShowBalloonTip(1, "WLP Hub - Notification", "WLP Hub is now running in the background.", ToolTipIcon.Info)
+    End Sub
 
+    Private Sub ClassicSCButton_Click(sender As Object, e As EventArgs) Handles ClassicSCButton.Click
+        sscontextbar.TopMost = True
+        sscontextbar.TopMost = False
+        sscontextbar.WindowState = FormWindowState.Normal
+    End Sub
 
+    Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+        sswhatsnew.ShowDialog()
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        sssearch.Show()
+        sssearch.GeckoWebBrowser1.Navigate("https://windowslogic.co.uk/feedback.php")
+    End Sub
 #End Region
 End Class

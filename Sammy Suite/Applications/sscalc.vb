@@ -581,10 +581,11 @@
     End Sub
 
     Private Sub AboutSAMMYSuiteCalculatorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Calculator"
-        ssabout.AppPic.Image = My.Resources.ssCalc
-        ssabout.AppName.Text = "Hub Calculator - Version 4.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Calculator"
+        ssappabout.AppPic.Image = My.Resources.ssCalc
+        ssappabout.AppName.Text = "Calculator"
+        ssappabout.AppVer.Text = "Version 4.0"
+        ssappabout.ShowDialog()
     End Sub
 
     Private Sub CopyToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CopyToolStripMenuItem1.Click

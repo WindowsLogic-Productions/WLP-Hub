@@ -623,10 +623,11 @@ Public Class sssketchpad
     End Sub
 
     Private Sub AboutToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem1.Click
-        ssabout.Text = "About Sketch Pad"
-        ssabout.AppPic.Image = My.Resources.ssSketchPad
-        ssabout.AppName.Text = "Hub Sketch Pad - Version 3.2"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Sketch Pad"
+        ssappabout.AppPic.Image = My.Resources.ssSketchPad
+        ssappabout.AppName.Text = "Sketch Pad"
+        ssappabout.AppVer.Text = "Version 3.2"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Updates"

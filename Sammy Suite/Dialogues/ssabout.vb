@@ -14,8 +14,9 @@
             Me.BackColor = My.Settings.CustomColour
         End If
 
-        'Load information.
+        'Load version number and license.
         Variables.ParseVariables(VerInfo)
+        Variables.ParseVariables(Copyright)
     End Sub
 #End Region
 #Region "Other"
@@ -27,7 +28,7 @@
         ssdedicate.Show()
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         ssmain.GeckoWebBrowser1.Navigate("https://www.windowslogic.co.uk/appagreement.php")
         Me.Close()
     End Sub

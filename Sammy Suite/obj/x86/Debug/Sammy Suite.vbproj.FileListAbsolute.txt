@@ -97,3 +97,100 @@ I:\Projects\WLP Hub\WLP Hub\Sammy Suite\bin\Debug\Hub ESR.xml
 I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Debug\Hub ESR.exe
 I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Debug\Hub ESR.xml
 I:\Projects\WLP Hub\WLP Hub\Sammy Suite\obj\x86\Debug\Hub ESR.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\WLP Hub.exe.config
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\WLP Hub.exe
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\WLP Hub.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\WLP Hub.xml
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Core.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Winforms.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Core.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Winforms.pdb
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Interop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\AxInterop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbprojResolveAssemblyReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Interop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\AxInterop.WMPLib.dll
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.ResolveComReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.Private1.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.Private2.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssalarm.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscalculations.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscalendar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sschatemotes.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssgifstudiodark.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssbackgroundconfirm.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssbatterycritical.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssbatterylow.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssdedicate.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssprocesslistyesno.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssappabout.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobeupdates.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobesearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobecontextbar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobepersonalisationsounds.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobepersonalisationcolours.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobeloaded.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobepersonalisationbackground.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobeload.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobehub.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssoobewls.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sschangedatetime.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssnetmonitor.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssbattery.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssexplorer.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sslock.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssmain.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssinformation.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscontextbar.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssdateandtime.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssdeviantart.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssquickexit.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanelsearch.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssVolume.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswelcomedialogue.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssfacebook.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssgoogleplus.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssmaps.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssmusic.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssmusicplaylist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssnews.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sslogoff.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssprocesslist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanel.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssgifstudio.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssmail.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssrun.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanelhub.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanelpersonalise.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanelupdates.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssketchpad.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssabout.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscalc.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscalcconsts.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sscdplayer.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssysinfo.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sstasklist.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sstumblr.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sstwitter.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssupdateprompt.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswelcome.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswhatsnew.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sschat.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sserror.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssexclamation.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssexit.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswriter.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.Resources.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sshelpoffline.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssimgview.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssload.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssskype.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssupdater.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssweather.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswritersaveyesno.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssyoutube.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.GenerateResource.Cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.exe
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.xml
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.pdb

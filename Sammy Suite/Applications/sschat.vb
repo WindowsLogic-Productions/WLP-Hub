@@ -290,16 +290,17 @@ Public Class sschat
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Messages"
-        ssabout.AppPic.Image = My.Resources.ssMessages
-        ssabout.AppName.Text = "WLP Messages - Version 6.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Alarm"
+        ssappabout.AppPic.Image = My.Resources.ssAlarm
+        ssappabout.AppName.Text = "Alarm"
+        ssappabout.AppVer.Text = "Version 6.0"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 
     Private Sub btnClientConnect_Click_1(sender As System.Object, e As System.EventArgs) Handles btnClientConnect.Click
         If InStr(txtClientName.Text, "@code1843@") > 0 Then
-            MsgBox("Nickname  is taken!")
+            MsgBox("Nickname is taken!")
         ElseIf InStr(txtClientName.Text, " ") > 0 Then
             MsgBox("Nickname cannot include spaces.")
         ElseIf txtClientName.Text = "" Then

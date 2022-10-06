@@ -468,10 +468,11 @@ Public Class ssgifstudio
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About GIF Studio"
-        ssabout.AppPic.Image = My.Resources.ssGIFStudio
-        ssabout.AppName.Text = "Hub GIF Studio - Version 2.4"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About GIF Studio"
+        ssappabout.AppPic.Image = My.Resources.ssGIFStudio
+        ssappabout.AppName.Text = "GIF Studio"
+        ssappabout.AppVer.Text = "Version 2.4"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Functions"

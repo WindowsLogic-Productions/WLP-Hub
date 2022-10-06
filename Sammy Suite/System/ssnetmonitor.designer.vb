@@ -236,7 +236,6 @@ Partial Class ssnetmonitor
         Me.Name = "ssnetmonitor"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Network Monitor"
-        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

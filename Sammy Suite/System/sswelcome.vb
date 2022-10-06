@@ -8,7 +8,16 @@
         End If
 
         If My.Settings.Minimise = 0 Then
-                sswelcomedialogue.Show()
+
+                If My.Settings.ClassicMode = 0 Then
+                    sswelcomedialogue.Show()
+                    ssmain.ClassicSidePanel.Visible = False
+                    ssmain.ClassicSidePanel.Visible = False
+                Else
+                    ssmain.ClassicSidePanel.Visible = True
+                    ssmain.ClassicSidePanel.Visible = True
+                End If
+
                 Me.Close()
             End If
         End If

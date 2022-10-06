@@ -2119,3 +2119,4 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.GenerateResou
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssappabout.resources

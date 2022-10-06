@@ -41,10 +41,11 @@ Public Class sscalendar
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Appointments"
-        ssabout.AppPic.Image = My.Resources.ssAppointments
-        ssabout.AppName.Text = "Hub Appointments - Version 2.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Appointments"
+        ssappabout.AppPic.Image = My.Resources.ssAppointments
+        ssappabout.AppName.Text = "Appointments"
+        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Other"

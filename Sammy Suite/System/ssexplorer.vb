@@ -206,10 +206,11 @@ Public Class ssexplorer
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About File Explorer"
-        ssabout.AppPic.Image = My.Resources.ssApps
-        ssabout.AppName.Text = "Hub File Explorer - Version 2.0"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About File Explorer"
+        ssappabout.AppPic.Image = My.Resources.ssApps
+        ssappabout.AppName.Text = "File Explorer"
+        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Other"

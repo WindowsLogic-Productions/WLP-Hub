@@ -206,6 +206,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Dialogues\ssappabout.Designer.vb">
+      <DependentUpon>ssappabout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogues\ssappabout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OOBE\ssoobeupdates.Designer.vb">
       <DependentUpon>ssoobeupdates.vb</DependentUpon>
     </Compile>
@@ -692,6 +698,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogues\ssprocesslistyesno.resx">
       <DependentUpon>ssprocesslistyesno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogues\ssappabout.resx">
+      <DependentUpon>ssappabout.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OOBE\ssoobeupdates.resx">
       <DependentUpon>ssoobeupdates.vb</DependentUpon>

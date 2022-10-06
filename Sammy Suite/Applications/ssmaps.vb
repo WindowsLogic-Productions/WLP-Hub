@@ -18,10 +18,11 @@
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click
-        ssabout.Text = "About Maps"
-        ssabout.AppPic.Image = My.Resources.ssMaps
-        ssabout.AppName.Text = "Hub Maps - Version 2.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Maps"
+        ssappabout.AppPic.Image = My.Resources.ssMaps
+        ssappabout.AppName.Text = "Maps"
+        ssappabout.AppVer.Text = "Version 2.1"
+        ssappabout.ShowDialog()
     End Sub
 #End Region
 #Region "Other"

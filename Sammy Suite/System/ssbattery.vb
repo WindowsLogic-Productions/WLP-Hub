@@ -95,10 +95,11 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutButton.Click
-        ssabout.Text = "About Battery Status"
-        ssabout.AppPic.Image = My.Resources.ssBatteryIcon
-        ssabout.AppName.Text = "Battery Status - Version 1.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Battery Status"
+        ssappabout.AppPic.Image = My.Resources.ssBatteryIcon
+        ssappabout.AppName.Text = "Battery Status"
+        ssappabout.AppVer.Text = "Version 1.1"
+        ssappabout.ShowDialog()
     End Sub
 
     Private Sub SettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SettingsButton.Click

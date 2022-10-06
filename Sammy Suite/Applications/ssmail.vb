@@ -1,10 +1,11 @@
 ﻿Public Class ssmail
 
     Private Sub AboutToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem1.Click
-        ssabout.Text = "About Mail"
-        ssabout.AppPic.Image = My.Resources.ssMail
-        ssabout.AppName.Text = "Hub Mail - Version 3.1"
-        ssabout.ShowDialog()
+        ssappabout.Text = "About Mail"
+        ssappabout.AppPic.Image = My.Resources.ssMail
+        ssappabout.AppName.Text = "Mail"
+        ssappabout.AppVer.Text = "Version 3.1"
+        ssappabout.ShowDialog()
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ExitToolStripMenuItem.Click

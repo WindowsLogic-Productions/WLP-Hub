@@ -48,6 +48,13 @@
             CheckBox5.Checked = False
         End If
 
+        'Load Classic Mode settings.
+        If My.Settings.ClassicMode = 0 Then
+            Me.ClassicBox.Checked = False
+        Else
+            Me.ClassicBox.Checked = True
+        End If
+
         'Load colour settings.
         If My.Settings.CCE = 1 Then
             Me.BackColor = My.Settings.CustomColour
@@ -153,6 +160,28 @@
 
     Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         sstasklist.CalculatorButton.Hide()
+    End Sub
+
+    'Enable/Disable Classic Mode.
+    Private Sub ClassicBox_CheckedChanged(sender As Object, e As EventArgs) Handles ClassicBox.CheckedChanged
+
+        If ClassicBox.Checked = False Then
+            ssmain.ClassicPanel.Visible = False
+            ssmain.ClassicSidePanel.Visible = False
+            My.Settings.ClassicMode = 0
+            My.Settings.Save()
+        Else
+            ssmain.ClassicPanel.Visible = True
+            ssmain.ClassicSidePanel.Visible = True
+            ssmain.NewsFeedBrowser.Navigate("https://news.windowslogic.co.uk")
+            ssmain.ClassicSidePanel.Parent = ssmain.HubBackground
+            ssmain.ClassicPanel.Parent = ssmain.HubBackground
+            ssmain.WindowsDesktopButton.Visible = False
+            ssmain.ExplorerButton.Visible = False
+            My.Settings.ClassicMode = 1
+            My.Settings.Save()
+        End If
+
     End Sub
 #End Region
 End Class
