@@ -197,9 +197,14 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.Information">
+<member name="P:ss.My.Resources.Resources.Info">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Information">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.Information2">

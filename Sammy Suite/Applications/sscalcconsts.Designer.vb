@@ -658,8 +658,8 @@ Partial Class sscalcconsts
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "sscalcconsts"
+        Me.ShowInTaskbar = False
         Me.Text = "Formulae, Prefixes for Units, Conversion Factors & Constants"
-        Me.TopMost = True
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()

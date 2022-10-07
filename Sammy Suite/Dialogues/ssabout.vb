@@ -2,7 +2,7 @@
 #Region "Load Settings"
     Private Sub ssabout_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         If My.Settings.HubSounds = 0 Then
-            My.Computer.Audio.Play(My.Resources.Information, AudioPlayMode.Background)
+            My.Computer.Audio.Play(My.Resources.Info, AudioPlayMode.Background)
         End If
 
         If My.Settings.HubSounds = 1 Then

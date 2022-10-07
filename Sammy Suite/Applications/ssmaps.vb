@@ -10,6 +10,8 @@
             Me.BackColor = My.Settings.CustomColour
             MenuStrip1.BackColor = My.Settings.CustomColour
         End If
+
+        GeckoWebBrowser1.Navigate("https://maps.google.com")
     End Sub
 #End Region
 #Region "Menu"

@@ -32,7 +32,7 @@
     End Sub
 
     Public Shared Sub CDPlayer()
-        sscdplayer.Show()
+        Process.Start("CD Player.exe")
     End Sub
 
     Public Shared Sub SketchPad()

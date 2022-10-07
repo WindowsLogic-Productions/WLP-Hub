@@ -124,7 +124,7 @@ Partial Class ssimgview
         Me.StretchToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.StretchToolStripMenuItem.Name = "StretchToolStripMenuItem"
         Me.StretchToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.StretchToolStripMenuItem.Size = New System.Drawing.Size(163, 38)
+        Me.StretchToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.StretchToolStripMenuItem.Text = "Stretch"
         '
         'CanvasToolStripMenuItem
@@ -157,13 +157,13 @@ Partial Class ssimgview
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem
         '
@@ -171,15 +171,13 @@ Partial Class ssimgview
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.BackColor = System.Drawing.Color.White
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Location = New System.Drawing.Point(0, 24)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(794, 548)

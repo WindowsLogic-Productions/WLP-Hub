@@ -30,35 +30,35 @@
 #End Region
 #Region "Toolbar"
     Private Sub ToolStripButton1_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton1.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/uk")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/uk")
     End Sub
 
     Private Sub ToolStripButton2_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton2.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/us_and_canada")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/us_and_canada")
     End Sub
 
     Private Sub ToolStripButton3_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton3.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/africa")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/africa")
     End Sub
 
     Private Sub ToolStripButton4_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton4.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/asia")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/asia")
     End Sub
 
     Private Sub ToolStripButton5_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton5.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/australia")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/australia")
     End Sub
 
     Private Sub ToolStripButton6_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton6.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/europe")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/europe")
     End Sub
 
     Private Sub ToolStripButton7_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton7.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/latin_america")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/latin_america")
     End Sub
 
     Private Sub ToolStripButton8_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton8.Click
-        GeckoGeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/middle_east")
+        GeckoWebBrowser1.Navigate("http://www.bbc.co.uk/news/world/middle_east")
     End Sub
 #End Region
 #Region "Other"

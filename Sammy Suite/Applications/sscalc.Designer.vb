@@ -48,8 +48,12 @@ Partial Class sscalc
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
@@ -85,26 +89,22 @@ Partial Class sscalc
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WriteEquationsToFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopyToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PasteToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.FormulaeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripDropDownButton2 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.OnToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.OffToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WriteEquationsToFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasteToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FormulaeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CopyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PasteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.OnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OffToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -433,6 +433,14 @@ Partial Class sscalc
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssSmallExit
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.BackColor = System.Drawing.Color.LightBlue
@@ -442,6 +450,24 @@ Partial Class sscalc
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
         Me.EditToolStripMenuItem.Text = "Edit"
         '
+        'CopyToolStripMenuItem
+        '
+        Me.CopyToolStripMenuItem.Image = CType(resources.GetObject("CopyToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.CopyToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
+        Me.CopyToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(160, 38)
+        Me.CopyToolStripMenuItem.Text = "Copy"
+        '
+        'PasteToolStripMenuItem
+        '
+        Me.PasteToolStripMenuItem.Image = CType(resources.GetObject("PasteToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PasteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
+        Me.PasteToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(160, 38)
+        Me.PasteToolStripMenuItem.Text = "Paste"
+        '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.BackColor = System.Drawing.Color.LightBlue
@@ -450,6 +476,13 @@ Partial Class sscalc
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'AboutSAMMYSuiteCalculatorToolStripMenuItem
+        '
+        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssInfo
+        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Name = "AboutSAMMYSuiteCalculatorToolStripMenuItem"
+        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Text = "About"
         '
         'Button23
         '
@@ -891,75 +924,6 @@ Partial Class sscalc
         Me.FileToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem1.Text = "File"
         '
-        'ToolStripSeparator2
-        '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(201, 6)
-        '
-        'EditToolStripMenuItem1
-        '
-        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CopyToolStripMenuItem1, Me.PasteToolStripMenuItem1, Me.ToolStripSeparator4, Me.FormulaeToolStripMenuItem})
-        Me.EditToolStripMenuItem1.ForeColor = System.Drawing.Color.White
-        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
-        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem1.Text = "Edit"
-        '
-        'ToolStripSeparator4
-        '
-        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(211, 6)
-        '
-        'HelpToolStripMenuItem1
-        '
-        Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ToolStripSeparator3, Me.AboutToolStripMenuItem})
-        Me.HelpToolStripMenuItem1.ForeColor = System.Drawing.Color.White
-        Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
-        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem1.Text = "Help"
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(193, 6)
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.BackColor = System.Drawing.Color.DodgerBlue
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton2})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 284)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(196, 22)
-        Me.StatusStrip1.SizingGrip = False
-        Me.StatusStrip1.TabIndex = 64
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'ToolStripDropDownButton2
-        '
-        Me.ToolStripDropDownButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.ToolStripDropDownButton2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OnToolStripMenuItem1, Me.OffToolStripMenuItem1})
-        Me.ToolStripDropDownButton2.ForeColor = System.Drawing.Color.White
-        Me.ToolStripDropDownButton2.Image = CType(resources.GetObject("ToolStripDropDownButton2.Image"), System.Drawing.Image)
-        Me.ToolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripDropDownButton2.Name = "ToolStripDropDownButton2"
-        Me.ToolStripDropDownButton2.Size = New System.Drawing.Size(91, 19)
-        Me.ToolStripDropDownButton2.Text = "Scientific: Off"
-        '
-        'OnToolStripMenuItem1
-        '
-        Me.OnToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssSet
-        Me.OnToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.OnToolStripMenuItem1.Name = "OnToolStripMenuItem1"
-        Me.OnToolStripMenuItem1.Size = New System.Drawing.Size(107, 38)
-        Me.OnToolStripMenuItem1.Text = "On"
-        '
-        'OffToolStripMenuItem1
-        '
-        Me.OffToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssDelete
-        Me.OffToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.OffToolStripMenuItem1.Name = "OffToolStripMenuItem1"
-        Me.OffToolStripMenuItem1.Size = New System.Drawing.Size(107, 38)
-        Me.OffToolStripMenuItem1.Text = "Off"
-        '
         'WriteEquationsToFileToolStripMenuItem
         '
         Me.WriteEquationsToFileToolStripMenuItem.Enabled = False
@@ -970,6 +934,11 @@ Partial Class sscalc
         Me.WriteEquationsToFileToolStripMenuItem.Size = New System.Drawing.Size(204, 38)
         Me.WriteEquationsToFileToolStripMenuItem.Text = "Calculations..."
         '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(201, 6)
+        '
         'ExitToolStripMenuItem1
         '
         Me.ExitToolStripMenuItem1.Image = Global.ss.My.Resources.Resources._Exit
@@ -978,6 +947,14 @@ Partial Class sscalc
         Me.ExitToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
         Me.ExitToolStripMenuItem1.Size = New System.Drawing.Size(204, 38)
         Me.ExitToolStripMenuItem1.Text = "Exit"
+        '
+        'EditToolStripMenuItem1
+        '
+        Me.EditToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CopyToolStripMenuItem1, Me.PasteToolStripMenuItem1, Me.ToolStripSeparator4, Me.FormulaeToolStripMenuItem})
+        Me.EditToolStripMenuItem1.ForeColor = System.Drawing.Color.White
+        Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
+        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem1.Text = "Edit"
         '
         'CopyToolStripMenuItem1
         '
@@ -997,6 +974,11 @@ Partial Class sscalc
         Me.PasteToolStripMenuItem1.Size = New System.Drawing.Size(214, 38)
         Me.PasteToolStripMenuItem1.Text = "Paste"
         '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(211, 6)
+        '
         'FormulaeToolStripMenuItem
         '
         Me.FormulaeToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssConstants
@@ -1007,14 +989,27 @@ Partial Class sscalc
         Me.FormulaeToolStripMenuItem.Size = New System.Drawing.Size(214, 38)
         Me.FormulaeToolStripMenuItem.Text = "Formulae"
         '
+        'HelpToolStripMenuItem1
+        '
+        Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ToolStripSeparator3, Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem1.ForeColor = System.Drawing.Color.White
+        Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem1.Text = "Help"
+        '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssQuestion
         Me.ToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(196, 38)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(142, 38)
         Me.ToolStripMenuItem1.Text = "Help"
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(139, 6)
         '
         'AboutToolStripMenuItem
         '
@@ -1022,41 +1017,46 @@ Partial Class sscalc
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(142, 38)
         Me.AboutToolStripMenuItem.Text = "About"
         '
-        'ExitToolStripMenuItem
+        'StatusStrip1
         '
-        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssSmallExit
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.StatusStrip1.BackColor = System.Drawing.Color.DodgerBlue
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButton2})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 285)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(196, 22)
+        Me.StatusStrip1.SizingGrip = False
+        Me.StatusStrip1.TabIndex = 64
+        Me.StatusStrip1.Text = "StatusStrip1"
         '
-        'CopyToolStripMenuItem
+        'ToolStripDropDownButton2
         '
-        Me.CopyToolStripMenuItem.Image = CType(resources.GetObject("CopyToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.CopyToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(160, 38)
-        Me.CopyToolStripMenuItem.Text = "Copy"
+        Me.ToolStripDropDownButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.ToolStripDropDownButton2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OnToolStripMenuItem1, Me.OffToolStripMenuItem1})
+        Me.ToolStripDropDownButton2.ForeColor = System.Drawing.Color.White
+        Me.ToolStripDropDownButton2.Image = CType(resources.GetObject("ToolStripDropDownButton2.Image"), System.Drawing.Image)
+        Me.ToolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripDropDownButton2.Name = "ToolStripDropDownButton2"
+        Me.ToolStripDropDownButton2.Size = New System.Drawing.Size(91, 20)
+        Me.ToolStripDropDownButton2.Text = "Scientific: Off"
         '
-        'PasteToolStripMenuItem
+        'OnToolStripMenuItem1
         '
-        Me.PasteToolStripMenuItem.Image = CType(resources.GetObject("PasteToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PasteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(160, 38)
-        Me.PasteToolStripMenuItem.Text = "Paste"
+        Me.OnToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssSet
+        Me.OnToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.OnToolStripMenuItem1.Name = "OnToolStripMenuItem1"
+        Me.OnToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
+        Me.OnToolStripMenuItem1.Text = "On"
         '
-        'AboutSAMMYSuiteCalculatorToolStripMenuItem
+        'OffToolStripMenuItem1
         '
-        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssInfo
-        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Name = "AboutSAMMYSuiteCalculatorToolStripMenuItem"
-        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
-        Me.AboutSAMMYSuiteCalculatorToolStripMenuItem.Text = "About"
+        Me.OffToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssDelete
+        Me.OffToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.OffToolStripMenuItem1.Name = "OffToolStripMenuItem1"
+        Me.OffToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
+        Me.OffToolStripMenuItem1.Text = "Off"
         '
         'ToolStripDropDownButton1
         '
@@ -1119,7 +1119,7 @@ Partial Class sscalc
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(196, 306)
+        Me.ClientSize = New System.Drawing.Size(196, 307)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.Button57)
         Me.Controls.Add(Me.Button53)

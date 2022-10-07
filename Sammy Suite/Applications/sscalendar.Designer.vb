@@ -50,7 +50,7 @@ Partial Class sscalendar
         Me.TextBox1.Location = New System.Drawing.Point(12, 36)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(227, 162)
+        Me.TextBox1.Size = New System.Drawing.Size(227, 180)
         Me.TextBox1.TabIndex = 3
         Me.TextBox1.Visible = False
         '
@@ -75,7 +75,7 @@ Partial Class sscalendar
         '
         'ExitToolStripMenuItem
         '
-        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssExit
+        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources._Exit
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
@@ -92,7 +92,7 @@ Partial Class sscalendar
         '
         'HelpAndSupportCentreToolStripMenuItem
         '
-        Me.HelpAndSupportCentreToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssQuestion
+        Me.HelpAndSupportCentreToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Question
         Me.HelpAndSupportCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpAndSupportCentreToolStripMenuItem.Name = "HelpAndSupportCentreToolStripMenuItem"
         Me.HelpAndSupportCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
@@ -106,7 +106,7 @@ Partial Class sscalendar
         '
         'AboutToolStripMenuItem
         '
-        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssInfo
+        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Information
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
@@ -115,22 +115,24 @@ Partial Class sscalendar
         '
         'DiscardButton
         '
-        Me.DiscardButton.Image = Global.ss.My.Resources.Resources.ssDelete
-        Me.DiscardButton.Location = New System.Drawing.Point(199, 210)
+        Me.DiscardButton.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.DiscardButton.Location = New System.Drawing.Point(164, 222)
         Me.DiscardButton.Name = "DiscardButton"
-        Me.DiscardButton.Size = New System.Drawing.Size(40, 40)
+        Me.DiscardButton.Size = New System.Drawing.Size(74, 26)
         Me.DiscardButton.TabIndex = 2
+        Me.DiscardButton.Text = "Hide"
         Me.ToolTip1.SetToolTip(Me.DiscardButton, "Hide appointment entry,")
         Me.DiscardButton.UseVisualStyleBackColor = True
         Me.DiscardButton.Visible = False
         '
         'SaveButton
         '
-        Me.SaveButton.Image = Global.ss.My.Resources.Resources.ssSave
-        Me.SaveButton.Location = New System.Drawing.Point(12, 210)
+        Me.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.SaveButton.Location = New System.Drawing.Point(12, 222)
         Me.SaveButton.Name = "SaveButton"
-        Me.SaveButton.Size = New System.Drawing.Size(40, 40)
+        Me.SaveButton.Size = New System.Drawing.Size(74, 26)
         Me.SaveButton.TabIndex = 1
+        Me.SaveButton.Text = "Save"
         Me.ToolTip1.SetToolTip(Me.SaveButton, "Save appointments.")
         Me.SaveButton.UseVisualStyleBackColor = True
         Me.SaveButton.Visible = False

@@ -197,9 +197,14 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.Information">
+<member name="P:ss.My.Resources.Resources.Info">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Information">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.Information2">
@@ -268,11 +273,6 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.ssAlarm">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ss.My.Resources.Resources.ssAol">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -487,11 +487,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssGmail">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssHelpHome">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -583,11 +578,6 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.ssOpen">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ss.My.Resources.Resources.ssOutlook">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -762,11 +752,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssTesco">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssTextColour">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -823,11 +808,6 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.ssWriter">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ss.My.Resources.Resources.ssYahoo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

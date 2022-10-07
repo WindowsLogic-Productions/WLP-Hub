@@ -26,27 +26,26 @@ Partial Class ssmail
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProvidersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GoogleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YahooToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MicrosoftOutlookToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AolToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProtonMailToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RememberProviderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpCentreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
-        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
         Me.MenuStrip1.SuspendLayout()
-        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.DodgerBlue
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.ProvidersToolStripMenuItem, Me.SettingsToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
@@ -68,8 +67,61 @@ Partial Class ssmail
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(150, 38)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'ProvidersToolStripMenuItem
+        '
+        Me.ProvidersToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GoogleToolStripMenuItem, Me.YahooToolStripMenuItem, Me.MicrosoftOutlookToolStripMenuItem, Me.AolToolStripMenuItem, Me.ProtonMailToolStripMenuItem})
+        Me.ProvidersToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.ProvidersToolStripMenuItem.Name = "ProvidersToolStripMenuItem"
+        Me.ProvidersToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.ProvidersToolStripMenuItem.Text = "Providers"
+        '
+        'GoogleToolStripMenuItem
+        '
+        Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
+        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.GoogleToolStripMenuItem.Text = "Google"
+        '
+        'YahooToolStripMenuItem
+        '
+        Me.YahooToolStripMenuItem.Name = "YahooToolStripMenuItem"
+        Me.YahooToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.YahooToolStripMenuItem.Text = "Yahoo!"
+        '
+        'MicrosoftOutlookToolStripMenuItem
+        '
+        Me.MicrosoftOutlookToolStripMenuItem.Name = "MicrosoftOutlookToolStripMenuItem"
+        Me.MicrosoftOutlookToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.MicrosoftOutlookToolStripMenuItem.Text = "Microsoft Outlook"
+        '
+        'AolToolStripMenuItem
+        '
+        Me.AolToolStripMenuItem.Name = "AolToolStripMenuItem"
+        Me.AolToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.AolToolStripMenuItem.Text = "Aol."
+        '
+        'ProtonMailToolStripMenuItem
+        '
+        Me.ProtonMailToolStripMenuItem.Name = "ProtonMailToolStripMenuItem"
+        Me.ProtonMailToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.ProtonMailToolStripMenuItem.Text = "ProtonMail"
+        '
+        'SettingsToolStripMenuItem
+        '
+        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RememberProviderToolStripMenuItem})
+        Me.SettingsToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
+        Me.SettingsToolStripMenuItem.Text = "Settings"
+        '
+        'RememberProviderToolStripMenuItem
+        '
+        Me.RememberProviderToolStripMenuItem.CheckOnClick = True
+        Me.RememberProviderToolStripMenuItem.Name = "RememberProviderToolStripMenuItem"
+        Me.RememberProviderToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.RememberProviderToolStripMenuItem.Text = "Remember provider"
         '
         'AboutToolStripMenuItem
         '
@@ -85,13 +137,13 @@ Partial Class ssmail
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(240, 38)
-        Me.HelpCentreToolStripMenuItem.Text = "Help and Support Centre"
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
+        Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(237, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem1
         '
@@ -99,85 +151,19 @@ Partial Class ssmail
         Me.AboutToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
         Me.AboutToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(240, 38)
+        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem1.Text = "About"
         '
-        'ToolStrip1
+        'GeckoWebBrowser1
         '
-        Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripSeparator2, Me.ToolStripButton2, Me.ToolStripSeparator3, Me.ToolStripButton5, Me.ToolStripSeparator4, Me.ToolStripButton3})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
-        Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.ToolStrip1.Size = New System.Drawing.Size(784, 39)
-        Me.ToolStrip1.TabIndex = 2
-        Me.ToolStrip1.Text = "ToolStrip1"
-        '
-        'ToolStripButton1
-        '
-        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(95, 36)
-        Me.ToolStripButton1.Text = "Google"
-        '
-        'ToolStripSeparator2
-        '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 39)
-        '
-        'ToolStripButton2
-        '
-        Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
-        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(115, 36)
-        Me.ToolStripButton2.Text = "Yahoo!"
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 39)
-        '
-        'ToolStripButton5
-        '
-        Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
-        Me.ToolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(139, 36)
-        Me.ToolStripButton5.Text = "Microsoft Outlook"
-        '
-        'ToolStripSeparator4
-        '
-        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 39)
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
-        Me.ToolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(67, 36)
-        Me.ToolStripButton3.Text = "Aol."
-        '
-        'GeckoGeckoWebBrowser1
-        '
-        Me.GeckoGeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 63)
-        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
-        Me.GeckoGeckoWebBrowser1.ScriptErrorsSuppressed = True
-        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(784, 499)
-        Me.GeckoGeckoWebBrowser1.TabIndex = 0
-        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://mail.google.com", System.UriKind.Absolute)
+        Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
+        Me.GeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(0, 24)
+        Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(784, 538)
+        Me.GeckoWebBrowser1.TabIndex = 61
+        Me.GeckoWebBrowser1.UseHttpActivityObserver = False
         '
         'ssmail
         '
@@ -185,8 +171,7 @@ Partial Class ssmail
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(784, 562)
-        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
-        Me.Controls.Add(Me.ToolStrip1)
+        Me.Controls.Add(Me.GeckoWebBrowser1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -196,26 +181,24 @@ Partial Class ssmail
         Me.Text = "Mail"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        Me.ToolStrip1.ResumeLayout(False)
-        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ToolStripButton1 As ToolStripButton
-    Friend WithEvents ToolStripButton2 As ToolStripButton
-    Friend WithEvents ToolStripButton3 As ToolStripButton
-    Friend WithEvents ToolStripButton5 As ToolStripButton
     Friend WithEvents HelpCentreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents ToolStripSeparator4 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents ProvidersToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GoogleToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents YahooToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MicrosoftOutlookToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AolToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProtonMailToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RememberProviderToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
 End Class

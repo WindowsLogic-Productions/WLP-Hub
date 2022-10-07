@@ -22,6 +22,13 @@
             Me.BackColor = My.Settings.CustomColour
             MenuStrip1.BackColor = My.Settings.CustomColour
         End If
+
+        If My.Settings.RememberMail = 0 Then
+            RememberProviderToolStripMenuItem.Checked = False
+        Else
+            GeckoWebBrowser1.Navigate(My.Settings.MailProvider)
+            RememberProviderToolStripMenuItem.Checked = True
+        End If
     End Sub
 
     Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
@@ -32,24 +39,37 @@
         sshelpoffline.Show()
     End Sub
 #Region "Tool Bar"
-    Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
-        GeckoGeckoWebBrowser1.Navigate("http://mail.google.com")
+    Private Sub RememberProviderToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RememberProviderToolStripMenuItem.Click
+        If RememberProviderToolStripMenuItem.Checked = True Then
+            My.Settings.MailProvider = GeckoWebBrowser1.Url.ToString
+            My.Settings.RememberMail = 1
+            My.Settings.Save()
+        Else
+            My.Settings.RememberMail = 0
+            My.Settings.Save()
+        End If
     End Sub
 
-    Private Sub ToolStripButton2_Click(sender As Object, e As EventArgs) Handles ToolStripButton2.Click
-        GeckoGeckoWebBrowser1.Navigate("http://login.yahoo.com")
+    Private Sub GoogleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GoogleToolStripMenuItem.Click
+        GeckoWebBrowser1.Navigate("http://mail.google.com")
     End Sub
 
-    Private Sub ToolStripButton3_Click(sender As Object, e As EventArgs) Handles ToolStripButton3.Click
-        GeckoGeckoWebBrowser1.Navigate("http://mail.aol.com")
+    Private Sub YahooToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles YahooToolStripMenuItem.Click
+        GeckoWebBrowser1.Navigate("http://login.yahoo.com")
     End Sub
 
-    Private Sub ToolStripButton4_Click(sender As Object, e As EventArgs)
-        GeckoGeckoWebBrowser1.Navigate("https://email.tesco.net/login/")
+    Private Sub MicrosoftOutlookToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MicrosoftOutlookToolStripMenuItem.Click
+        GeckoWebBrowser1.Navigate("http://outlook.live.com")
     End Sub
 
-    Private Sub ToolStripButton5_Click(sender As Object, e As EventArgs) Handles ToolStripButton5.Click
-        GeckoGeckoWebBrowser1.Navigate("http://outlook.live.com")
+    Private Sub AolToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AolToolStripMenuItem.Click
+        GeckoWebBrowser1.Navigate("http://mail.aol.com")
     End Sub
+
+    Private Sub ProtonMailToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProtonMailToolStripMenuItem.Click
+        GeckoWebBrowser1.Navigate("https://protonmail.com")
+    End Sub
+
+
 #End Region
 End Class

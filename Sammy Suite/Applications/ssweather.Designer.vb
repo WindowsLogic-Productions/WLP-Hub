@@ -23,7 +23,6 @@ Partial Class ssweather
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ssweather))
-        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,19 +30,9 @@ Partial Class ssweather
         Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'GeckoGeckoWebBrowser1
-        '
-        Me.GeckoGeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 24)
-        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
-        Me.GeckoGeckoWebBrowser1.ScriptErrorsSuppressed = True
-        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(794, 548)
-        Me.GeckoGeckoWebBrowser1.TabIndex = 0
-        Me.GeckoGeckoWebBrowser1.Url = New System.Uri("http://www.bbc.com/weather/", System.UriKind.Absolute)
         '
         'MenuStrip1
         '
@@ -70,7 +59,7 @@ Partial Class ssweather
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(150, 38)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'HelpToolStripMenuItem
@@ -87,13 +76,13 @@ Partial Class ssweather
         Me.HelpToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
         Me.HelpToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(142, 38)
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
         Me.HelpToolStripMenuItem1.Text = "Help"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(139, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem
         '
@@ -101,20 +90,32 @@ Partial Class ssweather
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(142, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'GeckoWebBrowser1
+        '
+        Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
+        Me.GeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(0, 24)
+        Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(794, 548)
+        Me.GeckoWebBrowser1.TabIndex = 64
+        Me.GeckoWebBrowser1.UseHttpActivityObserver = False
         '
         'ssweather
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(794, 572)
-        Me.Controls.Add(Me.GeckoGeckoWebBrowser1)
+        Me.Controls.Add(Me.GeckoWebBrowser1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MinimumSize = New System.Drawing.Size(810, 611)
         Me.Name = "ssweather"
         Me.Text = "Weather"
         Me.MenuStrip1.ResumeLayout(False)
@@ -123,7 +124,6 @@ Partial Class ssweather
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents GeckoGeckoWebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -131,4 +131,5 @@ Partial Class ssweather
     Friend WithEvents HelpToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
 End Class

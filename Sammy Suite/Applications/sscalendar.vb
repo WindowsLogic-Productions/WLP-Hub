@@ -44,7 +44,7 @@ Public Class sscalendar
         ssappabout.Text = "About Appointments"
         ssappabout.AppPic.Image = My.Resources.ssAppointments
         ssappabout.AppName.Text = "Appointments"
-        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.AppVer.Text = "Version 2.1"
         ssappabout.ShowDialog()
     End Sub
 #End Region

@@ -107,7 +107,6 @@ J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Core.pdb
 J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Geckofx-Winforms.pdb
 J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\Interop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\bin\Debug\AxInterop.WMPLib.dll
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbprojResolveAssemblyReference.cache
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Interop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\AxInterop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.ResolveComReference.cache

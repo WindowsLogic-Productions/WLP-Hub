@@ -387,6 +387,30 @@ Namespace My
                 Me("ClassicMode") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property RememberMail() As String
+            Get
+                Return CType(Me("RememberMail"),String)
+            End Get
+            Set
+                Me("RememberMail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MailProvider() As String
+            Get
+                Return CType(Me("MailProvider"),String)
+            End Get
+            Set
+                Me("MailProvider") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

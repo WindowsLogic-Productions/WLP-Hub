@@ -232,9 +232,6 @@
   <data name="UK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssTesco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssTesco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SystemNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\windows unlock.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -243,9 +240,6 @@
   </data>
   <data name="Alarm04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Alarm04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ssAol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssAol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssTasklist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssTasklist.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -529,9 +523,6 @@
   <data name="ssWhatsNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssWhatsNew.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssYahoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssYahoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -555,9 +546,6 @@
   </data>
   <data name="ssMaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssMaps.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ssOutlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssOutlook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssOpen.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -599,16 +587,13 @@
     <value>..\Resources\ssLoader.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\windows vista beta irinter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Information.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssNewTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssNewTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Critical2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Notify Calendar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ssGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssGmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssBattery90" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssBattery90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -664,7 +649,7 @@
   <data name="ssSketchPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssSketchPad.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Information.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta IRInter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -273,14 +273,14 @@
     End Sub
 
     Private Sub OnToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OnToolStripMenuItem1.Click
-        Me.Width = 358
-        Me.Height = 410
+        Me.Width = 368
+        Me.Height = 420
         ToolStripDropDownButton2.Text = "Scientific: On"
     End Sub
 
     Private Sub OffToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OffToolStripMenuItem1.Click
-        Me.Width = 202
-        Me.Height = 335
+        Me.Width = 212
+        Me.Height = 346
         ToolStripDropDownButton2.Text = "Scientific: Off"
     End Sub
 
@@ -597,7 +597,7 @@
     End Sub
 
     Private Sub FormulaeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FormulaeToolStripMenuItem.Click
-        sscalcconsts.Show()
+        sscalcconsts.ShowDialog()
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem1.Click

@@ -380,7 +380,7 @@ Partial Class sssketchpad
         '
         'MenuStrip2
         '
-        Me.MenuStrip2.BackColor = System.Drawing.Color.SlateBlue
+        Me.MenuStrip2.BackColor = System.Drawing.Color.DodgerBlue
         Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem1, Me.HelpToolStripMenuItem1})
         Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip2.Name = "MenuStrip2"
@@ -499,7 +499,7 @@ Partial Class sssketchpad
         Me.ClearCavasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ClearCavasToolStripMenuItem.Name = "ClearCavasToolStripMenuItem"
         Me.ClearCavasToolStripMenuItem.Size = New System.Drawing.Size(195, 38)
-        Me.ClearCavasToolStripMenuItem.Text = "Clear cavas"
+        Me.ClearCavasToolStripMenuItem.Text = "Clear canvas"
         '
         'HelpToolStripMenuItem1
         '
@@ -515,13 +515,13 @@ Partial Class sssketchpad
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem1
         '
@@ -529,7 +529,7 @@ Partial Class sssketchpad
         Me.AboutToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
         Me.AboutToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(196, 38)
+        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem1.Text = "About"
         '
         'OpenFileDialog1
@@ -551,7 +551,7 @@ Partial Class sssketchpad
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SlateBlue
+        Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(881, 568)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label13)

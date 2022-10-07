@@ -23,7 +23,6 @@ Partial Class ssmaps
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ssmaps))
-        Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,21 +30,9 @@ Partial Class ssmaps
         Me.HelpCentreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GeckoWebBrowser1 = New Gecko.GeckoWebBrowser()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'WebBrowser2
-        '
-        Me.WebBrowser2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser2.Location = New System.Drawing.Point(0, 24)
-        Me.WebBrowser2.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser2.Name = "WebBrowser2"
-        Me.WebBrowser2.ScriptErrorsSuppressed = True
-        Me.WebBrowser2.Size = New System.Drawing.Size(784, 539)
-        Me.WebBrowser2.TabIndex = 0
-        Me.WebBrowser2.Url = New System.Uri("http://maps.bing.com", System.UriKind.Absolute)
         '
         'MenuStrip1
         '
@@ -72,7 +59,7 @@ Partial Class ssmaps
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(150, 38)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'HelpToolStripMenuItem
@@ -89,13 +76,13 @@ Partial Class ssmaps
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(193, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem
         '
@@ -103,8 +90,19 @@ Partial Class ssmaps
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'GeckoWebBrowser1
+        '
+        Me.GeckoWebBrowser1.ConsoleMessageEventReceivesConsoleLogCalls = True
+        Me.GeckoWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GeckoWebBrowser1.FrameEventsPropagateToMainWindow = False
+        Me.GeckoWebBrowser1.Location = New System.Drawing.Point(0, 24)
+        Me.GeckoWebBrowser1.Name = "GeckoWebBrowser1"
+        Me.GeckoWebBrowser1.Size = New System.Drawing.Size(784, 538)
+        Me.GeckoWebBrowser1.TabIndex = 62
+        Me.GeckoWebBrowser1.UseHttpActivityObserver = False
         '
         'ssmaps
         '
@@ -112,7 +110,7 @@ Partial Class ssmaps
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(784, 562)
-        Me.Controls.Add(Me.WebBrowser2)
+        Me.Controls.Add(Me.GeckoWebBrowser1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -126,7 +124,6 @@ Partial Class ssmaps
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents WebBrowser2 As System.Windows.Forms.WebBrowser
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -134,4 +131,5 @@ Partial Class ssmaps
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpCentreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents GeckoWebBrowser1 As Gecko.GeckoWebBrowser
 End Class

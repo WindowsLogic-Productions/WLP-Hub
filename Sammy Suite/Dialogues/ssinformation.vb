@@ -3,7 +3,7 @@
     Private Sub ssinformation_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'Load sounds.
         If My.Settings.HubSounds = 0 Then
-            My.Computer.Audio.Play(My.Resources.Information, AudioPlayMode.Background)
+            My.Computer.Audio.Play(My.Resources.Info, AudioPlayMode.Background)
         End If
 
         If My.Settings.HubSounds = 1 Then

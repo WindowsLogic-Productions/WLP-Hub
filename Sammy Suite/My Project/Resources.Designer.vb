@@ -394,6 +394,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Info() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Info", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property Information() As System.Drawing.Bitmap
@@ -535,16 +544,6 @@ Namespace My.Resources
         Friend ReadOnly Property ssAlarm() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ssAlarm", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property ssAol() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ssAol", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -972,16 +971,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property ssGmail() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ssGmail", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property ssHelpHome() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ssHelpHome", resourceCulture)
@@ -1165,16 +1154,6 @@ Namespace My.Resources
         Friend ReadOnly Property ssOpen() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ssOpen", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property ssOutlook() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ssOutlook", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -1522,16 +1501,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property ssTesco() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ssTesco", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property ssTextColour() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ssTextColour", resourceCulture)
@@ -1645,16 +1614,6 @@ Namespace My.Resources
         Friend ReadOnly Property ssWriter() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("ssWriter", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property ssYahoo() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("ssYahoo", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
