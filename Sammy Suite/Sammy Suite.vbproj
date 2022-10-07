@@ -1267,6 +1267,7 @@
     <Content Include="Firefox\qipcap.dll" />
     <Content Include="Firefox\softokn3.dll" />
     <Content Include="Firefox\xul.dll" />
+    <None Include="Resources\Information.ico" />
     <None Include="Resources\Lock.ico" />
     <None Include="Resources\Changes.ico" />
     <None Include="Resources\CloseTab.ico" />

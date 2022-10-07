@@ -142,6 +142,9 @@
   <data name="ssUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssUpdate.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GoodGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoodGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ssUnmute" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssUnmute.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,9 +189,6 @@
   </data>
   <data name="WinForward" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WinForward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ssBatteryHalf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssBatteryHalf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Christmas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Merry Christmas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,9 +256,6 @@
   <data name="CriticalBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Vista Beta Battery Critical.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ssStretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssStretch.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ssContextBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssContextBar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -274,11 +271,11 @@
   <data name="ssFeedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssFeedback.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ssBattery60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBattery60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Vista Beta Exclamation.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LowBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Windows Vista Beta Battery Low.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WinBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WinBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -318,6 +315,9 @@
   </data>
   <data name="ssBattery80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssBattery80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssRotateRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageres_5345.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lowercase" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lowercase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -424,6 +424,9 @@
   <data name="ssBatteryLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssbatterylow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ssNews" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssNews.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ssColours" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Colours.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -508,9 +511,6 @@
   <data name="DirectionArrowDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DirectionArrowDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssLoading" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssLoader.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ssFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssFacebook.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -529,8 +529,11 @@
   <data name="ssWhatsNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssWhatsNew.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssZoomOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mspaint_6406.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ssYahoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssYahoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AlignR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlignR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -559,8 +562,8 @@
   <data name="ssOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssOpen.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GoodGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GoodGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ssStretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssStretch.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssSelectAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssSelectAll.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -586,11 +589,14 @@
   <data name="CloseTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CloseTab.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lock.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Opening2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Logon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ssRotateRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imageres_5345.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ssLoading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssLoader.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\windows vista beta irinter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -600,9 +606,6 @@
   </data>
   <data name="Critical2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Windows Notify Calendar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssGmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -619,8 +622,8 @@
   <data name="ssPictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssPictures.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssNews" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssNews.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ssBatteryHalf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssBatteryHalf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ssRotateLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageres_5344.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -631,11 +634,11 @@
   <data name="ssPreviousTrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssPreviousTrack.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssYahoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssYahoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ssZoomOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspaint_6406.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Processes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Processes.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -652,8 +655,8 @@
   <data name="ssConstants" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssConstants.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ssBattery60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssBattery60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LowBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Vista Beta Battery Low.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ssCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shell32_16762.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -661,7 +664,7 @@
   <data name="ssSketchPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ssSketchPad.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lock.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Information.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

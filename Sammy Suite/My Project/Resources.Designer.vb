@@ -394,11 +394,12 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Information() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Information() As System.Drawing.Bitmap
             Get
-                Return ResourceManager.GetStream("Information", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Information", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
