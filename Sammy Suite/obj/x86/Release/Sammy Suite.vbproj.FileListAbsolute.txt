@@ -2070,7 +2070,6 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdateandtime.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssdeviantart.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssquickexit.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssearch.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sssettingspanelsearch.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssVolume.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.sswelcomedialogue.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssfacebook.resources

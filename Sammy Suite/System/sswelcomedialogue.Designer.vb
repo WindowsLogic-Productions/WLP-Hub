@@ -81,7 +81,8 @@ Partial Class sswelcomedialogue
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Location = New System.Drawing.Point(52, 455)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(784, 561)
         Me.Panel1.TabIndex = 5
@@ -225,7 +226,6 @@ Partial Class sswelcomedialogue
         '
         'TabPage1
         '
-        Me.TabPage1.Controls.Add(Me.Panel1)
         Me.TabPage1.Controls.Add(Me.BetaLabel)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
         Me.TabPage1.Controls.Add(Me.LinkLabel2)
@@ -370,6 +370,7 @@ Partial Class sswelcomedialogue
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(784, 561)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.WelcomeTabs)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

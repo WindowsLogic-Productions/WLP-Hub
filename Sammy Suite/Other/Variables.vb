@@ -154,7 +154,8 @@
     End Sub
 
     Public Shared Sub SearchSettings()
-        sssettingspanelsearch.Show()
+        sssettingspanelhub.Show()
+        sssettingspanelhub.TabControl1.SelectedTab = sssettingspanelhub.TabPage4
     End Sub
 #End Region
 #Region "Help and Support"

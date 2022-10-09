@@ -20,11 +20,6 @@
         Me.Close()
     End Sub
 
-    Private Sub SearchSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        sssettingspanelsearch.Show()
-        Me.Close()
-    End Sub
-
     Private Sub UpdatesSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UpdatesSettingsButton.Click
         sssettingspanelupdates.Show()
         Me.Close()
