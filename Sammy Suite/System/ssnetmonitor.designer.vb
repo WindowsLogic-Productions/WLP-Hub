@@ -96,11 +96,11 @@ Partial Class ssnetmonitor
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(8, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(81, 32)
+        Me.Label3.Size = New System.Drawing.Size(80, 32)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Int IP :"
         '
@@ -155,7 +155,7 @@ Partial Class ssnetmonitor
         'IpaddrLabel
         '
         Me.IpaddrLabel.AutoSize = True
-        Me.IpaddrLabel.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IpaddrLabel.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IpaddrLabel.ForeColor = System.Drawing.Color.White
         Me.IpaddrLabel.Location = New System.Drawing.Point(92, 9)
         Me.IpaddrLabel.Name = "IpaddrLabel"
@@ -166,7 +166,7 @@ Partial Class ssnetmonitor
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(8, 46)
         Me.Label6.Name = "Label6"
@@ -177,7 +177,7 @@ Partial Class ssnetmonitor
         'ExtIpLabel
         '
         Me.ExtIpLabel.AutoSize = True
-        Me.ExtIpLabel.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ExtIpLabel.Font = New System.Drawing.Font("Segoe UI Semilight", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ExtIpLabel.ForeColor = System.Drawing.Color.White
         Me.ExtIpLabel.Location = New System.Drawing.Point(92, 46)
         Me.ExtIpLabel.Name = "ExtIpLabel"

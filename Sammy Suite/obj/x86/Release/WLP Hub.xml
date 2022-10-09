@@ -867,6 +867,16 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ss.My.Resources.Resources.Updates_New">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Updates_On">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ss.My.Resources.Resources.Uppercase">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

@@ -25,6 +25,8 @@
         Label4.Parent = WLSOOBEBackground
         RMLButton.Parent = WLSOOBEBackground
         ForwardButton.Parent = WLSOOBEBackground
+        CustomColourLabel.Parent = WLSOOBEBackground
+        CustomColourButton.Parent = WLSOOBEBackground
     End Sub
 #End Region
 #Region "Settings"

@@ -2033,7 +2033,6 @@ J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Core.pdb
 J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Geckofx-Winforms.pdb
 J:\Projects\WLP-Hub\Sammy Suite\bin\Release\Interop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\bin\Release\AxInterop.WMPLib.dll
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Interop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\AxInterop.WMPLib.dll
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbproj.ResolveComReference.cache
@@ -2120,3 +2119,4 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.exe
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.xml
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\WLP Hub.pdb
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\ss.ssappabout.resources
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Release\Sammy Suite.vbprojResolveAssemblyReference.cache

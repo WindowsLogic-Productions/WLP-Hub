@@ -25,11 +25,14 @@ Public Class ssmusic
 
         AxWindowsMediaPlayer2.Ctlcontrols.currentPosition = TrackBar2.Value
 
-        
+
 
     End Sub
 
     Private Sub ListBox1_SelectedIndexChanged_1(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        PlayButton.Hide()
+        PauseButton.Show()
+
         ListBox2.SelectedIndex = ListBox1.SelectedIndex
 
         AxWindowsMediaPlayer2.URL = ListBox2.SelectedItem
@@ -37,9 +40,9 @@ Public Class ssmusic
     End Sub
 
     Private Sub ListBox1_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles ListBox1.MouseDoubleClick
-        Label3.Text = "Music Status: Playing"
         PlayButton.Hide()
         PauseButton.Show()
+        ListBox2.SelectedIndex = ListBox1.SelectedIndex
         AxWindowsMediaPlayer2.URL = ListBox2.SelectedItem
     End Sub
 
@@ -82,23 +85,27 @@ Public Class ssmusic
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PlayButton.Click
-        AxWindowsMediaPlayer2.Ctlcontrols.play()
-        Label3.Text = "Music Status: Playing"
-        PlayButton.Hide()
-        PauseButton.Show()
-        TrackBar1.Value = 50
+        If ListBox1.Items.Count = Nothing Then
+            sserror.Label1.Text = "Playlist is empty. Please add music before attempting to play."
+            sserror.ShowDialog()
+        Else
+            AxWindowsMediaPlayer2.Ctlcontrols.play()
+            PlayButton.Hide()
+            PauseButton.Show()
+            TrackBar1.Value = 50
+        End If
+
+
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PauseButton.Click
         AxWindowsMediaPlayer2.Ctlcontrols.pause()
-        Label3.Text = "Music Status: Paused"
         PlayButton.Show()
         PauseButton.Hide()
     End Sub
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopButton.Click
         AxWindowsMediaPlayer2.Ctlcontrols.stop()
-        Label3.Text = "Music Status: Stopped"
         PlayButton.Show()
         PauseButton.Hide()
         MillisecondsS.Text = "00.000"
@@ -107,18 +114,22 @@ Public Class ssmusic
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PreviousButton.Click
         Try
             ListBox1.SelectedIndex = ListBox1.SelectedIndex - 1
+            ListBox2.SelectedIndex = ListBox1.SelectedIndex
+            AxWindowsMediaPlayer2.URL = ListBox2.SelectedItem
         Catch ex As Exception
-            sserror.Show()
             sserror.Label1.Text = "No music left in playlist."
+            sserror.ShowDialog()
         End Try
     End Sub
 
     Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NextButton.Click
         Try
             ListBox1.SelectedIndex = ListBox1.SelectedIndex + 1
+            ListBox2.SelectedIndex = ListBox1.SelectedIndex
+            AxWindowsMediaPlayer2.URL = ListBox2.SelectedItem
         Catch
-            sserror.Show()
             sserror.Label1.Text = "No music left in playlist."
+            sserror.ShowDialog()
         End Try
     End Sub
 
@@ -148,21 +159,26 @@ Public Class ssmusic
                 Return
             End If
 
-            If My.Settings.MPShuffle = 1 Then
-                Dim ns As Integer = CInt(Math.Floor((ListBox1.Items.Count - 0) * Rnd())) + 0
-                ListBox1.SelectedIndex = ns
-                Return
-            End If
             Try
                 ListBox1.SelectedIndex = ListBox1.SelectedIndex + 1
             Catch
                 If My.Settings.MPRepeatPlaylist = 1 Then
                     ListBox1.SelectedIndex = 0
+                    AxWindowsMediaPlayer2.Ctlcontrols.stop()
+                    AxWindowsMediaPlayer2.Ctlcontrols.play()
+                    PlayButton.Hide()
+                    PauseButton.Show()
 
                     AxWindowsMediaPlayer2.Ctlcontrols.currentPosition = 0
                 End If
                 Exit Try
             End Try
+
+            If My.Settings.MPShuffle = 1 Then
+                Dim ns As Integer = CInt(Math.Floor((ListBox1.Items.Count - 0) * Rnd())) + 0
+                ListBox1.SelectedIndex = ns
+                Return
+            End If
         End If
     End Sub
 
@@ -214,10 +230,11 @@ Public Class ssmusic
         ssappabout.Text = "About Music"
         ssappabout.AppPic.Image = My.Resources.ssMusic
         ssappabout.AppName.Text = "Music"
-        ssappabout.AppVer.Text = "Version 5.1"
+        ssappabout.AppVer.Text = "Version 6.0"
         ssappabout.ShowDialog()
-    End Sub
+    End sub
 #End Region
+
 #Region "Updates"
     Public Sub CheckForUpdates()
 

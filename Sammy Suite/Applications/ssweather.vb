@@ -4,6 +4,8 @@
     Private Sub ssweather_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Variables.CheckForUpdates()
 
+        GeckoWebBrowser1.Navigate("https://bbc.co.uk/weather")
+
         sstasklist.WeatherButton.Show()
     End Sub
 #End Region
@@ -24,7 +26,7 @@
         ssappabout.Text = "About Weather"
         ssappabout.AppPic.Image = My.Resources.ssWeather
         ssappabout.AppName.Text = "Weather"
-        ssappabout.AppVer.Text = "Version 3.5"
+        ssappabout.AppVer.Text = "Version 4.0"
         ssappabout.ShowDialog()
     End Sub
 End Class

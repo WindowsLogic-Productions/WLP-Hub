@@ -52,11 +52,11 @@ Partial Class ssoobepersonalisationsounds
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(440, 37)
+        Me.Label2.Size = New System.Drawing.Size(427, 37)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "1. > 2. > 3. Personalisation (Sounds)"
         '
@@ -76,11 +76,11 @@ Partial Class ssoobepersonalisationsounds
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(123, 102)
+        Me.Label4.Location = New System.Drawing.Point(126, 102)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(773, 60)
+        Me.Label4.Size = New System.Drawing.Size(771, 60)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = "These settings personalise your experience." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your liking " &
     "right now or do it later from the Settings Panel."
@@ -90,6 +90,7 @@ Partial Class ssoobepersonalisationsounds
         '
         Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(406, 192)
@@ -102,41 +103,44 @@ Partial Class ssoobepersonalisationsounds
         '
         Me.MuteSoundSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.MuteSoundSwitch.AutoSize = True
+        Me.MuteSoundSwitch.BackColor = System.Drawing.Color.Transparent
         Me.MuteSoundSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MuteSoundSwitch.ForeColor = System.Drawing.Color.White
-        Me.MuteSoundSwitch.Location = New System.Drawing.Point(470, 262)
+        Me.MuteSoundSwitch.Location = New System.Drawing.Point(566, 239)
         Me.MuteSoundSwitch.Name = "MuteSoundSwitch"
         Me.MuteSoundSwitch.Size = New System.Drawing.Size(64, 25)
         Me.MuteSoundSwitch.TabIndex = 4
         Me.MuteSoundSwitch.TabStop = True
         Me.MuteSoundSwitch.Text = "Mute"
-        Me.MuteSoundSwitch.UseVisualStyleBackColor = True
+        Me.MuteSoundSwitch.UseVisualStyleBackColor = False
         '
         'DefaultSoundSwitch
         '
         Me.DefaultSoundSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.DefaultSoundSwitch.AutoSize = True
+        Me.DefaultSoundSwitch.BackColor = System.Drawing.Color.Transparent
         Me.DefaultSoundSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DefaultSoundSwitch.ForeColor = System.Drawing.Color.White
-        Me.DefaultSoundSwitch.Location = New System.Drawing.Point(470, 216)
+        Me.DefaultSoundSwitch.Location = New System.Drawing.Point(393, 239)
         Me.DefaultSoundSwitch.Name = "DefaultSoundSwitch"
         Me.DefaultSoundSwitch.Size = New System.Drawing.Size(78, 25)
         Me.DefaultSoundSwitch.TabIndex = 1
         Me.DefaultSoundSwitch.Text = "Default"
-        Me.DefaultSoundSwitch.UseVisualStyleBackColor = True
+        Me.DefaultSoundSwitch.UseVisualStyleBackColor = False
         '
         'ModernSoundSwitch
         '
         Me.ModernSoundSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.ModernSoundSwitch.AutoSize = True
+        Me.ModernSoundSwitch.BackColor = System.Drawing.Color.Transparent
         Me.ModernSoundSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ModernSoundSwitch.ForeColor = System.Drawing.Color.White
-        Me.ModernSoundSwitch.Location = New System.Drawing.Point(470, 239)
+        Me.ModernSoundSwitch.Location = New System.Drawing.Point(477, 239)
         Me.ModernSoundSwitch.Name = "ModernSoundSwitch"
         Me.ModernSoundSwitch.Size = New System.Drawing.Size(83, 25)
         Me.ModernSoundSwitch.TabIndex = 2
         Me.ModernSoundSwitch.Text = "Modern"
-        Me.ModernSoundSwitch.UseVisualStyleBackColor = True
+        Me.ModernSoundSwitch.UseVisualStyleBackColor = False
         '
         'WLSOOBEBackground
         '

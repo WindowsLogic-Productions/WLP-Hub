@@ -195,7 +195,7 @@ Public Class ssnetmonitor
         ssappabout.Text = "About Network Monitor"
         ssappabout.AppPic.Image = My.Resources.ssNetwork
         ssappabout.AppName.Text = "Network Monitor"
-        ssappabout.AppVer.Text = "Version 2.0"
+        ssappabout.AppVer.Text = "Version " & My.Application.Info.Version.ToString
         ssappabout.ShowDialog()
     End Sub
 End Class

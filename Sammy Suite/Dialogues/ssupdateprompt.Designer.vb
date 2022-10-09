@@ -40,7 +40,7 @@ Partial Class ssupdateprompt
         Me.UpdateButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.UpdateButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.UpdateButton.ForeColor = System.Drawing.Color.White
-        Me.UpdateButton.Location = New System.Drawing.Point(375, 128)
+        Me.UpdateButton.Location = New System.Drawing.Point(293, 123)
         Me.UpdateButton.Name = "UpdateButton"
         Me.UpdateButton.Size = New System.Drawing.Size(93, 23)
         Me.UpdateButton.TabIndex = 0
@@ -52,7 +52,7 @@ Partial Class ssupdateprompt
         Me.PostponeButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PostponeButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.PostponeButton.ForeColor = System.Drawing.Color.White
-        Me.PostponeButton.Location = New System.Drawing.Point(474, 128)
+        Me.PostponeButton.Location = New System.Drawing.Point(392, 123)
         Me.PostponeButton.Name = "PostponeButton"
         Me.PostponeButton.Size = New System.Drawing.Size(79, 23)
         Me.PostponeButton.TabIndex = 1
@@ -63,13 +63,13 @@ Partial Class ssupdateprompt
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(51, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(425, 30)
+        Me.Label1.Size = New System.Drawing.Size(348, 30)
         Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Let your computer install important updates."
+        Me.Label1.Text = "Let your computer install an update."
         '
         'Panel1
         '
@@ -77,23 +77,23 @@ Partial Class ssupdateprompt
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Location = New System.Drawing.Point(0, 52)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(565, 64)
+        Me.Panel1.Size = New System.Drawing.Size(483, 64)
         Me.Panel1.TabIndex = 11
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(53, 19)
+        Me.Label2.Location = New System.Drawing.Point(32, 19)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(503, 26)
+        Me.Label2.Size = New System.Drawing.Size(419, 26)
         Me.Label2.TabIndex = 0
-        Me.Label2.Text = "You are running an out of date copy of Hub ESR. Updating provides you with new fe" &
-    "atures, fixes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and performance improvements."
+        Me.Label2.Text = "You are running an out of date copy of WLP Hub." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Updating provides you with new f" &
+    "eatures, fixes and performance improvements."
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssSecWarn
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.Updates_New
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
@@ -106,7 +106,7 @@ Partial Class ssupdateprompt
         Me.PictureBox2.Image = Global.ss.My.Resources.Resources.WarningGradient
         Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(565, 53)
+        Me.PictureBox2.Size = New System.Drawing.Size(483, 53)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 13
         Me.PictureBox2.TabStop = False
@@ -117,7 +117,7 @@ Partial Class ssupdateprompt
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(565, 163)
+        Me.ClientSize = New System.Drawing.Size(483, 155)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)

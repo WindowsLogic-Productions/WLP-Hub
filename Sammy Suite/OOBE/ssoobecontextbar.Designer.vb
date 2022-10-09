@@ -50,11 +50,11 @@ Partial Class ssoobecontextbar
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(341, 37)
+        Me.Label2.Size = New System.Drawing.Size(333, 37)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "1. > 2. > 3. > 4. Context Bar"
         '
@@ -74,11 +74,11 @@ Partial Class ssoobecontextbar
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(125, 107)
+        Me.Label4.Location = New System.Drawing.Point(126, 107)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(773, 60)
+        Me.Label4.Size = New System.Drawing.Size(771, 60)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = "These settings change how the context bar works." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your li" &
     "king right now or do it later from the Settings Panel."
@@ -88,6 +88,7 @@ Partial Class ssoobecontextbar
         '
         Me.CheckBox4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox4.ForeColor = System.Drawing.Color.White
         Me.CheckBox4.Location = New System.Drawing.Point(424, 227)
@@ -95,12 +96,13 @@ Partial Class ssoobecontextbar
         Me.CheckBox4.Size = New System.Drawing.Size(161, 25)
         Me.CheckBox4.TabIndex = 2
         Me.CheckBox4.Text = "Detach Context Bar"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CheckBox4.UseVisualStyleBackColor = False
         '
         'CheckBox1
         '
         Me.CheckBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
         Me.CheckBox1.Location = New System.Drawing.Point(424, 196)
@@ -108,7 +110,7 @@ Partial Class ssoobecontextbar
         Me.CheckBox1.Size = New System.Drawing.Size(175, 25)
         Me.CheckBox1.TabIndex = 0
         Me.CheckBox1.Text = "Enable always on top"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'WLSOOBEBackground
         '

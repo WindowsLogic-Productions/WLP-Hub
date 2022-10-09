@@ -43,14 +43,11 @@ Partial Class ssoobepersonalisationbackground
         Me.HDBSwitch = New System.Windows.Forms.RadioButton()
         Me.HUCSwitch = New System.Windows.Forms.RadioButton()
         Me.RB1Box = New System.Windows.Forms.RadioButton()
-        Me.WelcomeBackgroundLabel = New System.Windows.Forms.Label()
-        Me.HubBackgroundBox = New System.Windows.Forms.GroupBox()
-        Me.WelcomeBackgroundBox = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.WLSOOBEBackground, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WelcomeBackgroundPicture, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.HubBackgroundPicture, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.HubBackgroundBox.SuspendLayout()
-        Me.WelcomeBackgroundBox.SuspendLayout()
         Me.SuspendLayout()
         '
         'RMLButton
@@ -84,7 +81,7 @@ Partial Class ssoobepersonalisationbackground
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(123, 102)
+        Me.Label4.Location = New System.Drawing.Point(125, 102)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(773, 60)
         Me.Label4.TabIndex = 19
@@ -106,8 +103,10 @@ Partial Class ssoobepersonalisationbackground
         '
         'CB2Button
         '
+        Me.CB2Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CB2Button.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.CB2Button.Location = New System.Drawing.Point(504, 177)
+        Me.CB2Button.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB2Button.Location = New System.Drawing.Point(720, 534)
         Me.CB2Button.Name = "CB2Button"
         Me.CB2Button.Size = New System.Drawing.Size(79, 25)
         Me.CB2Button.TabIndex = 19
@@ -117,8 +116,10 @@ Partial Class ssoobepersonalisationbackground
         '
         'CB1Button
         '
+        Me.CB1Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CB1Button.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.CB1Button.Location = New System.Drawing.Point(504, 177)
+        Me.CB1Button.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB1Button.Location = New System.Drawing.Point(720, 339)
         Me.CB1Button.Name = "CB1Button"
         Me.CB1Button.Size = New System.Drawing.Size(79, 25)
         Me.CB1Button.TabIndex = 20
@@ -149,7 +150,8 @@ Partial Class ssoobepersonalisationbackground
         '
         'WelcomeBackgroundPicture
         '
-        Me.WelcomeBackgroundPicture.Location = New System.Drawing.Point(6, 28)
+        Me.WelcomeBackgroundPicture.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.WelcomeBackgroundPicture.Location = New System.Drawing.Point(224, 401)
         Me.WelcomeBackgroundPicture.Name = "WelcomeBackgroundPicture"
         Me.WelcomeBackgroundPicture.Size = New System.Drawing.Size(208, 125)
         Me.WelcomeBackgroundPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -158,21 +160,25 @@ Partial Class ssoobepersonalisationbackground
         '
         'Label1
         '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(220, 28)
+        Me.Label1.Location = New System.Drawing.Point(438, 401)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(361, 84)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Enabling the background will disable the default" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "background or colour. When pick" &
-    "ing a background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "make sure you have set up a dedicated folder that" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Hub can rea" &
-    "d the file from."
+    "ing a background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "make sure you have set up a dedicated folder that" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WLP Hub can" &
+    " read the file from."
         '
         'WDBSwitch
         '
+        Me.WDBSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.WDBSwitch.AutoSize = True
+        Me.WDBSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WDBSwitch.ForeColor = System.Drawing.Color.White
-        Me.WDBSwitch.Location = New System.Drawing.Point(224, 115)
+        Me.WDBSwitch.Location = New System.Drawing.Point(438, 488)
         Me.WDBSwitch.Name = "WDBSwitch"
         Me.WDBSwitch.Size = New System.Drawing.Size(165, 25)
         Me.WDBSwitch.TabIndex = 24
@@ -182,9 +188,11 @@ Partial Class ssoobepersonalisationbackground
         '
         'WUCSwitch
         '
+        Me.WUCSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.WUCSwitch.AutoSize = True
+        Me.WUCSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WUCSwitch.ForeColor = System.Drawing.Color.White
-        Me.WUCSwitch.Location = New System.Drawing.Point(224, 138)
+        Me.WUCSwitch.Location = New System.Drawing.Point(438, 511)
         Me.WUCSwitch.Name = "WUCSwitch"
         Me.WUCSwitch.Size = New System.Drawing.Size(108, 25)
         Me.WUCSwitch.TabIndex = 24
@@ -194,9 +202,11 @@ Partial Class ssoobepersonalisationbackground
         '
         'RB2Box
         '
+        Me.RB2Box.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.RB2Box.AutoSize = True
+        Me.RB2Box.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB2Box.ForeColor = System.Drawing.Color.White
-        Me.RB2Box.Location = New System.Drawing.Point(224, 161)
+        Me.RB2Box.Location = New System.Drawing.Point(438, 534)
         Me.RB2Box.Name = "RB2Box"
         Me.RB2Box.Size = New System.Drawing.Size(169, 25)
         Me.RB2Box.TabIndex = 25
@@ -206,7 +216,8 @@ Partial Class ssoobepersonalisationbackground
         '
         'HubBackgroundPicture
         '
-        Me.HubBackgroundPicture.Location = New System.Drawing.Point(6, 28)
+        Me.HubBackgroundPicture.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.HubBackgroundPicture.Location = New System.Drawing.Point(224, 206)
         Me.HubBackgroundPicture.Name = "HubBackgroundPicture"
         Me.HubBackgroundPicture.Size = New System.Drawing.Size(208, 125)
         Me.HubBackgroundPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -215,21 +226,25 @@ Partial Class ssoobepersonalisationbackground
         '
         'Label3
         '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(220, 28)
+        Me.Label3.Location = New System.Drawing.Point(438, 206)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(361, 84)
         Me.Label3.TabIndex = 21
         Me.Label3.Text = "Enabling the background will disable the default" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "background or colour. When pick" &
-    "ing a background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "make sure you have set up a dedicated folder that" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Hub can rea" &
-    "d the file from."
+    "ing a background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "make sure you have set up a dedicated folder that" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WLP Hub can" &
+    " read the file from."
         '
         'HDBSwitch
         '
+        Me.HDBSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.HDBSwitch.AutoSize = True
+        Me.HDBSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HDBSwitch.ForeColor = System.Drawing.Color.White
-        Me.HDBSwitch.Location = New System.Drawing.Point(224, 115)
+        Me.HDBSwitch.Location = New System.Drawing.Point(438, 293)
         Me.HDBSwitch.Name = "HDBSwitch"
         Me.HDBSwitch.Size = New System.Drawing.Size(165, 25)
         Me.HDBSwitch.TabIndex = 22
@@ -239,9 +254,11 @@ Partial Class ssoobepersonalisationbackground
         '
         'HUCSwitch
         '
+        Me.HUCSwitch.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.HUCSwitch.AutoSize = True
+        Me.HUCSwitch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HUCSwitch.ForeColor = System.Drawing.Color.White
-        Me.HUCSwitch.Location = New System.Drawing.Point(224, 138)
+        Me.HUCSwitch.Location = New System.Drawing.Point(438, 316)
         Me.HUCSwitch.Name = "HUCSwitch"
         Me.HUCSwitch.Size = New System.Drawing.Size(108, 25)
         Me.HUCSwitch.TabIndex = 23
@@ -251,9 +268,11 @@ Partial Class ssoobepersonalisationbackground
         '
         'RB1Box
         '
+        Me.RB1Box.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.RB1Box.AutoSize = True
+        Me.RB1Box.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB1Box.ForeColor = System.Drawing.Color.White
-        Me.RB1Box.Location = New System.Drawing.Point(224, 161)
+        Me.RB1Box.Location = New System.Drawing.Point(438, 339)
         Me.RB1Box.Name = "RB1Box"
         Me.RB1Box.Size = New System.Drawing.Size(169, 25)
         Me.RB1Box.TabIndex = 24
@@ -261,51 +280,29 @@ Partial Class ssoobepersonalisationbackground
         Me.RB1Box.Text = "Custom background"
         Me.RB1Box.UseVisualStyleBackColor = True
         '
-        'WelcomeBackgroundLabel
+        'Label5
         '
-        Me.WelcomeBackgroundLabel.AutoSize = True
-        Me.WelcomeBackgroundLabel.ForeColor = System.Drawing.Color.White
-        Me.WelcomeBackgroundLabel.Location = New System.Drawing.Point(272, 441)
-        Me.WelcomeBackgroundLabel.Name = "WelcomeBackgroundLabel"
-        Me.WelcomeBackgroundLabel.Size = New System.Drawing.Size(142, 13)
-        Me.WelcomeBackgroundLabel.TabIndex = 26
-        Me.WelcomeBackgroundLabel.Text = "Welcome/Exit Background"
+        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(416, 373)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(191, 21)
+        Me.Label5.TabIndex = 26
+        Me.Label5.Text = "Welcome/Exit Background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'HubBackgroundBox
+        'Label6
         '
-        Me.HubBackgroundBox.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.HubBackgroundBox.Controls.Add(Me.CB1Button)
-        Me.HubBackgroundBox.Controls.Add(Me.HubBackgroundPicture)
-        Me.HubBackgroundBox.Controls.Add(Me.Label3)
-        Me.HubBackgroundBox.Controls.Add(Me.RB1Box)
-        Me.HubBackgroundBox.Controls.Add(Me.HDBSwitch)
-        Me.HubBackgroundBox.Controls.Add(Me.HUCSwitch)
-        Me.HubBackgroundBox.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HubBackgroundBox.ForeColor = System.Drawing.Color.White
-        Me.HubBackgroundBox.Location = New System.Drawing.Point(217, 179)
-        Me.HubBackgroundBox.Name = "HubBackgroundBox"
-        Me.HubBackgroundBox.Size = New System.Drawing.Size(589, 208)
-        Me.HubBackgroundBox.TabIndex = 27
-        Me.HubBackgroundBox.TabStop = False
-        Me.HubBackgroundBox.Text = "Hub Background"
-        '
-        'WelcomeBackgroundBox
-        '
-        Me.WelcomeBackgroundBox.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.WelcomeBackgroundBox.Controls.Add(Me.WelcomeBackgroundPicture)
-        Me.WelcomeBackgroundBox.Controls.Add(Me.RB2Box)
-        Me.WelcomeBackgroundBox.Controls.Add(Me.CB2Button)
-        Me.WelcomeBackgroundBox.Controls.Add(Me.WUCSwitch)
-        Me.WelcomeBackgroundBox.Controls.Add(Me.Label1)
-        Me.WelcomeBackgroundBox.Controls.Add(Me.WDBSwitch)
-        Me.WelcomeBackgroundBox.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WelcomeBackgroundBox.ForeColor = System.Drawing.Color.White
-        Me.WelcomeBackgroundBox.Location = New System.Drawing.Point(217, 393)
-        Me.WelcomeBackgroundBox.Name = "WelcomeBackgroundBox"
-        Me.WelcomeBackgroundBox.Size = New System.Drawing.Size(589, 208)
-        Me.WelcomeBackgroundBox.TabIndex = 28
-        Me.WelcomeBackgroundBox.TabStop = False
-        Me.WelcomeBackgroundBox.Text = "Welcome/Exit Background"
+        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.White
+        Me.Label6.Location = New System.Drawing.Point(448, 175)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(126, 21)
+        Me.Label6.TabIndex = 27
+        Me.Label6.Text = "Hub Background" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'ssoobepersonalisationbackground
         '
@@ -313,13 +310,24 @@ Partial Class ssoobepersonalisationbackground
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(1022, 643)
-        Me.Controls.Add(Me.WelcomeBackgroundBox)
-        Me.Controls.Add(Me.WelcomeBackgroundLabel)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.WelcomeBackgroundPicture)
+        Me.Controls.Add(Me.RB2Box)
+        Me.Controls.Add(Me.CB1Button)
+        Me.Controls.Add(Me.CB2Button)
+        Me.Controls.Add(Me.WUCSwitch)
+        Me.Controls.Add(Me.HubBackgroundPicture)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.WDBSwitch)
+        Me.Controls.Add(Me.RB1Box)
         Me.Controls.Add(Me.RMLButton)
+        Me.Controls.Add(Me.HDBSwitch)
         Me.Controls.Add(Me.ForwardButton)
+        Me.Controls.Add(Me.HUCSwitch)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.HubBackgroundBox)
         Me.Controls.Add(Me.WLSOOBEBackground)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -331,10 +339,6 @@ Partial Class ssoobepersonalisationbackground
         CType(Me.WLSOOBEBackground, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WelcomeBackgroundPicture, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.HubBackgroundPicture, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.HubBackgroundBox.ResumeLayout(False)
-        Me.HubBackgroundBox.PerformLayout()
-        Me.WelcomeBackgroundBox.ResumeLayout(False)
-        Me.WelcomeBackgroundBox.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -358,8 +362,7 @@ Partial Class ssoobepersonalisationbackground
     Friend WithEvents HDBSwitch As System.Windows.Forms.RadioButton
     Friend WithEvents HUCSwitch As System.Windows.Forms.RadioButton
     Friend WithEvents RB1Box As System.Windows.Forms.RadioButton
-    Friend WithEvents WelcomeBackgroundLabel As Label
     Friend WithEvents CB1Button As Button
-    Friend WithEvents HubBackgroundBox As GroupBox
-    Friend WithEvents WelcomeBackgroundBox As GroupBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
 End Class

@@ -21,7 +21,7 @@
         Me.Dispose()
     End Sub
 
-    Private Sub ErrorLink_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles ErrorLink.LinkClicked
+    Private Sub ErrorLink_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)
         sssearch.Show()
         sssearch.GeckoWebBrowser1.Navigate("dev.windowslogic.co.uk/sserrors.html")
     End Sub

@@ -35,11 +35,11 @@ Partial Class ssoobeloaded
         Me.VerInfo.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.VerInfo.AutoSize = True
         Me.VerInfo.BackColor = System.Drawing.Color.Transparent
-        Me.VerInfo.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.VerInfo.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.VerInfo.ForeColor = System.Drawing.Color.White
-        Me.VerInfo.Location = New System.Drawing.Point(360, 96)
+        Me.VerInfo.Location = New System.Drawing.Point(361, 96)
         Me.VerInfo.Name = "VerInfo"
-        Me.VerInfo.Size = New System.Drawing.Size(155, 37)
+        Me.VerInfo.Size = New System.Drawing.Size(154, 37)
         Me.VerInfo.TabIndex = 4
         Me.VerInfo.Text = "Hi, %user%."
         '
@@ -59,11 +59,11 @@ Partial Class ssoobeloaded
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(95, 156)
+        Me.Label1.Location = New System.Drawing.Point(98, 156)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(685, 210)
+        Me.Label1.Size = New System.Drawing.Size(681, 210)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = resources.GetString("Label1.Text")
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -74,7 +74,7 @@ Partial Class ssoobeloaded
         Me.ForwardButton.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForwardButton.Image = Global.ss.My.Resources.Resources.ssNavigateFoward
         Me.ForwardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.ForwardButton.Location = New System.Drawing.Point(398, 382)
+        Me.ForwardButton.Location = New System.Drawing.Point(399, 382)
         Me.ForwardButton.Name = "ForwardButton"
         Me.ForwardButton.Size = New System.Drawing.Size(80, 36)
         Me.ForwardButton.TabIndex = 22

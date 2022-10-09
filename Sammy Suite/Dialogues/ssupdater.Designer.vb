@@ -29,15 +29,15 @@ Partial Class ssupdater
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.CancelButton1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.GeckoGeckoWebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -62,11 +62,11 @@ Partial Class ssupdater
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(525, 16)
+        Me.Label1.Location = New System.Drawing.Point(518, 14)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(10, 13)
+        Me.Label1.Size = New System.Drawing.Size(10, 15)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "."
         '
@@ -74,58 +74,28 @@ Partial Class ssupdater
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(12, 16)
+        Me.Label2.Location = New System.Drawing.Point(12, 14)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(73, 13)
+        Me.Label2.Size = New System.Drawing.Size(74, 15)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Please wait..."
         '
         'Timer1
         '
         '
-        'GeckoGeckoWebBrowser1
-        '
-        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 294)
-        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
-        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(20, 20)
-        Me.GeckoGeckoWebBrowser1.TabIndex = 0
-        Me.GeckoGeckoWebBrowser1.Visible = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.ssSecGood
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 14
-        Me.PictureBox1.TabStop = False
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(50, 13)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(442, 30)
+        Me.Label4.Size = New System.Drawing.Size(456, 30)
         Me.Label4.TabIndex = 15
-        Me.Label4.Text = "Your computer is installing important updates."
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.ss.My.Resources.Resources.GoodGradient
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(565, 53)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 18
-        Me.PictureBox2.TabStop = False
+        Me.Label4.Text = "Your computer is preparing application updates."
         '
         'CancelButton1
         '
@@ -151,6 +121,36 @@ Partial Class ssupdater
         Me.Panel1.Size = New System.Drawing.Size(565, 83)
         Me.Panel1.TabIndex = 17
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.Updates_On
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 14
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.ss.My.Resources.Resources.GoodGradient
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(565, 53)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 18
+        Me.PictureBox2.TabStop = False
+        '
+        'GeckoGeckoWebBrowser1
+        '
+        Me.GeckoGeckoWebBrowser1.Location = New System.Drawing.Point(0, 294)
+        Me.GeckoGeckoWebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.Name = "GeckoGeckoWebBrowser1"
+        Me.GeckoGeckoWebBrowser1.Size = New System.Drawing.Size(20, 20)
+        Me.GeckoGeckoWebBrowser1.TabIndex = 0
+        Me.GeckoGeckoWebBrowser1.Visible = False
+        '
         'ssupdater
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -174,10 +174,10 @@ Partial Class ssupdater
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Automatic Updates"
         Me.TopMost = True
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

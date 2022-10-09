@@ -25,11 +25,8 @@ Partial Class ssmusic
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ssmusic))
         Me.TrackBar1 = New System.Windows.Forms.TrackBar()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.AxWindowsMediaPlayer2 = New AxWMPLib.AxWindowsMediaPlayer()
         Me.TrackBar2 = New System.Windows.Forms.TrackBar()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.MillisecondsS = New System.Windows.Forms.Label()
@@ -53,10 +50,10 @@ Partial Class ssmusic
         Me.StopButton = New System.Windows.Forms.Button()
         Me.PreviousButton = New System.Windows.Forms.Button()
         Me.MuteButton = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AxWindowsMediaPlayer2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -71,26 +68,15 @@ Partial Class ssmusic
         Me.TrackBar1.TickStyle = System.Windows.Forms.TickStyle.Both
         Me.TrackBar1.Value = 100
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(12, 29)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(277, 30)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Music Status: Awaiting Input"
-        '
         'AxWindowsMediaPlayer2
         '
         Me.AxWindowsMediaPlayer2.Enabled = True
-        Me.AxWindowsMediaPlayer2.Location = New System.Drawing.Point(17, 62)
+        Me.AxWindowsMediaPlayer2.Location = New System.Drawing.Point(466, 325)
         Me.AxWindowsMediaPlayer2.Name = "AxWindowsMediaPlayer2"
         Me.AxWindowsMediaPlayer2.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer2.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer2.Size = New System.Drawing.Size(497, 244)
+        Me.AxWindowsMediaPlayer2.Size = New System.Drawing.Size(46, 13)
         Me.AxWindowsMediaPlayer2.TabIndex = 4
+        Me.AxWindowsMediaPlayer2.Visible = False
         '
         'TrackBar2
         '
@@ -102,34 +88,16 @@ Partial Class ssmusic
         Me.TrackBar2.TabIndex = 17
         Me.TrackBar2.TickStyle = System.Windows.Forms.TickStyle.TopLeft
         '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.ListBox1)
-        Me.GroupBox1.Controls.Add(Me.ListBox2)
-        Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(518, 28)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(157, 360)
-        Me.GroupBox1.TabIndex = 18
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Current Playlist"
-        '
-        'ListBox1
-        '
-        Me.ListBox1.BackColor = System.Drawing.Color.White
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(7, 21)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(144, 329)
-        Me.ListBox1.TabIndex = 0
-        '
         'ListBox2
         '
+        Me.ListBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ListBox2.BackColor = System.Drawing.Color.White
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(6, 21)
+        Me.ListBox2.Location = New System.Drawing.Point(12, 28)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(144, 329)
+        Me.ListBox2.Size = New System.Drawing.Size(502, 277)
         Me.ListBox2.TabIndex = 1
         '
         'Timer2
@@ -155,7 +123,7 @@ Partial Class ssmusic
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.MenuStrip1.Size = New System.Drawing.Size(678, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(526, 24)
         Me.MenuStrip1.TabIndex = 46
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -183,7 +151,7 @@ Partial Class ssmusic
         '
         'ExitToolStripMenuItem
         '
-        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssExit
+        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources._Exit
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
@@ -203,7 +171,7 @@ Partial Class ssmusic
         Me.RepeatToolStripMenuItem.CheckOnClick = True
         Me.RepeatToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.RepeatToolStripMenuItem.Name = "RepeatToolStripMenuItem"
-        Me.RepeatToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RepeatToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.RepeatToolStripMenuItem.Text = "Repeat Song"
         '
         'RepeatPlaylistToolStripMenuItem
@@ -211,7 +179,7 @@ Partial Class ssmusic
         Me.RepeatPlaylistToolStripMenuItem.CheckOnClick = True
         Me.RepeatPlaylistToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.RepeatPlaylistToolStripMenuItem.Name = "RepeatPlaylistToolStripMenuItem"
-        Me.RepeatPlaylistToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RepeatPlaylistToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.RepeatPlaylistToolStripMenuItem.Text = "Repeat Playlist"
         '
         'ShuffleToolStripMenuItem
@@ -219,7 +187,7 @@ Partial Class ssmusic
         Me.ShuffleToolStripMenuItem.CheckOnClick = True
         Me.ShuffleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ShuffleToolStripMenuItem.Name = "ShuffleToolStripMenuItem"
-        Me.ShuffleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ShuffleToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
         Me.ShuffleToolStripMenuItem.Text = "Shuffle"
         '
         'HelpToolStripMenuItem
@@ -232,11 +200,11 @@ Partial Class ssmusic
         '
         'HelpCentreToolStripMenuItem
         '
-        Me.HelpCentreToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssQuestion
+        Me.HelpCentreToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Question
         Me.HelpCentreToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpCentreToolStripMenuItem.Name = "HelpCentreToolStripMenuItem"
         Me.HelpCentreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(142, 38)
+        Me.HelpCentreToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.HelpCentreToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator1
@@ -246,11 +214,11 @@ Partial Class ssmusic
         '
         'AboutToolStripMenuItem
         '
-        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssInfo
+        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Information
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(142, 38)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'UnmuteButton
@@ -344,15 +312,27 @@ Partial Class ssmusic
         Me.MuteButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.MuteButton.UseVisualStyleBackColor = True
         '
+        'ListBox1
+        '
+        Me.ListBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ListBox1.BackColor = System.Drawing.Color.White
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(12, 28)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(502, 277)
+        Me.ListBox1.TabIndex = 0
+        '
         'ssmusic
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(678, 398)
+        Me.ClientSize = New System.Drawing.Size(526, 398)
+        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.MillisecondsS)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TrackBar1)
         Me.Controls.Add(Me.AxWindowsMediaPlayer2)
         Me.Controls.Add(Me.UnmuteButton)
@@ -374,7 +354,6 @@ Partial Class ssmusic
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.AxWindowsMediaPlayer2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

@@ -611,7 +611,10 @@ Public Class sssketchpad
         Saveas.Filter = "Bitmap (*.bmp)|*.bmp"
         Saveas.CheckPathExists = True
         Saveas.Title = "Save as..."
-        Saveas.ShowDialog(Me)
+
+        If Saveas.ShowDialog(Me) = DialogResult.OK Then
+            PictureBox1.Image.Save(Saveas.FileName, System.Drawing.Imaging.ImageFormat.Bmp)
+        End If
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click

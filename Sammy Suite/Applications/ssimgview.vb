@@ -14,7 +14,7 @@
 #End Region
 #Region "Menu"
     Private Sub OpenToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles OpenToolStripMenuItem.Click
-        OpenFileDialog1.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|" + "Image Files|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff"
+        OpenFileDialog1.Filter = "Image Files|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff"
         If OpenFileDialog1.ShowDialog() = DialogResult.OK Then
             PictureBox1.Load(OpenFileDialog1.FileName)
         End If

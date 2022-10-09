@@ -55,7 +55,7 @@ Partial Class ssweather
         '
         'ExitToolStripMenuItem
         '
-        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssExit
+        Me.ExitToolStripMenuItem.Image = Global.ss.My.Resources.Resources._Exit
         Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
@@ -72,7 +72,7 @@ Partial Class ssweather
         '
         'HelpToolStripMenuItem1
         '
-        Me.HelpToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.ssQuestion
+        Me.HelpToolStripMenuItem1.Image = Global.ss.My.Resources.Resources.Question
         Me.HelpToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
         Me.HelpToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F1
@@ -86,7 +86,7 @@ Partial Class ssweather
         '
         'AboutToolStripMenuItem
         '
-        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.ssInfo
+        Me.AboutToolStripMenuItem.Image = Global.ss.My.Resources.Resources.Information
         Me.AboutToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2

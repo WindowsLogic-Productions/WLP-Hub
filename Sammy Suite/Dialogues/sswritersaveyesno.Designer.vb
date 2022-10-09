@@ -37,7 +37,7 @@ Partial Class sswritersaveyesno
         '
         Me.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.SaveButton.ForeColor = System.Drawing.Color.Black
-        Me.SaveButton.Location = New System.Drawing.Point(87, 67)
+        Me.SaveButton.Location = New System.Drawing.Point(93, 67)
         Me.SaveButton.Name = "SaveButton"
         Me.SaveButton.Size = New System.Drawing.Size(75, 23)
         Me.SaveButton.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class sswritersaveyesno
         '
         Me.DontSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.DontSaveButton.ForeColor = System.Drawing.Color.Black
-        Me.DontSaveButton.Location = New System.Drawing.Point(168, 67)
+        Me.DontSaveButton.Location = New System.Drawing.Point(174, 67)
         Me.DontSaveButton.Name = "DontSaveButton"
         Me.DontSaveButton.Size = New System.Drawing.Size(75, 23)
         Me.DontSaveButton.TabIndex = 1
@@ -59,7 +59,7 @@ Partial Class sswritersaveyesno
         '
         Me.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.CancelButton.ForeColor = System.Drawing.Color.Black
-        Me.CancelButton.Location = New System.Drawing.Point(249, 67)
+        Me.CancelButton.Location = New System.Drawing.Point(255, 67)
         Me.CancelButton.Name = "CancelButton"
         Me.CancelButton.Size = New System.Drawing.Size(75, 23)
         Me.CancelButton.TabIndex = 2
@@ -93,9 +93,10 @@ Partial Class sswritersaveyesno
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(411, 61)
+        Me.Panel1.Size = New System.Drawing.Size(422, 61)
         Me.Panel1.TabIndex = 9
         '
         'sswritersaveyesno
@@ -104,7 +105,7 @@ Partial Class sswritersaveyesno
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(411, 98)
+        Me.ClientSize = New System.Drawing.Size(422, 98)
         Me.Controls.Add(Me.CancelButton)
         Me.Controls.Add(Me.SaveButton)
         Me.Controls.Add(Me.DontSaveButton)

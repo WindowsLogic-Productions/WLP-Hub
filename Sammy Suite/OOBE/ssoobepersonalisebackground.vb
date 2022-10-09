@@ -47,8 +47,8 @@
         Label4.Parent = WLSOOBEBackground
         RMLButton.Parent = WLSOOBEBackground
         ForwardButton.Parent = WLSOOBEBackground
-        HubBackgroundBox.Parent = WLSOOBEBackground
-        WelcomeBackgroundBox.Parent = WLSOOBEBackground
+        Label5.Parent = WLSOOBEBackground
+        Label6.Parent = WLSOOBEBackground
     End Sub
 #End Region
 #Region "Settings"

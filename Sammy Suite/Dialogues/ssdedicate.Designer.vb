@@ -40,16 +40,16 @@ Partial Class ssdedicate
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(12, 66)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(246, 91)
+        Me.Label1.Size = New System.Drawing.Size(249, 91)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Hub ESR is programmed with love and care by:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WindowsLogic" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Dedicated to:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
-    "All of our supporters."
+        Me.Label1.Text = "WLP Hub is programmed with love and care by:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Timothy Iles (WindowsLogic)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "De" &
+    "dicated to Frejya~ <3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Made in the United Kingdom."
         '
         'OKButton
         '
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.OKButton.Location = New System.Drawing.Point(225, 328)
+        Me.OKButton.Location = New System.Drawing.Point(225, 327)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(75, 23)
         Me.OKButton.TabIndex = 0
@@ -61,9 +61,9 @@ Partial Class ssdedicate
         Me.GroupBox2.Controls.Add(Me.ListBox1)
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 172)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 171)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(286, 146)
+        Me.GroupBox2.Size = New System.Drawing.Size(288, 146)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Compiled Applications"
@@ -72,10 +72,10 @@ Partial Class ssdedicate
         '
         Me.ListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Calculator", "Writer", "Music Player", "Image Viewer", "CD Player", "Sketch Pad", "Weather", "Alarm", "Mail", "Appointments", "Maps", "News", "GIF Studio"})
+        Me.ListBox1.Items.AddRange(New Object() {"Calculator", "Writer", "Music", "Image Viewer", "CD Player", "Sketch Pad", "Weather", "Alarm", "Mail", "Appointments", "Maps", "News", "GIF Studio"})
         Me.ListBox1.Location = New System.Drawing.Point(6, 62)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(274, 78)
+        Me.ListBox1.Size = New System.Drawing.Size(276, 78)
         Me.ListBox1.TabIndex = 3
         '
         'Label3
@@ -87,7 +87,7 @@ Partial Class ssdedicate
         Me.Label3.Size = New System.Drawing.Size(274, 39)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "The following applications in this list are owned by " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WindowsLogic. If copied or" &
-    " redistributed outside of" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the Hub ESR system, legal action will be taken."
+    " redistributed outside of" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the WLP Hub system, legal action will be taken."
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Panel1
@@ -103,10 +103,10 @@ Partial Class ssdedicate
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(12, 11)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(223, 30)
+        Me.Label2.Size = New System.Drawing.Size(222, 30)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Who made it possible?"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -117,7 +117,7 @@ Partial Class ssdedicate
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(312, 363)
+        Me.ClientSize = New System.Drawing.Size(312, 362)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox2)

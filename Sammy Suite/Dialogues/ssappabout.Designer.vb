@@ -99,6 +99,7 @@ Partial Class ssappabout
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "ssappabout"
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About App"
         CType(Me.AppPic, System.ComponentModel.ISupportInitialize).EndInit()

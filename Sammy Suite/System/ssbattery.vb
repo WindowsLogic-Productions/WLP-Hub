@@ -98,7 +98,7 @@
         ssappabout.Text = "About Battery Status"
         ssappabout.AppPic.Image = My.Resources.ssBatteryIcon
         ssappabout.AppName.Text = "Battery Status"
-        ssappabout.AppVer.Text = "Version 1.1"
+        ssappabout.AppVer.Text = "Version " & My.Application.Info.Version.ToString
         ssappabout.ShowDialog()
     End Sub
 

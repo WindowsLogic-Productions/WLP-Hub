@@ -88,13 +88,13 @@ Partial Class ssoobewls
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(23, 91)
+        Me.Label4.Location = New System.Drawing.Point(24, 91)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(831, 60)
+        Me.Label4.Size = New System.Drawing.Size(829, 60)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "The Hub ESR Locking System enables security features built into Hub ESR." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Before " &
+        Me.Label4.Text = "The WLP Hub Locking System enables security features built into WLP Hub." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Before " &
     "these security features are enabled, you need to enter a username and password."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
@@ -102,13 +102,13 @@ Partial Class ssoobewls
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(344, 37)
+        Me.Label2.Size = New System.Drawing.Size(336, 37)
         Me.Label2.TabIndex = 15
-        Me.Label2.Text = "1. Hub ESR Locking System"
+        Me.Label2.Text = "1. WLP Hub Locking System"
         '
         'RMLButton
         '

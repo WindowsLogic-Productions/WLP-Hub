@@ -26,7 +26,6 @@ Partial Class sserror
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ErrorLink = New System.Windows.Forms.LinkLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -36,7 +35,7 @@ Partial Class sserror
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(50, 12)
+        Me.Label1.Location = New System.Drawing.Point(50, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(417, 13)
         Me.Label1.TabIndex = 1
@@ -47,7 +46,7 @@ Partial Class sserror
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(204, 70)
+        Me.Button1.Location = New System.Drawing.Point(204, 63)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(74, 23)
         Me.Button1.TabIndex = 2
@@ -57,24 +56,13 @@ Partial Class sserror
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.ErrorLink)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(482, 64)
+        Me.Panel1.Size = New System.Drawing.Size(482, 57)
         Me.Panel1.TabIndex = 3
-        '
-        'ErrorLink
-        '
-        Me.ErrorLink.AutoSize = True
-        Me.ErrorLink.Location = New System.Drawing.Point(50, 31)
-        Me.ErrorLink.Name = "ErrorLink"
-        Me.ErrorLink.Size = New System.Drawing.Size(166, 13)
-        Me.ErrorLink.TabIndex = 2
-        Me.ErrorLink.TabStop = True
-        Me.ErrorLink.Text = "Find out what this error means"
         '
         'PictureBox1
         '
@@ -93,7 +81,7 @@ Partial Class sserror
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(482, 99)
+        Me.ClientSize = New System.Drawing.Size(482, 92)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -116,5 +104,4 @@ Partial Class sserror
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents ErrorLink As System.Windows.Forms.LinkLabel
 End Class

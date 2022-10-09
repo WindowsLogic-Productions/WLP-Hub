@@ -51,11 +51,11 @@ Partial Class ssoobehub
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(148, 37)
+        Me.Label2.Size = New System.Drawing.Size(141, 37)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "1. > 2. Hub"
         '
@@ -64,14 +64,14 @@ Partial Class ssoobehub
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(50, 98)
+        Me.Label4.Location = New System.Drawing.Point(53, 98)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(776, 60)
+        Me.Label4.Size = New System.Drawing.Size(771, 60)
         Me.Label4.TabIndex = 19
-        Me.Label4.Text = "These settings change the way Hub ESR works." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your liking" &
-            " right now or do it later from the Settings Panel."
+        Me.Label4.Text = "These settings change the way WLP Hub works." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your liking" &
+    " right now or do it later from the Settings Panel."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ForwardButton

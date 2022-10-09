@@ -20,7 +20,7 @@
         Me.Close()
     End Sub
 
-    Private Sub SearchSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SearchSettingsButton.Click
+    Private Sub SearchSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         sssettingspanelsearch.Show()
         Me.Close()
     End Sub
@@ -30,7 +30,7 @@
         Me.Close()
     End Sub
 
-    Private Sub FirewallSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FirewallSettingsButton.Click
+    Private Sub FirewallSettingsButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         sserror.Show()
         sserror.Label1.Text = "We're currently working on this..."
     End Sub

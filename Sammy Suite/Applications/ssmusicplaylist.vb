@@ -36,6 +36,7 @@ Public Class ssmusicplaylist
 
         For Each s As String In ListBox3.Items
             ssmusic.ListBox1.Items.Add(s)
+
         Next
 
         For Each s As String In ListBox1.Items

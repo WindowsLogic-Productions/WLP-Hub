@@ -28,7 +28,7 @@
         ssdedicate.Show()
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.Click
         ssmain.GeckoWebBrowser1.Navigate("https://www.windowslogic.co.uk/appagreement.php")
         Me.Close()
     End Sub

@@ -46,11 +46,11 @@ Partial Class ssoobeload
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(216, 213)
+        Me.Label1.Location = New System.Drawing.Point(219, 213)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(484, 37)
+        Me.Label1.Size = New System.Drawing.Size(479, 37)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Getting ready to start for the first time..."
         '
@@ -62,7 +62,7 @@ Partial Class ssoobeload
         Me.Loader.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Loader.BackColor = System.Drawing.Color.Transparent
         Me.Loader.Image = Global.ss.My.Resources.Resources.ssLoading
-        Me.Loader.Location = New System.Drawing.Point(176, 216)
+        Me.Loader.Location = New System.Drawing.Point(179, 216)
         Me.Loader.Name = "Loader"
         Me.Loader.Size = New System.Drawing.Size(34, 34)
         Me.Loader.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

@@ -52,11 +52,11 @@ Partial Class sslock
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLP
+        Me.PictureBox1.Image = Global.ss.My.Resources.Resources.WLPFull
         Me.PictureBox1.Location = New System.Drawing.Point(12, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
@@ -66,9 +66,9 @@ Partial Class sslock
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(50, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(99, 30)
+        Me.Label1.Size = New System.Drawing.Size(307, 30)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "WLP Hub"
+        Me.Label1.Text = "WindowsLogic Productions Hub"
         '
         'Label2
         '
@@ -92,24 +92,24 @@ Partial Class sslock
         '
         'UsernameBox
         '
-        Me.UsernameBox.Location = New System.Drawing.Point(120, 128)
+        Me.UsernameBox.Location = New System.Drawing.Point(79, 128)
         Me.UsernameBox.Name = "UsernameBox"
-        Me.UsernameBox.Size = New System.Drawing.Size(208, 22)
+        Me.UsernameBox.Size = New System.Drawing.Size(303, 22)
         Me.UsernameBox.TabIndex = 0
         '
         'PasswordBox
         '
-        Me.PasswordBox.Location = New System.Drawing.Point(120, 156)
+        Me.PasswordBox.Location = New System.Drawing.Point(79, 156)
         Me.PasswordBox.Name = "PasswordBox"
         Me.PasswordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.PasswordBox.Size = New System.Drawing.Size(208, 22)
+        Me.PasswordBox.Size = New System.Drawing.Size(303, 22)
         Me.PasswordBox.TabIndex = 1
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(53, 131)
+        Me.Label5.Location = New System.Drawing.Point(12, 131)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(61, 13)
         Me.Label5.TabIndex = 9
@@ -119,7 +119,7 @@ Partial Class sslock
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(55, 159)
+        Me.Label6.Location = New System.Drawing.Point(14, 159)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(59, 13)
         Me.Label6.TabIndex = 10

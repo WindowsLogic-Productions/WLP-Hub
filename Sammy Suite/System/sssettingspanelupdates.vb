@@ -5,13 +5,7 @@
         'Load update settings.
         If My.Settings.Updates = 1 Then
             EnableUpdatesSwitch.Checked = True
-        End If
-
-        If My.Settings.Updates = 2 Then
-            AdhocUpdatesSwitch.Checked = True
-        End If
-
-        If My.Settings.Updates = 0 Then
+        Else
             DisableUpdatesSwitch.Checked = True
         End If
 
@@ -26,14 +20,6 @@
         If EnableUpdatesSwitch.Checked = True Then
             My.Settings.Updates = 1
             PictureBox1.Image = My.Resources.GoodGradient
-            My.Settings.Save()
-        End If
-    End Sub
-
-    Private Sub AdhocUpdatesSwitch_CheckedChanged(sender As Object, e As EventArgs) Handles AdhocUpdatesSwitch.CheckedChanged
-        If AdhocUpdatesSwitch.Checked = True Then
-            My.Settings.Updates = 2
-            PictureBox1.Image = My.Resources.WarningGradient
             My.Settings.Save()
         End If
     End Sub

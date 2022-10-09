@@ -29,9 +29,7 @@ Partial Class sssettingspanel
         Me.HelpButton = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TitleLabel = New System.Windows.Forms.Label()
-        Me.FirewallSettingsButton = New System.Windows.Forms.Button()
         Me.UpdatesSettingsButton = New System.Windows.Forms.Button()
-        Me.SearchSettingsButton = New System.Windows.Forms.Button()
         Me.PersonaliseSettingsButton = New System.Windows.Forms.Button()
         Me.HubSettingsButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
@@ -77,28 +75,12 @@ Partial Class sssettingspanel
         'TitleLabel
         '
         Me.TitleLabel.AutoSize = True
-        Me.TitleLabel.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TitleLabel.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TitleLabel.Location = New System.Drawing.Point(12, 11)
         Me.TitleLabel.Name = "TitleLabel"
         Me.TitleLabel.Size = New System.Drawing.Size(395, 30)
         Me.TitleLabel.TabIndex = 2
         Me.TitleLabel.Text = "Select a setting to change to your liking..."
-        '
-        'FirewallSettingsButton
-        '
-        Me.FirewallSettingsButton.BackColor = System.Drawing.Color.Transparent
-        Me.FirewallSettingsButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FirewallSettingsButton.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.FirewallSettingsButton.Image = Global.ss.My.Resources.Resources.ssSecGood
-        Me.FirewallSettingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.FirewallSettingsButton.Location = New System.Drawing.Point(169, 108)
-        Me.FirewallSettingsButton.Name = "FirewallSettingsButton"
-        Me.FirewallSettingsButton.Size = New System.Drawing.Size(151, 43)
-        Me.FirewallSettingsButton.TabIndex = 5
-        Me.FirewallSettingsButton.Text = "Firewall"
-        Me.FirewallSettingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.FirewallSettingsButton.UseVisualStyleBackColor = False
-        Me.FirewallSettingsButton.Visible = False
         '
         'UpdatesSettingsButton
         '
@@ -107,28 +89,13 @@ Partial Class sssettingspanel
         Me.UpdatesSettingsButton.ForeColor = System.Drawing.SystemColors.ControlText
         Me.UpdatesSettingsButton.Image = Global.ss.My.Resources.Resources.ssUpdate
         Me.UpdatesSettingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.UpdatesSettingsButton.Location = New System.Drawing.Point(12, 108)
+        Me.UpdatesSettingsButton.Location = New System.Drawing.Point(326, 59)
         Me.UpdatesSettingsButton.Name = "UpdatesSettingsButton"
         Me.UpdatesSettingsButton.Size = New System.Drawing.Size(151, 43)
         Me.UpdatesSettingsButton.TabIndex = 4
         Me.UpdatesSettingsButton.Text = "Updates"
         Me.UpdatesSettingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.UpdatesSettingsButton.UseVisualStyleBackColor = False
-        '
-        'SearchSettingsButton
-        '
-        Me.SearchSettingsButton.BackColor = System.Drawing.Color.Transparent
-        Me.SearchSettingsButton.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchSettingsButton.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.SearchSettingsButton.Image = Global.ss.My.Resources.Resources.ssSearch
-        Me.SearchSettingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.SearchSettingsButton.Location = New System.Drawing.Point(326, 59)
-        Me.SearchSettingsButton.Name = "SearchSettingsButton"
-        Me.SearchSettingsButton.Size = New System.Drawing.Size(151, 43)
-        Me.SearchSettingsButton.TabIndex = 3
-        Me.SearchSettingsButton.Text = "Search"
-        Me.SearchSettingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.SearchSettingsButton.UseVisualStyleBackColor = False
         '
         'PersonaliseSettingsButton
         '
@@ -156,7 +123,7 @@ Partial Class sssettingspanel
         Me.HubSettingsButton.Name = "HubSettingsButton"
         Me.HubSettingsButton.Size = New System.Drawing.Size(151, 43)
         Me.HubSettingsButton.TabIndex = 0
-        Me.HubSettingsButton.Text = "Hub"
+        Me.HubSettingsButton.Text = "General"
         Me.HubSettingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.HubSettingsButton.UseVisualStyleBackColor = False
         '
@@ -166,9 +133,7 @@ Partial Class sssettingspanel
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(488, 245)
-        Me.Controls.Add(Me.FirewallSettingsButton)
         Me.Controls.Add(Me.UpdatesSettingsButton)
-        Me.Controls.Add(Me.SearchSettingsButton)
         Me.Controls.Add(Me.PersonaliseSettingsButton)
         Me.Controls.Add(Me.HubSettingsButton)
         Me.Controls.Add(Me.ResetButton)
@@ -188,12 +153,10 @@ Partial Class sssettingspanel
     End Sub
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents UpdatesSettingsButton As System.Windows.Forms.Button
-    Friend WithEvents SearchSettingsButton As System.Windows.Forms.Button
     Friend WithEvents PersonaliseSettingsButton As System.Windows.Forms.Button
     Friend WithEvents HubSettingsButton As System.Windows.Forms.Button
     Friend WithEvents ResetButton As System.Windows.Forms.Button
     Friend WithEvents HelpButton As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents TitleLabel As System.Windows.Forms.Label
-    Friend WithEvents FirewallSettingsButton As System.Windows.Forms.Button
 End Class

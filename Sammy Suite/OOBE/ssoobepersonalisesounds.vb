@@ -37,6 +37,10 @@
         Label4.Parent = WLSOOBEBackground
         RMLButton.Parent = WLSOOBEBackground
         ForwardButton.Parent = WLSOOBEBackground
+        Label3.Parent = WLSOOBEBackground
+        DefaultSoundSwitch.Parent = WLSOOBEBackground
+        ModernSoundSwitch.Parent = WLSOOBEBackground
+        MuteSoundSwitch.Parent = WLSOOBEBackground
     End Sub
 #End Region
 #Region "Settings"

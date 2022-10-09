@@ -31,7 +31,7 @@ Partial Class ssabout
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.MoreButton = New System.Windows.Forms.Button()
         Me.Copyright = New System.Windows.Forms.Label()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Panel1.SuspendLayout()
         CType(Me.Logopic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,7 +51,7 @@ Partial Class ssabout
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.OKButton.ForeColor = System.Drawing.Color.White
-        Me.OKButton.Location = New System.Drawing.Point(330, 139)
+        Me.OKButton.Location = New System.Drawing.Point(370, 139)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(78, 23)
         Me.OKButton.TabIndex = 1
@@ -66,7 +66,7 @@ Partial Class ssabout
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(420, 53)
+        Me.Panel1.Size = New System.Drawing.Size(460, 53)
         Me.Panel1.TabIndex = 4
         '
         'Logopic
@@ -83,7 +83,7 @@ Partial Class ssabout
         '
         Me.MoreButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MoreButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.MoreButton.Location = New System.Drawing.Point(246, 139)
+        Me.MoreButton.Location = New System.Drawing.Point(286, 139)
         Me.MoreButton.Name = "MoreButton"
         Me.MoreButton.Size = New System.Drawing.Size(78, 23)
         Me.MoreButton.TabIndex = 2
@@ -95,27 +95,26 @@ Partial Class ssabout
         Me.Copyright.AutoSize = True
         Me.Copyright.BackColor = System.Drawing.Color.Transparent
         Me.Copyright.ForeColor = System.Drawing.Color.White
-        Me.Copyright.Location = New System.Drawing.Point(40, 69)
+        Me.Copyright.Location = New System.Drawing.Point(12, 69)
         Me.Copyright.Name = "Copyright"
-        Me.Copyright.Size = New System.Drawing.Size(340, 65)
+        Me.Copyright.Size = New System.Drawing.Size(438, 52)
         Me.Copyright.TabIndex = 17
-        Me.Copyright.Text = "WLP Hub is Copyright © 2014 - 2022 WindowsLogic Productions." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "All rights reserved" &
-    "." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This product is licensed under the                                      to:" &
-    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "%user%"
+        Me.Copyright.Text = "WLP Hub is Copyright © 2014 - 2022 WindowsLogic Productions. All rights reserved." &
+    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This product is licensed under the                                      to:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "%user%"
         Me.Copyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'LinkLabel2
+        'LinkLabel1
         '
-        Me.LinkLabel2.ActiveLinkColor = System.Drawing.Color.Cyan
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.ForeColor = System.Drawing.Color.White
-        Me.LinkLabel2.LinkColor = System.Drawing.Color.White
-        Me.LinkLabel2.Location = New System.Drawing.Point(233, 108)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(112, 13)
-        Me.LinkLabel2.TabIndex = 18
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Software Agreement"
+        Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Cyan
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.ForeColor = System.Drawing.Color.White
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(254, 94)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(112, 13)
+        Me.LinkLabel1.TabIndex = 18
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Software Agreement"
         '
         'ssabout
         '
@@ -123,8 +122,8 @@ Partial Class ssabout
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
-        Me.ClientSize = New System.Drawing.Size(420, 174)
-        Me.Controls.Add(Me.LinkLabel2)
+        Me.ClientSize = New System.Drawing.Size(460, 174)
+        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Copyright)
         Me.Controls.Add(Me.MoreButton)
         Me.Controls.Add(Me.Panel1)
@@ -153,5 +152,5 @@ Partial Class ssabout
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents MoreButton As System.Windows.Forms.Button
     Friend WithEvents Copyright As Label
-    Friend WithEvents LinkLabel2 As LinkLabel
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
