@@ -277,11 +277,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssAol">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssAppointments">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -492,11 +487,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssGmail">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssHelpHome">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -588,11 +578,6 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.ssOpen">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ss.My.Resources.Resources.ssOutlook">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -767,11 +752,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssTesco">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssTextColour">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -832,11 +812,6 @@ WLP Hub
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ss.My.Resources.Resources.ssYahoo">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ss.My.Resources.Resources.ssYouTube">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -888,6 +863,16 @@ WLP Hub
 </summary>
 </member>
 <member name="P:ss.My.Resources.Resources.Underline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Updates_New">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ss.My.Resources.Resources.Updates_On">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

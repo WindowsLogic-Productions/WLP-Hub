@@ -58,11 +58,11 @@ Partial Class ssoobesearch
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(342, 37)
+        Me.Label2.Size = New System.Drawing.Size(334, 37)
         Me.Label2.TabIndex = 20
         Me.Label2.Text = " 1. > 2. > 3. > 4. > 5. Search"
         '
@@ -93,11 +93,11 @@ Partial Class ssoobesearch
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semilight", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(123, 102)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(773, 60)
+        Me.Label4.Size = New System.Drawing.Size(771, 60)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = "These settings change how you search." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your liking right " &
     "now or do it later from the Settings Panel."
@@ -109,7 +109,7 @@ Partial Class ssoobesearch
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.BuiltInSwitch)
         Me.GroupBox2.Controls.Add(Me.WindowSwitch)
-        Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI Semilight", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
         Me.GroupBox2.Location = New System.Drawing.Point(425, 248)
         Me.GroupBox2.Name = "GroupBox2"
@@ -134,7 +134,7 @@ Partial Class ssoobesearch
         Me.WindowSwitch.AutoSize = True
         Me.WindowSwitch.Location = New System.Drawing.Point(69, 28)
         Me.WindowSwitch.Name = "WindowSwitch"
-        Me.WindowSwitch.Size = New System.Drawing.Size(103, 25)
+        Me.WindowSwitch.Size = New System.Drawing.Size(102, 25)
         Me.WindowSwitch.TabIndex = 1
         Me.WindowSwitch.TabStop = True
         Me.WindowSwitch.Text = "Windowed"
@@ -148,7 +148,7 @@ Partial Class ssoobesearch
         Me.GroupBox1.Controls.Add(Me.GoogleSwitch)
         Me.GroupBox1.Controls.Add(Me.YahooSwitch)
         Me.GroupBox1.Controls.Add(Me.BingSwitch)
-        Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI Semilight", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(333, 183)
         Me.GroupBox1.Name = "GroupBox1"
@@ -184,7 +184,7 @@ Partial Class ssoobesearch
         Me.YahooSwitch.AutoSize = True
         Me.YahooSwitch.Location = New System.Drawing.Point(155, 28)
         Me.YahooSwitch.Name = "YahooSwitch"
-        Me.YahooSwitch.Size = New System.Drawing.Size(71, 25)
+        Me.YahooSwitch.Size = New System.Drawing.Size(70, 25)
         Me.YahooSwitch.TabIndex = 7
         Me.YahooSwitch.TabStop = True
         Me.YahooSwitch.Text = "Yahoo"

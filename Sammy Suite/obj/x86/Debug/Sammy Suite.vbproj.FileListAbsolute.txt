@@ -145,7 +145,6 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssdateandtime.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssdeviantart.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssquickexit.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssearch.resources
-J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sssettingspanelsearch.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssVolume.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.sswelcomedialogue.resources
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\ss.ssfacebook.resources
@@ -193,3 +192,6 @@ J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.GenerateResourc
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.exe
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.xml
 J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\WLP Hub.pdb
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbprojAssemblyReference.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.CoreCompileInputs.cache
+J:\Projects\WLP-Hub\Sammy Suite\obj\x86\Debug\Sammy Suite.vbproj.CopyComplete

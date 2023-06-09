@@ -1,5 +1,5 @@
 ﻿Public Class Variables
-    Public Shared ver As String = My.Application.Info.Version.ToString + " (October 2022)"
+    Public Shared ver As String = My.Application.Info.Version.ToString + " (June 2023)"
     Public Shared appname As String = "WLP Hub"
     Public Shared user As String = System.Windows.Forms.SystemInformation.UserName
     Public Shared vertext As String = "http://u.windowslogic.co.uk/HUB/SS.txt"

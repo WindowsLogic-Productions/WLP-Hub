@@ -80,7 +80,7 @@ Partial Class ssoobecontextbar
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(771, 60)
         Me.Label4.TabIndex = 25
-        Me.Label4.Text = "These settings change how the context bar works." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your li" &
+        Me.Label4.Text = "These settings change how the Context Bar works." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You can set these up to your li" &
     "king right now or do it later from the Settings Panel."
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '

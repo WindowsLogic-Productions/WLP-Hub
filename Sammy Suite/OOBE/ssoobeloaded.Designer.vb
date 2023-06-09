@@ -32,7 +32,7 @@ Partial Class ssoobeloaded
         '
         'VerInfo
         '
-        Me.VerInfo.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.VerInfo.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.VerInfo.AutoSize = True
         Me.VerInfo.BackColor = System.Drawing.Color.Transparent
         Me.VerInfo.Font = New System.Drawing.Font("Segoe UI Semilight", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

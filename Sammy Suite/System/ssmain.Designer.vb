@@ -328,7 +328,7 @@ Partial Class ssmain
         Me.VerInfo.Name = "VerInfo"
         Me.VerInfo.Size = New System.Drawing.Size(191, 26)
         Me.VerInfo.TabIndex = 49
-        Me.VerInfo.Text = "WLP Hub %ver%" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "© 2022 WindowsLogic Productions."
+        Me.VerInfo.Text = "WLP Hub %ver%" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "© 2023 WindowsLogic Productions."
         '
         'Clock
         '

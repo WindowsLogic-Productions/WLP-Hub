@@ -49,6 +49,12 @@
         ForwardButton.Parent = WLSOOBEBackground
         Label5.Parent = WLSOOBEBackground
         Label6.Parent = WLSOOBEBackground
+        Label3.Parent = WLSOOBEBackground
+        Label1.Parent = WLSOOBEBackground
+        HDBSwitch.Parent = WLSOOBEBackground
+        HUCSwitch.Parent = WLSOOBEBackground
+        RB1Box.Parent = WLSOOBEBackground
+
     End Sub
 #End Region
 #Region "Settings"
